@@ -8,13 +8,13 @@ import KofiLogoIcon from "@/components/icons/KofiLogoIcon.vue";
 import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
 </script>
 <template>
-	<TwitchLogoIcon class="social-icon hover-filtered" href="/twitch" aria-label="Twitch logo" title="Twitch"/>
-	<YouTubeLogoIcon class="social-icon hover-filtered" href="/youtube" aria-label="YouTube play button logo" title="YouTube"/>
-	<TwitterLogoIcon class="social-icon hover-filtered" href="/twitter" aria-label="Twitter logo" title="Twitter"/>
-	<BlueskyLogoIcon class="social-icon hover-filtered" href="/bluesky" aria-label="Bluesky logo" title="Bluesky"/>
-	<TumblrLogoIcon class="social-icon hover-filtered" href="/tumblr" aria-label="Tumblr t logo" title="Tumblr"/>
-	<KofiLogoIcon class="social-icon hover-filtered" href="/ko-fi" aria-label="Ko-fi logo" title="Ko-fi"/>
-	<EmailLogoIcon class="social-icon hover-filtered" href="mailto:girlboss@wich.fun" aria-label="Email icon" title="Email"/>
+	<a href="/twitch" title="Twitch"><TwitchLogoIcon class="social-icon hover-filtered" aria-label="Twitch logo"/></a>
+	<a href="/youtube" title="YouTube"><YouTubeLogoIcon class="social-icon hover-filtered" aria-label="YouTube play button logo"/></a>
+	<a href="/twitter" title="Twitter"><TwitterLogoIcon class="social-icon hover-filtered" aria-label="Twitter logo"/></a>
+	<a href="/bluesky" title="Bluesky"><BlueskyLogoIcon class="social-icon hover-filtered" aria-label="Bluesky logo"/></a>
+	<a href="/tumblr" title="Tumblr"><TumblrLogoIcon class="social-icon hover-filtered" aria-label="Tumblr t logo"/></a>
+	<a href="/ko-fi" title="Ko-fi"><KofiLogoIcon class="social-icon hover-filtered" aria-label="Ko-fi logo"/></a>
+	<a href="mailto:girlboss@wich.fun" title="Email"><EmailLogoIcon class="social-icon hover-filtered" aria-label="Email icon"/></a>
 	<p class="copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
 </template>
 <style scoped>
