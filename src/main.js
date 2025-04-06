@@ -23,10 +23,10 @@ const router = createRouter({
 	routes
 });
 const redirects = {
-	'/bluesky': 'https://bsky.app/profile/officepigeon.bsky.social',
+	'/bluesky': 'https://bsky.app/profile/OfficePigeon.bsky.social',
 	'/github': 'https://github.com/OfficePigeon',
 	'/ko-fi': 'https://ko-fi.com/OfficePigeon',
-	'/tumblr': 'https://dovewich.tumblr.com/',
+	'/tumblr': 'https://OfficePigeon.tumblr.com/',
 	'/twitch': 'https://twitch.tv/dovewich',
 	'/x': 'https://x.com/OfficePigeon',
 	'/twitter': 'https://twitter.com/OfficePigeon',
