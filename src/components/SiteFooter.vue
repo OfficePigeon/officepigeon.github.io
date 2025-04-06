@@ -1,12 +1,13 @@
 <script setup>
-import TwitchLogoIcon from "@/components/icons/TwitchLogoIcon.vue";
-import YouTubeLogoIcon from "@/components/icons/YouTubeLogoIcon.vue";
-import TwitterLogoIcon from "@/components/icons/TwitterLogoIcon.vue";
 import BlueskyLogoIcon from "@/components/icons/BlueskyLogoIcon.vue";
-import TumblrLogoIcon from "@/components/icons/TumblrLogoIcon.vue";
-import KofiLogoIcon from "@/components/icons/KofiLogoIcon.vue";
-import GitHubLogoIcon from "@/components/icons/GitHubLogoIcon.vue";
+import DiscordLogoIcon from "@/components/icons/DiscordLogoIcon.vue";
 import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
+import GitHubLogoIcon from "@/components/icons/GitHubLogoIcon.vue";
+import KofiLogoIcon from "@/components/icons/KofiLogoIcon.vue";
+import TumblrLogoIcon from "@/components/icons/TumblrLogoIcon.vue";
+import TwitchLogoIcon from "@/components/icons/TwitchLogoIcon.vue";
+import TwitterLogoIcon from "@/components/icons/TwitterLogoIcon.vue";
+import YouTubeLogoIcon from "@/components/icons/YouTubeLogoIcon.vue";
 </script>
 <template>
 	<a href="/twitch" title="Twitch"><TwitchLogoIcon class="social-icon hover-filtered" aria-label="Twitch logo"/></a>
@@ -15,6 +16,7 @@ import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
 	<a href="/bluesky" title="Bluesky"><BlueskyLogoIcon class="social-icon hover-filtered" aria-label="Bluesky logo"/></a>
 	<a href="/tumblr" title="Tumblr"><TumblrLogoIcon class="social-icon hover-filtered" aria-label="Tumblr t logo"/></a>
 	<a href="/ko-fi" title="Ko-fi"><KofiLogoIcon class="social-icon hover-filtered" aria-label="Ko-fi logo"/></a>
+	<a href="/discord" title="Discord"><DiscordLogoIcon class="social-icon hover-filtered" aria-label="Discord logo"/></a>
 	<a href="/github" title="GitHub"><GitHubLogoIcon class="social-icon filtered" aria-label="GitHub logo"/></a>
 	<a href="mailto:girlboss@wich.fun" title="Email"><EmailLogoIcon class="social-icon hover-filtered" aria-label="Email icon"/></a>
 	<p class="copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
