@@ -27,6 +27,7 @@ const redirects = {
 	'/ko-fi': 'https://ko-fi.com/dovewich',
 	'/tumblr': 'https://dovewich.tumblr.com/',
 	'/twitch': 'https://twitch.tv/dovewich',
+	'/x': 'https://x.com/OfficePigeon',
 	'/twitter': 'https://twitter.com/OfficePigeon',
 	'/youtube': 'https://youtube.com/@OfficePigeon',
 }
