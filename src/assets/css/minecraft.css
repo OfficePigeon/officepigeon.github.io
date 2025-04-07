@@ -2,8 +2,7 @@
 	font-family:'Minecraft';
 	src:
 		local("Minecraft"),
-		url(https://www.wich.fun/resources/font/minecraft/minecraft.woff) format('woff'),
-		url(https://www.wich.fun/resources/font/minecraft/minecraft.woff2) format('woff2')
+		url('@/assets/font/minecraft/minecraft.woff')
 }
 
 .minecraft-black {
