@@ -370,7 +370,7 @@ export default {
 		By commissioning me for any work, you are agreeing to the terms of service outlined below.
 		<h2>General</h2>
 		<ul>
-			<li>I have the right to decline any commission request for any reason</li>
+			<li>I have the right to decline any commission request for any reason.</li>
 			<li>Usage of my work with any NFT, AI system, or related future technology is strictly prohibited.</li>
 			<li>Requests made with AI-generated references will be strictly denied.</li>
 			<li>I will not accept work for clients younger than 18 years of age.</li>
