@@ -38,6 +38,10 @@ export default {
 		<ul>
 			<li>Read and accept my <a href="#tos">Terms of Service</a> (outlined below)</li>
 			<li>Send your inquiry to me by email or via direct messages in the social media of your choice</li>
+			<li>
+				<span style="vertical-align:middle">Commissions are also available through </span>
+				<a style="vertical-align:middle" href="/vgen"><img style="vertical-align:middle;height:30px" src="@/assets/img/commission/VGen%20Logo.png" alt="VGen Logo"></a>
+			</li>
 			<li>DO NOT send payment prior to acceptance of the commission and a formal invoice</li>
 		</ul>
 		<hr>
@@ -129,6 +133,44 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_dovewich.gif">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.gif">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_SintheticSkull.gif">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.gif">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd.gif">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/commission/huggin/Huggin%20Duckin%20Base%20by%20mr-cactus.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="commission-description">
+					<h2>Huggin' Reactive</h2>
+					<ul>
+						<li>Base price: $25 USD</li>
+						<li>Delivered as
+							<ul>
+								<li>2 .png files (mouth open/closed)</li>
+								<li>1 animated .gif file</li>
+							</ul>
+						</li>
+						<li>Canvas Size 1200 x 1200px</li>
+						<li>Using base by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="showcase">
+				<div class="commission-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_dovewich.gif">
 						</swiper-slide>
 						<swiper-slide>
@@ -154,44 +196,6 @@ export default {
 					</ul>
 				</div>
 			</div>
-			<div class="showcase">
-				<div class="commission-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin_duckin/huggin_dovewich.gif">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin_duckin/huggin_AngelHunnyBunn.gif">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin_duckin/huggin_SintheticSkull.gif">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin_duckin/huggin_Beanie_Birrd2.gif">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin_duckin/huggin_Beanie_Birrd.gif">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide" src="@/assets/img/commission/huggin_duckin/Huggin%20Duckin%20Base%20by%20mr-cactus.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="commission-description">
-					<h2>Huggin' Duckin' Reactive</h2>
-					<ul>
-						<li>Base price: $25 USD</li>
-						<li>Delivered as
-							<ul>
-								<li>2 .png files (mouth open/closed)</li>
-								<li>1 animated .gif file</li>
-							</ul>
-						</li>
-						<li>Canvas Size 1200 x 1200px</li>
-						<li>Using bases by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
-					</ul>
-				</div>
-			</div>
 		</div>
 		<h1>Minecraft Commissions</h1>
 		<div class="showcase-group">
@@ -200,38 +204,38 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<model-viewer class="slide"
-									src="/3d/minecraft_skin/model_dovewich.gltf"
-									poster="/3d/minecraft_skin/render_dovewich.png"
-									camera-controls touch-action="pan-y"/>
+														src="/3d/minecraft_skin/model_dovewich.gltf"
+														poster="/3d/minecraft_skin/render_dovewich.gif"
+														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_mousewich.gltf"
-														poster="/3d/minecraft_skin/render_mousewich.png"
+														poster="/3d/minecraft_skin/render_mousewich.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_haven_smp_soleil.gltf"
-														poster="/3d/minecraft_skin/render_haven_smp_soleil.png"
+														poster="/3d/minecraft_skin/render_haven_smp_soleil.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_haven_smp_ferris.gltf"
-														poster="/3d/minecraft_skin/render_haven_smp_ferris.png"
+														poster="/3d/minecraft_skin/render_haven_smp_ferris.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_ryft_smp_gubby.gltf"
-														poster="/3d/minecraft_skin/render_ryft_smp_gubby.png"
+														poster="/3d/minecraft_skin/render_ryft_smp_gubby.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_ryft_smp_eldora.gltf"
-														poster="/3d/minecraft_skin/render_ryft_smp_eldora.png"
+														poster="/3d/minecraft_skin/render_ryft_smp_eldora.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 					</swiper>
@@ -247,8 +251,11 @@ export default {
 						</li>
 						<li>Delivered as .png file</li>
 						<li>Canvas Size 64 x 64</li>
-						<li>Meant for Minecraft Java Edition</li>
+						<li>Meant for Minecraft Java Edition*</li>
 					</ul>
+					<div style="font-size:8pt">
+						* Custom Skins in Minecraft Bedrock Edition or Minecraft Education Edition require the "Only Allow Trusted Skins" setting disabled for other players to see them in Multiplayer.
+					</div>
 				</div>
 			</div>
 			<div class="showcase" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
@@ -287,9 +294,10 @@ export default {
 				<div class="commission-description minecraft-font">
 					<h2>Minecraft-Inspired Creature Models</h2>
 					<ul>
-						<li>Price depends on complexity
+						<li>Base Price: $20 USD
 							<ul>
-								<li>Please reach out for a custom quote</li>
+								<li>+$5-10 USD per animation</li>
+								<li>Additional price for higher complexity</li>
 							</ul>
 						</li>
 						<li>Delivered as
@@ -358,28 +366,29 @@ export default {
 
 		<hr id="tos">
 		<h1>Terms of Service</h1>
-		<p style="text-align:center">Last Revised June 29, 2024</p>
+		<p style="text-align:center">Last Revised May 9, 2025</p>
 		By commissioning me for any work, you are agreeing to the terms of service outlined below.
 		<h2>General</h2>
 		<ul>
 			<li>I have the right to decline any commission request for any reason</li>
 			<li>Usage of my work with any NFT, AI system, or related future technology is strictly prohibited.</li>
+			<li>Requests made with AI-generated references will be strictly denied.</li>
 			<li>I will not accept work for clients younger than 18 years of age.</li>
 			<li>The terms outlined here may vary for certain commissions, in which case the adjusted terms will be negotiated directly with the client.</li>
 		</ul>
 		<h2>Payment</h2>
 		<ul>
-			<li>Payment will be handled through a PayPal invoice in USD.</li>
+			<li>Payment will be handled through a PayPal invoice in USD or the VGen platform.</li>
 			<li>Payment is required in full after discussion and acceptance of the price of the work. Work will not begin prior to payment.</li>
 			<li>Pricing examples provided on this website and elsewhere are estimates and the exact price of each commission will be dependent on the complexity of the work and quoted independently.</li>
 		</ul>
 		<h2>Communication and Delivery</h2>
 		<ul>
-			<li>Communication will take place primarily through email.</li>
+			<li>Communication will take place primarily through email or the VGen platform.</li>
 			<li>Failure to communicate by myself or the client for 7 days will result in a cancellation of the commission.</li>
 			<li>Deadlines must be agreed upon prior to the start of a commission. Rush fees may be negotiated for work to be delivered on a strict deadline.</li>
 			<li>I will communicate any anticipated delays and negotiate refunds or other applicable remedies with the client in a timely matter.</li>
-			<li>The delivery of work will depend on the nature of the commission. Digital files will primarily be delivered through email.</li>
+			<li>The delivery of work will depend on the nature of the commission. Digital files will primarily be delivered through email or the VGen platform.</li>
 		</ul>
 		<h2>Revisions</h2>
 		<ul>
@@ -400,7 +409,7 @@ export default {
 		</ul>
 		<h2>Cancellation and Refunds</h2>
 		<ul>
-			<li>Once the final product is approved by the client, the work cannot be refunded.</li>
+			<li>Once the final product is approved by the client, the work will not be refunded.</li>
 			<li>The client may choose to cancel the commission at any time. If work has not begun on the commission, a refund will be issued for the full amount paid by the client.</li>
 			<li>I do not issue cancellation refunds for work that has already begun except as outlined in some individual commission agreements.</li>
 			<li>I reserve the right to cancel any commission at my own discretion, at which point a partial refund may be issued based on the commission and work completed.</li>
