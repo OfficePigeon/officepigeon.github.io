@@ -1,7 +1,7 @@
 @import './cascadia-code.css';
 
 :root {
-	--gray:#959595;
+	--gray: #959595;
 	--svg-gray: invert() brightness(0.58);
 }
 :root, html[data-theme='light'] {
@@ -25,70 +25,70 @@ html[data-theme='dark'] {
 
 *, html {
 	font-family: 'Cascadia Code', sans-serif;
-	color:var(--text-color);
+	color: var(--text-color);
 }
 input, button, select {
-	background-color:var(--background-color-input)
+	background-color: var(--background-color-input)
 }
 body {
-	margin:0;
-	background-color:var(--background-color);
+	margin: 0;
+	background-color: var(--background-color);
 }
 header {
-	top:0;
-	position:fixed;
-	width:100%;
-	z-index:100;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
 footer {
-	text-align:center;
-	padding-top:24px;
-	padding-bottom:24px;
-	cursor:default;
-	width:100%;
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	cursor: default;
+	width: 100%;
 }
 hr {
 	margin: 1em 0;
 	border: 2px solid;
-	border-color:var(--gray);
+	border-color: var(--gray);
 }
 main {
-	margin-top:53px;
-	padding:32px 24px 16px 24px;
+	margin-top: 53px;
+	padding: 32px 24px 16px 24px;
 }
-h1, h2, h3, h4 { text-align:center }
+h1, h2, h3, h4 { text-align: center }
 [data-theme='light'] .display-light, [data-theme='dark'] .display-dark,
 [data-theme-fancy='fancy'] .display-fancy, [data-theme-fancy='simple'] .display-not-fancy {
-	display:block;
+	display: block;
 }
 [data-theme='dark'] .display-light, [data-theme='light'] .display-dark,
 [data-theme-fancy='simple'] .display-fancy, [data-theme-fancy='fancy'] .display-not-fancy {
-	display:none;
+	display: none;
 }
-.display-none { display:none; }
+.display-none { display: none; }
 
 .filtered, .hover-filtered {
-	filter:var(--svg-filter);
+	filter: var(--svg-filter);
 }
 .hover-filtered:hover {
-	filter:none;
+	filter: none;
 }
 .light-filtered {
-	filter:var(--svg-filter-light);
+	filter: var(--svg-filter-light);
 }
 .dark-filtered {
-	filter:var(--svg-filter-dark);
+	filter: var(--svg-filter-dark);
 }
 .skill-icon {
-	text-decoration:none;
-	margin:4px;
+	text-decoration: none;
+	margin: 4px;
 }
 .skill-icon img, img.skill-icon {
-	height:48px;
-	width:48px;
+	height: 48px;
+	width: 48px;
 }
 .copyright {
-	font-size:75%;
+	font-size: 75%;
 }
 
 .no-save-img {
@@ -96,32 +96,32 @@ h1, h2, h3, h4 { text-align:center }
 }
 
 .showcase-group {
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	flex-wrap:wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .showcase {
-	height:324px;
-	width:600px;
-	min-width:600px;
-	margin:32px;
-	padding:16px;
-	display:flex;
+	height: 324px;
+	width: 600px;
+	min-width: 600px;
+	margin: 32px;
+	padding: 16px;
+	display: flex;
 	border: 8px solid;
-	border-color:var(--gray);
-	border-radius:16px;
+	border-color: var(--gray);
+	border-radius: 16px;
 }
 .commission-gallery {
-	flex:1;
-	max-width:50%;
+	flex: 1;
+	max-width: 50%;
 }
 .commission-description {
-	flex:1;
+	flex: 1;
 }
 .showcase .carousel-inner model-viewer {
-	width:300px;
-	height:300px;
+	width: 300px;
+	height: 300px;
 }
 
 /* Bootstrap Carousel */
@@ -195,14 +195,14 @@ h1, h2, h3, h4 { text-align:center }
 	left: auto;
 }
 .carousel-control img {
-	height:48px;
-	width:48px;
+	height: 48px;
+	width: 48px;
 	position: absolute;
 	top: 50%;
 	z-index: 5;
 	display: inline-block;
 	margin-top: -10px;
-	filter:var(--svg-gray);
+	filter: var(--svg-gray);
 }
 .carousel .left img {
 	left: 50%;

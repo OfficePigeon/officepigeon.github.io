@@ -1,15 +1,5 @@
 <script>
 
-/*
-function LoadGalleries() {
-	MakeGallery("pngtuber-", [
-		{
-			src: "@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.gif",
-			alt: ""
-		}
-	]);
-}
-*/
 // Import CSS
 import '@/assets/css/minecraft.css';
 
@@ -40,7 +30,7 @@ export default {
 			<li>Send your inquiry to me by email or via direct messages in the social media of your choice</li>
 			<li>
 				<span style="vertical-align:middle">Commissions are also available through </span>
-				<a style="vertical-align:middle" href="/vgen"><img style="vertical-align:middle;height:30px" src="@/assets/img/commission/VGen%20Logo.png" alt="VGen Logo"></a>
+				<RouterLink to="/vgen" style="vertical-align:middle"><img style="vertical-align:middle;height:30px" src="@/assets/img/commission/VGen%20Logo.png" alt="VGen Logo"></RouterLink>
 			</li>
 			<li>DO NOT send payment prior to acceptance of the commission and a formal invoice</li>
 		</ul>
@@ -51,7 +41,18 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/emote/showcase_dovewich.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_dovewich.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/emote/showcase_dovewich.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_SinnaVT.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_SinnaVT.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/emote/showcase_SinnaVT.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<img class="slide no-save-img" src="@/assets/img/commission/emote/laugh_AngelHunnyBunn.png">
@@ -83,7 +84,7 @@ export default {
 							</ul>
 						</li>
 						<li>Static emotes delivered as .png files</li>
-						<li>Animated emotes delivered as .png and .gif files</li>
+						<li>Animated emotes delivered as .png, .gif, and .webp files</li>
 						<li>Canvas Size 1200 x 1200px</li>
 						<li>Using bases by <a href="https://ko-fi.com/takiimikiku">Loumon (@takiimikiku)</a></li>
 					</ul>
@@ -93,25 +94,53 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_dovewich.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_dovewich.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_dovewich.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Cwstal.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_Cwstal.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_Cwstal.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Cwstal.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_LilineraCh.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_LilineraCh.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_LilineraCh.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_LilineraCh.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ArchieBird.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_ArchieBird.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_ArchieBird.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ArchieBird.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ych.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_ych.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_ych.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ych.png">
+							</picture>
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -123,6 +152,7 @@ export default {
 							<ul>
 								<li>1 .png file</li>
 								<li>1 animated .gif file</li>
+								<li>1 animated .webp file</li>
 							</ul>
 						</li>
 						<li>Canvas Size 300 x 300px</li>
@@ -133,19 +163,39 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_dovewich.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_dovewich.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_dovewich.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_SintheticSkull.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_SintheticSkull.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_SintheticSkull.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_SintheticSkull.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<img class="slide" src="@/assets/img/commission/huggin/Huggin%20Duckin%20Base%20by%20mr-cactus.png">
@@ -160,6 +210,7 @@ export default {
 							<ul>
 								<li>2 .png files (mouth open/closed)</li>
 								<li>1 animated .gif file</li>
+								<li>1 animated .webp file</li>
 							</ul>
 						</li>
 						<li>Canvas Size 1200 x 1200px</li>
@@ -171,10 +222,18 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_dovewich.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/floofy/floofy_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/floofy/floofy_dovewich.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_dovewich.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_mousewich.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/floofy/floofy_mousewich.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/floofy/floofy_mousewich.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_mousewich.png">
+							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<img class="slide" src="@/assets/img/commission/floofy/Floofy%20Bases%20by%20mr-cactus.png">
@@ -189,6 +248,7 @@ export default {
 							<ul>
 								<li>2 .png files (mouth open/closed)</li>
 								<li>1 animated .gif file</li>
+								<li>1 animated .webp file</li>
 							</ul>
 						</li>
 						<li>Canvas Size 1200 x 1200px</li>
@@ -212,6 +272,18 @@ export default {
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_mousewich.gltf"
 														poster="/3d/minecraft_skin/render_mousewich.gif"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_skin/model_beanie_birrd_chocolate_milk.gltf"
+														poster="/3d/minecraft_skin/render_beanie_birrd_chocolate_milk.gif"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_skin/model_beanie_birrd_strawberry_milk.gltf"
+														poster="/3d/minecraft_skin/render_beanie_birrd_strawberry_milk.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
@@ -317,7 +389,11 @@ export default {
 				<div class="commission-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.gif">
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.png">
+							</picture>
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -424,8 +500,9 @@ export default {
 </template>
 <style scoped>
 .slide {
-	width:300px;
-	height:300px;
+	width: 300px;
+	height: 300px;
+	object-fit: scale-down;
 }
 </style>
 <style>

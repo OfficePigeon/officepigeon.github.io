@@ -10,9 +10,11 @@ import Home from '@/views/Home.vue';
 import Commission from "@/views/Commission.vue";
 import DiscordTimestamps from '@/views/DiscordTimestamps.vue';
 import NotFound from '@/views/NotFound.vue';
+import Directory from "@/views/Directory.vue";
 
 const routes = [
 	{ path: '/', component: Home },
+	{ path: '/directory', component: Directory },
 	{ path: '/commission', component: Commission },
 	{ path: '/discord-timestamps', component: DiscordTimestamps },
 	//404 Page

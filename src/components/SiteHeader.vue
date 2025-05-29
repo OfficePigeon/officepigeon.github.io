@@ -37,14 +37,16 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 			<span class="display-light display-none"> <MoonIcon class="filtered" aria-label="Toggle Dark Mode" title="Toggle Dark Mode"/></span>
 			<span class="display-dark display-none"> <SunIcon class="filtered" aria-label="Toggle Light Mode" title="Toggle Light Mode"/> </span>
 		</button>
-		<RouterLink to="/" @click="HideNavDropdown()" class="navButton">Home</RouterLink>
-		<RouterLink to="/commission" @click="HideNavDropdown()" class="navButton">Commissions</RouterLink>
+		<RouterLink to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
+		<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
+		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
 	</div>
 	<!-- Navbar Dropdown -->
 	<div ref="NavigationDropdown" class="navDropdown">
-		<RouterLink to="/commission" @click="HideNavDropdown()" class="navButton">Commissions</RouterLink>
+		<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
+		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
 		<div class="navSeparator">----------- Fun -----------</div>
-		<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" class="navButton">Discord Timestamps</RouterLink>
+		<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" title="Discord Timestamps" class="navButton">Discord Timestamps</RouterLink>
 	</div>
 </template>
 <style scoped>
