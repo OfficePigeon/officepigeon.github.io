@@ -13,7 +13,7 @@ defineProps([
 </script>
 <template>
 	<div class="bubbleLink" style="cursor:default">
-		<img v-if="thumbnail" class="bubbleLinkIcon" :src="thumbnail" :alt="thumbnailAlt">
+		<img v-if="thumbnail" class="bubbleLinkIcon no-save-img" :src="thumbnail" :alt="thumbnailAlt">
 		<div class="bubbleCredit">
 			<div class="bubbleCreditTitle tooltip">
 				{{title}} <sup v-if="modified">*</sup>
