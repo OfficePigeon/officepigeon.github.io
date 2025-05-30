@@ -95,6 +95,122 @@ h1, h2, h3, h4 { text-align: center }
 	pointer-events: none;
 }
 
+.bubbleSections {
+	text-align: center;
+	margin: auto;
+	width: max-content;
+	max-width: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.bubbleLinks {
+	text-align: center;
+	min-width: 300px;
+	width: max-content;
+	flex-direction: column;
+}
+.bubbleLink, .bubbleHeader {
+	margin: 6px;
+	padding: 6px 18px 6px 6px;
+}
+.bubbleHeader {
+	height: 46px;
+	line-height: 46px;
+}
+.bubbleLink {
+	border: 2px solid;
+	border-radius: 6px;
+	border-color:var(--gray);
+	background-color: var(--background-color-input);
+	display: flex;
+	text-decoration: none;
+	cursor: pointer;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+}
+.bubbleLinkIcon {
+	margin: 0 6px 0 0;
+	width: 42px;
+	height: 42px;
+	object-fit: contain;
+}
+
+.bubbleCredit {
+	display: block;
+	text-align: center;
+	height: max-content;
+	margin: auto;
+}
+.bubbleCreditTitle {
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+}
+.bubbleCreditSubtitle {
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	display: flex;
+	justify-content: center;
+}
+.bubbleCreditLink {
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 0 0 0 6px;
+}
+.bubbleCreditLicenseInner, .bubbleCreditLicenseOuter {
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+.bubbleCreditLicenseOuter {
+	margin: 0 0 -2px 2px;
+}
+
+.tooltip {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.tooltip .tooltipText {
+	visibility: hidden;
+	width: max-content;
+	max-width:300px;
+	background-color: var(--background-color-input);
+	filter: drop-shadow(2px 0px var(--gray))
+	drop-shadow(0px 2px var(--gray))
+	drop-shadow(-2px 0px var(--gray))
+	drop-shadow(0px -2px var(--gray));
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 24px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.tooltip .tooltipText::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: var(--background-color-input) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltipText {
+	visibility: visible;
+}
+
 .showcase-group {
 	display: flex;
 	align-items: center;

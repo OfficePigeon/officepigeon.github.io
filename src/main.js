@@ -11,11 +11,13 @@ import Commission from "@/views/Commission.vue";
 import DiscordTimestamps from '@/views/DiscordTimestamps.vue';
 import NotFound from '@/views/NotFound.vue';
 import Directory from "@/views/Directory.vue";
+import Attributions from "@/views/Attributions.vue";
 
 const routes = [
 	{ path: '/', component: Home },
-	{ path: '/directory', component: Directory },
+	{ path: '/attributions', component: Attributions },
 	{ path: '/commission', component: Commission },
+	{ path: '/directory', component: Directory },
 	{ path: '/discord-timestamps', component: DiscordTimestamps },
 	//404 Page
 	{ path: '/:pathMatch(.*)*', component: NotFound }

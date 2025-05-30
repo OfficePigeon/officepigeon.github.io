@@ -11,19 +11,30 @@ import YouTubeLogoIcon from "@/components/icons/YouTubeLogoIcon.vue";
 import VGenLogoIcon from "@/components/icons/VGenLogoIcon.vue";
 </script>
 <template>
-	<RouterLink to="/twitch" title="Twitch"><TwitchLogoIcon class="social-icon hover-filtered" aria-label="Twitch logo"/></RouterLink>
-	<RouterLink to="/youtube" title="YouTube"><YouTubeLogoIcon class="social-icon hover-filtered" aria-label="YouTube play button logo"/></RouterLink>
-	<RouterLink to="/twitter" title="Twitter"><TwitterLogoIcon class="social-icon hover-filtered" aria-label="Twitter logo"/></RouterLink>
-	<RouterLink to="/bluesky" title="Bluesky"><BlueskyLogoIcon class="social-icon hover-filtered" aria-label="Bluesky logo"/></RouterLink>
-	<RouterLink to="/tumblr" title="Tumblr"><TumblrLogoIcon class="social-icon hover-filtered" aria-label="Tumblr t logo"/></RouterLink>
-	<RouterLink to="/vgen" title="VGen"><VGenLogoIcon class="social-icon hover-filtered" aria-label="VGen logo"/></RouterLink>
-	<RouterLink to="/ko-fi" title="Ko-fi"><KofiLogoIcon class="social-icon hover-filtered" aria-label="Ko-fi logo"/></RouterLink>
-	<RouterLink to="/discord" title="Discord"><DiscordLogoIcon class="social-icon hover-filtered" aria-label="Discord logo"/></RouterLink>
-	<RouterLink to="/github" title="GitHub"><GitHubLogoIcon class="social-icon filtered" aria-label="GitHub logo"/></RouterLink>
-	<a href="mailto:girlboss@wich.fun" title="Email"><EmailLogoIcon class="social-icon hover-filtered" aria-label="Email icon"/></a>
+	<div class="footerIcons">
+		<RouterLink to="/twitch" title="Twitch" class="tooltip"><TwitchLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitch</span></RouterLink>
+		<RouterLink to="/youtube" title="YouTube" class="tooltip"><YouTubeLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">YouTube</span></RouterLink>
+		<RouterLink to="/twitter" title="Twitter" class="tooltip"><TwitterLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitter</span></RouterLink>
+		<RouterLink to="/bluesky" title="Bluesky" class="tooltip"><BlueskyLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Bluesky</span></RouterLink>
+		<RouterLink to="/tumblr" title="Tumblr" class="tooltip"><TumblrLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Tumblr</span></RouterLink>
+		<RouterLink to="/vgen" title="VGen" class="tooltip"><VGenLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">VGen</span></RouterLink>
+		<RouterLink to="/ko-fi" title="Ko-fi" class="tooltip"><KofiLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Ko-fi</span></RouterLink>
+		<RouterLink to="/discord" title="Discord" class="tooltip"><DiscordLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Discord Server</span></RouterLink>
+		<RouterLink to="/github" title="GitHub" class="tooltip"><GitHubLogoIcon class="social-icon filtered"/><span class="tooltipText">GitHub</span></RouterLink>
+		<a href="mailto:girlboss@wich.fun" title="Email" class="tooltip"><EmailLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Email</span></a>
+	</div>
 	<p class="copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
 </template>
 <style scoped>
+.footerIcons {
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tooltip .tooltipText {
+	bottom: 48px;
+}
 .social-icon {
 	text-decoration: none;
 	cursor: pointer;

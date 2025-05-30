@@ -39,12 +39,12 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 		</button>
 		<RouterLink to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
 		<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
-		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
+		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Site Directory</RouterLink>
 	</div>
 	<!-- Navbar Dropdown -->
 	<div ref="NavigationDropdown" class="navDropdown">
 		<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
-		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
+		<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Site Directory</RouterLink>
 		<div class="navSeparator">----------- Fun -----------</div>
 		<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" title="Discord Timestamps" class="navButton">Discord Timestamps</RouterLink>
 	</div>
