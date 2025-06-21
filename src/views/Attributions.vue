@@ -79,6 +79,9 @@ import BubbleLink from "@/components/bubbles/BubbleLink.vue";
 			<BubbleLink title="Western bluebird" subtitle="by" modified="true" thumbnail="/attributions/thumbnails/western_bluebird_poly_google.png"
 									linkText="Poly by Google" linkUrl="https://poly.pizza/m/cdcl5UwlYWd"
 									licenseText="CC BY 3.0" licenseUrl="https://creativecommons.org/licenses/by/3.0"/>
+			<BubbleLink title="Golf Ball" subtitle="by" modified="true" thumbnail="/attributions/thumbnails/golfball.png"
+									linkText="Emerson Rosa" linkUrl="https://www.turbosquid.com/3d-models/golf-ball-obj-free-776390"
+									licenseText="TurboSquid 3D Model License" licenseUrl="https://blog.turbosquid.com/turbosquid-3d-model-license"/>
 			<!-- Attribution not necessary -->
 			<BubbleLink title="Low Poly Ultimate Pack" subtitle="by" modified="true" thumbnail="/attributions/thumbnails/low_poly_ultimate_pack_polyperfect.png"
 									linkText="polyperfect" linkUrl="https://assetstore.unity.com/packages/3d/props/low-poly-ultimate-pack-54733"
