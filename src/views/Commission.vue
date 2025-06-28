@@ -288,6 +288,12 @@ export default {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
+														src="/3d/minecraft_skin/model_tyranomaximum.gltf"
+														poster="/3d/minecraft_skin/render_tyranomaximum.gif"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_haven_smp_soleil.gltf"
 														poster="/3d/minecraft_skin/render_haven_smp_soleil.gif"
 														camera-controls touch-action="pan-y"/>
