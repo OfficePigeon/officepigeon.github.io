@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "yarn licenses generate-disclaimer > public/THIRD_PARTY_LICENSES.txt",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
