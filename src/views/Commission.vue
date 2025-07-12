@@ -448,7 +448,7 @@ export default {
 
 		<hr id="tos">
 		<h1>Terms of Service</h1>
-		<p style="text-align:center">Last Revised May 9, 2025</p>
+		<p style="text-align:center">Last Revised July 11, 2025</p>
 		By commissioning me for any work, you are agreeing to the terms of service outlined below.
 		<h2>General</h2>
 		<ul>
@@ -483,7 +483,7 @@ export default {
 		<ul>
 			<li>I retain all rights over any commissioned works.</li>
 			<li>Unless otherwise agreed upon, all commissioned work is for personal use only.</li>
-			<li>Commercial licenses will require additional payment on top of the price of the commission.</li>
+			<li>Monetized and Commercial licenses may require additional payment on top of the price of the commission.</li>
 			<li>I reserve the right to present the commissioned work on social media or elsewhere as an example of my work or portfolio piece.</li>
 			<li>Clients may inquire about Non-Disclosure Agreements which will require additional payment.</li>
 			<li>Clients must provide clear credit to me as the creator of any commissioned work.</li>
