@@ -49,6 +49,13 @@ export default {
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
+								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_Venrir.webp">
+								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_Venrir.gif">
+								<img class="slide no-save-img" src="@/assets/img/commission/emote/showcase_Venrir.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
 								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_SinnaVT.webp">
 								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_SinnaVT.gif">
 								<img class="slide no-save-img" src="@/assets/img/commission/emote/showcase_SinnaVT.png">
