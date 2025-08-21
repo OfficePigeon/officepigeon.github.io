@@ -765,7 +765,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description">
-					<h2>Mario Level Generator and Quilt Renderer</h2>
+					<h2>Mario Level Generator<br>and Quilt Renderer</h2>
 					<div class="showcase-tags">
 						<div class="showcase-tag">Java</div>
 						<div class="showcase-tag">Traditional Crafts</div>
