@@ -12,15 +12,17 @@ import DiscordTimestamps from '@/views/DiscordTimestamps.vue';
 import NotFound from '@/views/NotFound.vue';
 import Directory from "@/views/Directory.vue";
 import Attributions from "@/views/Attributions.vue";
+import Portfolio from "@/views/Portfolio.vue";
 
 const routes = [
-	{ path: '/', component: Home },
-	{ path: '/attributions', component: Attributions },
-	{ path: '/commission', component: Commission },
-	{ path: '/directory', component: Directory },
-	{ path: '/discord-timestamps', component: DiscordTimestamps },
+	{ path: '/', component: Home, meta: { title: 'Home - wich.fun' }  },
+	{ path: '/attributions', component: Attributions, meta: { title: 'Attributions - wich.fun' } },
+	{ path: '/commission', component: Commission, meta: { title: 'Comissions - wich.fun' } },
+	{ path: '/portfolio/aidan-buffum', component: Portfolio, meta: { title: 'Portfolio - Aidan Buffum' } },
+	{ path: '/directory', component: Directory, meta: { title: 'Directory - wich.fun' } },
+	{ path: '/discord-timestamps', component: DiscordTimestamps, meta: { title: 'Discord Timestamps - wich.fun' } },
 	//404 Page
-	{ path: '/:pathMatch(.*)*', component: NotFound }
+	{ path: '/:pathMatch(.*)*', component: NotFound, meta: { title: 'Not Found - wich.fun' } }
 ];
 const router = createRouter({
 	history: createWebHistory(),
@@ -41,6 +43,9 @@ const redirects = {
 router.beforeEach((to, from) => {
 	const redirect = redirects[to.path];
 	if (redirect) window.location.href = redirect;
+	//Apply titles in the router's meta object
+	const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+	if(nearestWithTitle) document.title = nearestWithTitle.meta.title;
 })
 
 createApp(App)

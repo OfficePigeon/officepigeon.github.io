@@ -1,0 +1,202 @@
+/*
+Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	/*content: '';*/
+	/*content: none;*/
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* PS3-SPECIFIC STYLING STARTS HERE */
+
+/*@font-face {*/
+/*font-family: 'Droid Sans';*/
+/*src: url('./fonts/droid.eot');*/
+/*src: url('./fonts/droid.eot?#iefix') format('embedded-opentype'),*/
+/*url('./fonts/droid.woff') format('woff'),*/
+/*url('./fonts/droid.ttf') format('truetype'),*/
+/*url('./fonts/droid.svg#droid_sansregular') format('svg');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+/*}*/
+
+html {
+	font-size: 100%; /* new */
+	-webkit-font-smoothing: antialiased;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+
+	/* Prevents the normal bubble dialog box for links. */
+	-webkit-touch-callout: none;
+
+	/* Prevents the contents of an element (such as an image) from being dragged separately from the element. */
+	-webkit-user-drag: none;
+
+	/* Sets the color and opacity of the highlight color when a user taps a link or clickable element.
+		Set this to an opacity of zero to eliminate the highlight entirely. */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	/*font-family: 'droid', sans-serif;*/
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 125%;
+}
+
+#outer {
+
+}
+
+#main {
+	margin: 0 auto;
+}
+
+#grid {
+	display: block;
+	padding: 0;
+	border: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 10;
+	box-shadow: none;
+}
+
+#stsp {
+	display: block;
+	height: 1.5em;
+	margin: 1em 0 1em 0; /* trbl */
+	padding: 0;
+	border: 0;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	white-space: nowrap;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+#inp {
+	display: none;
+	height: 1.5em;
+	margin: 1em 0 1em 0; /* trbl */
+	padding: 0;
+	border: 0;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+	/*font-family: 'droid', sans-serif;*/
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 125%;
+}
+
+#inlabel {
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Droid Sans', sans-serif;
+	/*font-family: 'droid', sans-serif;*/
+	/*font-size: 125%;*/
+}
+
+#inspan {
+	display: block;
+	overflow: hidden;
+	color : inherit;
+	background-color: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0 1em 0 0.5em; /* trbl */
+}
+
+#inbox {
+	text-align: left;
+	border: 1px solid #000000;
+	box-shadow: none;
+	width: 100%;
+	color : #000000;
+	background-color: #FFFFFF;
+	font-family: monospace;
+	font-size: 100%;
+	/*height: 100%;*/
+	/*font-size: 125%;*/
+}
+
+.tiny {
+	font-size: 0.75em;
+}
+
+#debug {
+	display: none;
+	position: relative;
+	z-index: 1;
+}
+
+#monitor {
+	width: 100%;
+	text-align: left;
+	font-family: monospace;
+	font-size: 1em; /* new */
+	color: #000000;
+	background-color: #FFFFFF;
+	overflow-y: scroll;
+	box-shadow: none;
+}
+
+#footer {
+	width: 100%;
+	font-size: 0.67em;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	margin: 1em 0 1em 0; /* trbl */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+
+

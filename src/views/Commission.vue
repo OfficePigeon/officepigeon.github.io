@@ -38,7 +38,7 @@ export default {
 		<h1>YCH Commissions</h1>
 		<div class="showcase-group">
 			<div class="showcase">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
@@ -96,9 +96,9 @@ export default {
 						<li>Using bases by <a href="https://ko-fi.com/takiimikiku">Loumon (@takiimikiku)</a></li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Emotes -->
 			<div class="showcase">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
@@ -152,7 +152,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description">
-					<h2>Helltaker-Inspired Sprite</h2>
+					<h2>Helltaker-Inspired Dancing Sprites</h2>
 					<ul>
 						<li>Base price: $40 USD</li>
 						<li>Delivered as
@@ -165,9 +165,9 @@ export default {
 						<li>Canvas Size 300 x 300px</li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Helltaker-Inspired Dancing Sprites -->
 			<div class="showcase">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
@@ -210,7 +210,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description">
-					<h2>Huggin' Reactive</h2>
+					<h2>Huggin' Reactives</h2>
 					<ul>
 						<li>Base price: $25 USD</li>
 						<li>Delivered as
@@ -224,9 +224,9 @@ export default {
 						<li>Using base by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Huggin' Reactives -->
 			<div class="showcase">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
@@ -248,7 +248,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description">
-					<h2>Floofy Reactive</h2>
+					<h2>Floofy Reactives</h2>
 					<ul>
 						<li>Base price: $15 USD</li>
 						<li>Delivered as
@@ -262,12 +262,12 @@ export default {
 						<li>Using bases by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Floofy Reactives -->
 		</div>
 		<h1>Minecraft Commissions</h1>
 		<div class="showcase-group">
 			<div class="showcase" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<model-viewer class="slide"
@@ -342,9 +342,9 @@ export default {
 						* Custom Skins in Minecraft Bedrock Edition or Minecraft Education Edition require the "Only Allow Trusted Skins" setting disabled for other players to see them in Multiplayer.
 					</div>
 				</div>
-			</div>
+			</div> <!-- Minecraft Skins -->
 			<div class="showcase" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<model-viewer class="slide"
@@ -394,12 +394,12 @@ export default {
 						<li>Canvas and Model Sizes vary</li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Minecraft-Inspired Creature Models -->
 		</div>
 		<h1>Other Commissions</h1>
 		<div class="showcase-group">
 			<div class="showcase">
-				<div class="commission-gallery">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
@@ -422,7 +422,7 @@ export default {
 						<li>Canvas Size varies</li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- PNGTuber / Reactive Images -->
 			<div class="showcase">
 				<div class="commission-description">
 					<h2>Literally Anything Else</h2>
@@ -450,7 +450,7 @@ export default {
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div> <!-- Literally Anything Else -->
 		</div>
 
 		<hr id="tos">
@@ -511,56 +511,3 @@ export default {
 		</ul>
 	</div>
 </template>
-<style scoped>
-.slide {
-	width: 300px;
-	height: 300px;
-	object-fit: scale-down;
-}
-</style>
-<style>
-.swiper {
-	width: 100%;
-	height: 100%;
-}
-.swiper-slide {
-	justify-content: center;
-	align-items: center;
-}
-.swiper-button-next, .swiper-button-prev {
-	color:var(--gray);
-}
-.swiper-pagination, .swiper-pagination-bullets, .swiper-pagination-horizontal {
-	bottom:0!important;
-}
-.carousel-indicators {
-	position: absolute;
-	bottom: -48px;
-	left: 50%;
-	z-index: 15;
-	width: 60%;
-	padding-left: 0;
-	margin-left: -30%;
-	text-align: center;
-	list-style: none;
-}
-.swiper-pagination-bullet, .swiper-pagination-bullet-active {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin: 1px;
-	text-indent: -999px;
-	cursor: pointer;
-	background-color: var(--background-color);
-	border: 1px solid;
-	border-radius: 10px;
-	border-color: var(--gray);
-	opacity:100%;
-}
-.swiper-pagination-bullet-active {
-	width: 12px;
-	height: 12px;
-	margin: 0;
-	background-color: var(--gray);
-}
-</style>

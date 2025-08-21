@@ -217,20 +217,30 @@ h1, h2, h3, h4 { text-align: center }
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.art-showcase {
+	height: 400px;
+	width: 300px;
+	margin: 16px;
+	padding: 16px;
+	border: 8px solid;
+	border-color: var(--gray);
+	border-radius: 16px;
+}
 .showcase {
 	height: 324px;
 	width: 600px;
-	min-width: 600px;
-	margin: 32px;
+	margin: 16px;
 	padding: 16px;
 	display: flex;
 	border: 8px solid;
 	border-color: var(--gray);
 	border-radius: 16px;
 }
-.commission-gallery {
+.showcase-gallery {
 	flex: 1;
-	max-width: 50%;
+	width: 300px;
+	max-width: 300px;
+	height: 300px;
 }
 .commission-description {
 	flex: 1;
@@ -238,6 +248,86 @@ h1, h2, h3, h4 { text-align: center }
 .showcase .carousel-inner model-viewer {
 	width: 300px;
 	height: 300px;
+}
+.showcase-tags {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	margin-top: -18px;
+	float: none;
+	width: 100%;
+	height: 18px;
+	scroll-behavior: auto;
+}
+.showcase-tag {
+	font-size: 12px;
+	line-height: 12px;
+	float: left;
+	margin: 2px;
+	padding: 2px 6px;
+	border-radius: 4px;
+	background-color: var(--background-color-input);
+	color: var(--text-color);
+	width: max-content;
+	white-space: nowrap;
+	height: 14px;
+}
+.showcase-description {
+	margin-top: 8px;
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+/* Slides */
+.slide {
+	width: 300px!important;
+	height: 300px!important;
+	object-fit: scale-down!important;
+}
+.swiper {
+	width: 100%!important;
+	height: 100%!important;
+}
+.swiper-slide {
+	justify-content: center!important;
+	align-items: center!important;
+}
+.swiper-button-next, .swiper-button-prev {
+	color:var(--gray)!important;
+}
+.swiper-pagination, .swiper-pagination-bullets, .swiper-pagination-horizontal {
+	bottom:0!important;
+}
+.carousel-indicators {
+	position: absolute!important;
+	bottom: -48px!important;
+	left: 50%!important;
+	z-index: 15!important;
+	width: 60%!important;
+	padding-left: 0!important;
+	margin-left: -30%!important;
+	text-align: center!important;
+	list-style: none!important;
+}
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+	display: inline-block!important;
+	width: 10px!important;
+	height: 10px!important;
+	margin: 1px!important;
+	text-indent: -999px!important;
+	cursor: pointer!important;
+	background-color: var(--background-color)!important;
+	border: 1px solid!important;
+	border-radius: 10px!important;
+	border-color: var(--gray)!important;
+	opacity:100%!important;
+}
+.swiper-pagination-bullet-active {
+	width: 12px!important;
+	height: 12px!important;
+	margin: 0!important;
+	background-color: var(--gray)!important;
 }
 
 /* Bootstrap Carousel */

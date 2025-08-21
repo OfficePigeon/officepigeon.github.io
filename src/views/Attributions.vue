@@ -18,8 +18,8 @@ import BubbleLink from "@/components/bubbles/BubbleLink.vue";
 	<div class="bubbleSections">
 		<div class="bubbleLinks">
 			<h2 class="bubbleHeader">Live2D Models</h2>
-			<BubbleLink title="mousewich model" subtitle="rigging by" linkText="cinnameg_art" linkUrl="https://vgen.co/cinnameg_art" thumbnail="/attributions/thumbnails/mousewich_live2d.png"/>
 			<BubbleLink title="dovewich model" subtitle="art and rigging by" linkText="cinnameg_art" linkUrl="https://vgen.co/cinnameg_art" thumbnail="/attributions/thumbnails/dovewich_live2d_cinnameg_art.png"/>
+			<BubbleLink title="mousewich model" subtitle="rigging by" linkText="cinnameg_art" linkUrl="https://vgen.co/cinnameg_art" thumbnail="/attributions/thumbnails/mousewich_live2d.png"/>
 			<BubbleLink title="hatopopo (pigeon) model" subtitle="art and rigging by" linkText="nokoyama" linkUrl="https://nokoyama.booth.pm/" thumbnail="/attributions/thumbnails/hatopopo_live2d_nokoyama.png"/>
 		</div>
 		<div class="bubbleLinks">
@@ -32,13 +32,13 @@ import BubbleLink from "@/components/bubbles/BubbleLink.vue";
 		<div class="bubbleLinks">
 			<h2 class="bubbleHeader">Stream Assets</h2>
 			<BubbleLink title="Vtuber Room" subtitle="by" linkText="Scar" linkUrl="https://vgen.co/ScarletsDreams" thumbnail="/attributions/thumbnails/vtuber_room_scarlets_dream.png"/>
-			<BubbleLink title="mousewich Ending Screen" subtitle="by" linkText="DajzaDj" linkUrl="https://vgen.co/https://vgen.co/DajzaDj" thumbnail="/attributions/thumbnails/mousewich_ending_screen_dajzadj.png"/>
 			<BubbleLink title="dovewich Ending Screen" subtitle="by" linkText="DajzaDj" linkUrl="https://vgen.co/https://vgen.co/DajzaDj" thumbnail="/attributions/thumbnails/dovewich_ending_screen_dajzadj.png"/>
+			<BubbleLink title="mousewich Ending Screen" subtitle="by" linkText="DajzaDj" linkUrl="https://vgen.co/https://vgen.co/DajzaDj" thumbnail="/attributions/thumbnails/mousewich_ending_screen_dajzadj.png"/>
 		</div>
 		<div class="bubbleLinks">
 			<h2 class="bubbleHeader">Emotes</h2>
-			<BubbleLink title="Yippee! (mousewiTBH)" subtitle="by" linkText="AngelHunnyBunn" linkUrl="https://vgen.co/Angelhunnybunn" thumbnail="/attributions/thumbnails/mousewiTBH_angelhunnybunn.png"/>
 			<BubbleLink title="Yippee! (dovewiTBH)" subtitle="by" linkText="AngelHunnyBunn" linkUrl="https://vgen.co/Angelhunnybunn" thumbnail="/attributions/thumbnails/dovewiTBH_angelhunnybunn.png"/>
+			<BubbleLink title="Yippee! (mousewiTBH)" subtitle="by" linkText="AngelHunnyBunn" linkUrl="https://vgen.co/Angelhunnybunn" thumbnail="/attributions/thumbnails/mousewiTBH_angelhunnybunn.png"/>
 			<BubbleLink title="Love (dovewiLove)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiLove_emibirdee.png"/>
 			<BubbleLink title="Knife (dovewiKnife)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiKnife_emibirdee.png"/>
 			<BubbleLink title="Scritch (dovewiScritch)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiScritch_emibirdee.gif"/>
