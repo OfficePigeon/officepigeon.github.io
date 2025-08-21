@@ -12,7 +12,7 @@ import VGenLogoIcon from "@/components/icons/VGenLogoIcon.vue";
 </script>
 <template>
 	<div id="site-footer">
-		<div class="footerIcons">
+		<div class="footerIcons" id="site-footer-icons">
 			<RouterLink to="/twitch" title="Twitch" class="tooltip"><TwitchLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitch</span></RouterLink>
 			<RouterLink to="/youtube" title="YouTube" class="tooltip"><YouTubeLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">YouTube</span></RouterLink>
 			<RouterLink to="/twitter" title="Twitter" class="tooltip"><TwitterLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitter</span></RouterLink>
@@ -24,7 +24,7 @@ import VGenLogoIcon from "@/components/icons/VGenLogoIcon.vue";
 			<RouterLink to="/github" title="GitHub" class="tooltip"><GitHubLogoIcon class="social-icon filtered"/><span class="tooltipText">GitHub</span></RouterLink>
 			<a href="mailto:girlboss@wich.fun" title="Email" class="tooltip"><EmailLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Email</span></a>
 		</div>
-		<p class="copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
+		<p class="copyright" id="site-footer-copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
 	</div>
 </template>
 <style scoped>

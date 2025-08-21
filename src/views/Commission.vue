@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-	<div style="min-width:700px">
+	<div style="min-width:700px;margin:auto">
 		<h1 id="howto">Commission Me!</h1>
 		<ul>
 			<li>Read and accept my <a href="#tos">Terms of Service</a> (outlined below)</li>
@@ -377,7 +377,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description minecraft-font">
-					<h2>Minecraft-Inspired Creature Models</h2>
+					<h2 style="font-size:22px">Minecraft-Inspired Creature Models</h2>
 					<ul>
 						<li>Base Price: $20 USD
 							<ul>

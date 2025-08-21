@@ -16,17 +16,42 @@ import PhoneLogoIcon from "@/components/icons/PhoneLogoIcon.vue";
 
 export default {
 	components: {PhoneLogoIcon, EmailLogoIcon, CopyIcon, DownloadIcon, Swiper, SwiperSlide, },
+	methods: {
+		ToggleReadMore(baseId, startIndex, endIndex) {
+			let item = document.getElementById(baseId + startIndex.toString());
+			if (item) {
+				let none = item.style.display === 'none';
+				for (let i = startIndex; i <= endIndex; i++) {
+					item = document.getElementById(baseId + i.toString());
+					if (item) item.style.display = none ? 'block' : 'none'
+				}
+				item = document.getElementById(baseId);
+				if (item) item.innerText = none ? 'Read Less' : 'Read More';
+			}
+		}
+	},
 	setup() {
-		let h = document.getElementById("site-header");
-		if (h) h.remove();
-		let f = document.getElementById("site-footer");
-		if (f) f.remove();
-		setInterval(function () {
-			let h = document.getElementById("site-header");
-			if (h) h.remove();
-			let f = document.getElementById("site-footer");
-			if (f) f.remove();
-		}, 1000);
+		const removeById = (id) => {
+			let e = document.getElementById(id);
+			if (e) {
+				e.remove();
+				return true;
+			}
+			return false;
+		}
+		const refactorHeaderFooter = () => {
+			//removeById("site-header");
+			if (!removeById("site-header-home")) return;
+			removeById("site-header-directory");
+			removeById("site-header-commission");
+			removeById("site-header-nav");
+
+			removeById("site-footer-icons");
+			let e = document.getElementById("site-footer-copyright");
+			if (e) e.innerHTML = "Copyright &copy" +  new Date().getFullYear().toString() + " Aidan Buffum"
+		}
+		refactorHeaderFooter();
+		setInterval(refactorHeaderFooter, 1000);
 		return {
 			pagination: { clickable: true },
 			modules: [Navigation, Pagination],
@@ -36,7 +61,7 @@ export default {
 </script>
 
 <template>
-	<div style="min-width:1380px">
+	<div style="min-width:700px;margin:auto;">
 		<h1>Portfolio - Aidan Buffum</h1>
 		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
 			<a href="mailto:aabuffum@gmail.com" title="Email">
@@ -46,27 +71,24 @@ export default {
 			<a href="tel:+14018718494" title="Phone">
 				<PhoneLogoIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
 			</a>
-			<a href="tel:+14018718494" title="Phone"> (401) 871-8494 </a>
+			<a href="tel:+14018718494" title="Phone">+1(401)871-8494 </a>
 		</div>
 		<h1 id="SeriousGames">Serious Games</h1>
-		Serious Games are those which have some primary purpose other than entertainment, such as education, exploration, or
-		experimentation. Serious games are still entertaining (they are games, after all) and while entertainment games can
-		still be used for serious purposes, that is not their primary purpose.
 		<div class="showcase-group">
 			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/NowWereTalking_1.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/NowWereTalking_2.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -96,7 +118,7 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
+							<img class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -120,16 +142,16 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/LokisMarauders_4.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_4.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/LokisMarauders_8.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_8.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -157,10 +179,10 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
+							<img class="slide" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -195,7 +217,7 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -218,7 +240,7 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -241,7 +263,7 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/NWT/AgileTactics.png">
+							<img class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -265,16 +287,16 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
+							<img class="slide" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
+							<img class="slide" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/dollardomination/industries.png">
+							<img class="slide" src="@/assets/img/portfolio/dollardomination/industries.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
+							<img class="slide" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -301,19 +323,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/roborace/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/roborace/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/roborace/componentsSpread.png">
+							<img class="slide" src="@/assets/img/portfolio/roborace/componentsSpread.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/roborace/robotrace1.png">
+							<img class="slide" src="@/assets/img/portfolio/roborace/robotrace1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/roborace/playSession.png">
+							<img class="slide" src="@/assets/img/portfolio/roborace/playSession.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/roborace/robotrace2.png">
+							<img class="slide" src="@/assets/img/portfolio/roborace/robotrace2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -338,19 +360,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="/static_games/umbra/cover.png">
+							<img class="slide" src="/static_games/umbra/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/umbra/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/umbra/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/umbra/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/umbra/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -374,19 +396,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="/static_games/contrastbounce/cover.png">
+							<img class="slide" src="/static_games/contrastbounce/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/contrastbounce/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/contrastbounce/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/contrastbounce/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/contrastbounce/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -410,19 +432,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/exchangetheworld/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -443,16 +465,16 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/littleworlds/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/littleworlds/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/littleworlds/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/littleworlds/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/littleworlds/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -477,16 +499,16 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/houseparty/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/houseparty/board.png">
+							<img class="slide" src="@/assets/img/portfolio/houseparty/board.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/houseparty/playSession.png">
+							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/houseparty/playSession2.png">
+							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -512,19 +534,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/idigit/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/idigit/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/idigit/screenshot_title.png">
+							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_title.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/idigit/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/idigit/screenshot_winner.png">
+							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_winner.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/idigit/WPIShowfest_Spring2019.png">
+							<img class="slide" src="@/assets/img/portfolio/idigit/WPIShowfest_Spring2019.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -551,19 +573,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/wizardsvsrobots/titleSquare.png">
+							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_4.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_5.png">
+							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_5.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_8.png">
+							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_8.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -587,19 +609,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/joe/titleSquare.png">
+							<img class="slide" src="@/assets/img/portfolio/joe/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/joe/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/joe/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/joe/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/joe/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/joe/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/joe/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/joe/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/joe/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -623,19 +645,19 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/murderbeewrote/titleSquare.png">
+							<img class="slide" src="@/assets/img/portfolio/murderbeewrote/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/murderbeewrote/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/murderbeewrote/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/murderbeewrote/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/murderbeewrote/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/murderbeewrote/screenshot_3.png">
+							<img class="slide" src="@/assets/img/portfolio/murderbeewrote/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/murderbeewrote/screenshot_4.png">
+							<img class="slide" src="@/assets/img/portfolio/murderbeewrote/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -659,13 +681,13 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/takeabreather/cover.png">
+							<img class="slide" src="@/assets/img/portfolio/takeabreather/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/takeabreather/screenshot_1.png">
+							<img class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/takeabreather/screenshot_2.png">
+							<img class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -688,20 +710,20 @@ export default {
 		</div>
 		<h1 id="NonGameProjects">Non-Game Projects</h1>
 		<div class="showcase-group">
-			<div class="showcase" style="width:1280px;height:424px">
+			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
+							<img class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
+							<img class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/quiltgen/Cool10.png">
+							<img class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
+							<img class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -711,7 +733,6 @@ export default {
 						<div class="showcase-tag">Java</div>
 						<div class="showcase-tag">JavaScript</div>
 						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Traditional Crafts</div>
 					</div>
 					<p class="showcase-description">
 						As a part of an earlier iteration of the <a href="https://www.code-crafters.org/">Code Crafters</a> project
@@ -719,11 +740,14 @@ export default {
 					<p class="showcase-description">
 						The <a href="https://www.code-crafters.org/">Code Crafters</a> project aims to use the generation of quilts
 						as a vehicle to teach computer science to users who are familiar with traditional crafts but not
-						programming. To fulfill that goal, workshops were run with software that generates quilt designs based on
-						half-square triangles. Participants will learn how the program works and how to modify the generator /
-						generated quilts to fit their visions.
+						programming.
+						<span id="readMore-QGfCSE1" style="display:none">
+							To fulfill that goal, workshops were run with software that generates quilt designs based on half-square
+							triangles. Participants will learn how the program works and how to modify the generator / generated
+							quilts to fit their visions.
+						</span>
 					</p>
-					<p class="showcase-description">
+					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
 						The first prototype generator for the project was an evolution-based generator written in Java using
 						<a href="https://processing.org/">Processing</a>. This prototype randomly generates a number of quilts
 						according to several base parameters. For as many generations as the user specified, the generator selects
@@ -731,7 +755,7 @@ export default {
 						reaching the final generation, the user is able to sift through each of the generated quilts from that
 						generation and view the RGB, Hexadecimal, and HSV values for each triangle in the quilt.
 					</p>
-					<p class="showcase-description">
+					<p class="showcase-description" id="readMore-QGfCSE3" style="display:none">
 						The second and prototype generator for the project was a live editor written in JavaScript using
 						<a href="https://p5js.org/">p5.js</a>. This prototype allows the user to upload a text representation of a
 						base quilt to begin editing or to define a quilt entirely in the text fields of the editor. The structure of
@@ -739,28 +763,31 @@ export default {
 						quilt are declared before the main body of data and represented with single characters in order to introduce
 						the concept of variables while doing so in a way that many experienced quilters may already understand.
 					</p>
+					<div class="showcase-tags" style="height:22px;">
+						<button id="readMore-QGfCSE" v-on:click="ToggleReadMore('readMore-QGfCSE', 1, 3)">Read More</button>
+					</div>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
-			<div class="showcase" style="width:680px;height:424px;">
+			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/17.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/17.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/13.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/13.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/07.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/07.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide no-save-img" src="@/assets/img/portfolio/marioquilts/06.png">
+							<img class="slide" src="@/assets/img/portfolio/marioquilts/06.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -768,15 +795,11 @@ export default {
 					<h2>Mario Level Generator<br>and Quilt Renderer</h2>
 					<div class="showcase-tags">
 						<div class="showcase-tag">Java</div>
-						<div class="showcase-tag">Traditional Crafts</div>
 					</div>
 					<p class="showcase-description">
-						The Mario Level Generator and Quilt Renderer is separated into three distinct parts. The first part of the
-						program uses a grammar-based system to generate random Mario Levels of a desired length. The second part
-						runs a player agent through each of the generated levels to determine playability in terms of whether the
-						level can be completed and how much of a challenge the platforming in the level presents. The final part of
-						the program renders out any viable levels, as determined by the evaluator, in both the standard graphics of
-						Super Mario World and as a semi-optimized quilting pattern.
+						A system for generating playable Mario levels, evaluating their playability and platforming challenge,
+						and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
+						pattern.
 					</p>
 				</div>
 			</div> <!-- Mario Level Generator and Quilt Renderer -->
@@ -830,8 +853,8 @@ export default {
 					</swiper>
 				</div>
 			</div> <!-- Content-Creator Social Media Emotes -->
-			<div class="art-showcase">
-				<h2>Minecraft-Inspired<br>3D Creature Models</h2>
+			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<h2 style="font-size:22px">Minecraft-Inspired<br>3D Creature Models</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
 					<div class="showcase-tag">Pixel Art</div>
@@ -931,7 +954,7 @@ export default {
 					</swiper>
 				</div>
 			</div> <!-- Helltaker-Inspired Dancing Sprites -->
-			<div class="art-showcase">
+			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<h2>Minecraft Skins</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Pixel Art</div>

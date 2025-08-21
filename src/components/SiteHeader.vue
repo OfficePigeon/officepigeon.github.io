@@ -1,5 +1,5 @@
 <script setup>
-import { useTemplateRef } from "vue";
+import {onBeforeUnmount, onMounted, ref, useTemplateRef} from "vue";
 import SunIcon from "@/components/icons/SunIcon.vue";
 import MoonIcon from "@/components/icons/MoonIcon.vue";
 //Fancy Display
@@ -33,25 +33,30 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 <template>
 	<div id="site-header">
 		<div class="navBar">
-			<div class="navToggle navButton" @click="ToggleNavDropdown()" title="Toggle Navigation Menu">≡</div>
-			<button id="darkModeToggle" class="navToggle navButton" type="button" @click="ToggleDarkMode()">
+			<div class="navToggle navButton" id="site-header-nav" @click="ToggleNavDropdown()" title="Toggle Navigation Menu">≡</div>
+			<button id="site-header-theme-toggle" class="navToggle navButton" type="button" @click="ToggleDarkMode()">
 				<span class="display-light display-none"> <MoonIcon class="filtered" aria-label="Toggle Dark Mode" title="Toggle Dark Mode"/></span>
 				<span class="display-dark display-none"> <SunIcon class="filtered" aria-label="Toggle Light Mode" title="Toggle Light Mode"/> </span>
 			</button>
-			<RouterLink to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
-			<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
-			<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Site Directory</RouterLink>
+			<RouterLink id="site-header-home" to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
+			<RouterLink id="site-header-directory" to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
+			<RouterLink id="site-header-commission" to="/commission" @click="HideNavDropdown()" title="Commission" class="navButton">Commissions</RouterLink>
 		</div>
 		<!-- Navbar Dropdown -->
-		<div ref="NavigationDropdown" class="navDropdown">
+		<div ref="NavigationDropdown" class="navDropdown" id="site-header-nav-dropdown">
+			<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
 			<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
-			<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Site Directory</RouterLink>
 			<div class="navSeparator">----------- Fun -----------</div>
 			<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" title="Discord Timestamps" class="navButton">Discord Timestamps</RouterLink>
 		</div>
 	</div>
 </template>
 <style scoped>
+@media only screen and (max-width: 629px) {
+	#site-header-commission {
+		display: none;
+	}
+}
 .navShow { display:flex!important; }
 .navBar, .navDropdown, .navButton, .navSeparator {
 	display:block;
