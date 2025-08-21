@@ -11,9 +11,11 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import DownloadIcon from "@/components/icons/DownloadIcon.vue";
 import CopyIcon from "@/components/icons/CopyIcon.vue";
+import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
+import PhoneLogoIcon from "@/components/icons/PhoneLogoIcon.vue";
 
 export default {
-	components: {CopyIcon, DownloadIcon, Swiper, SwiperSlide, },
+	components: {PhoneLogoIcon, EmailLogoIcon, CopyIcon, DownloadIcon, Swiper, SwiperSlide, },
 	setup() {
 		let h = document.getElementById("site-header");
 		if (h) h.remove();
@@ -34,8 +36,18 @@ export default {
 </script>
 
 <template>
-	<div style="min-width:700px">
+	<div style="min-width:1380px">
 		<h1>Portfolio - Aidan Buffum</h1>
+		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
+			<a href="mailto:aabuffum@gmail.com" title="Email">
+				<EmailLogoIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
+			</a>
+			<a href="mailto:aabuffum@gmail.com" title="Email"> aabuffum@gmail.com </a>
+			<a href="tel:+14018718494" title="Phone">
+				<PhoneLogoIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
+			</a>
+			<a href="tel:+14018718494" title="Phone"> (401) 871-8494 </a>
+		</div>
 		<h1 id="SeriousGames">Serious Games</h1>
 		Serious Games are those which have some primary purpose other than entertainment, such as education, exploration, or
 		experimentation. Serious games are still entertaining (they are games, after all) and while entertainment games can
@@ -97,9 +109,10 @@ export default {
 						<div class="showcase-tag">Experimentation</div>
 					</div>
 					<p class="showcase-description">
-						A game simulating a two-person interaction with a virtual character representing the player's partner.
-						Players interact with this partner across a series of episodes featuring branching dialogues that introduce
-						new learning objectives and builds upon those from previous episodes.
+						A life-simulation game where the players make financial choices over several in-game years to have the best
+						home on their street. Players are presented with typical or file-free options for their taxes. The
+						experiment aims to measure whether typical players are more likely to report their taxes accurately with a
+						particular options.
 					</p>
 				</div>
 			</div> <!-- Keeping Up With The Smiths -->
@@ -385,8 +398,8 @@ export default {
 						<div class="showcase-tag">Perlenspiel</div>
 					</div>
 					<p class="showcase-description">
-						An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an
-						encroaching darkness. Umbra is played only with the arrow keys.
+						An abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal. Contrast
+						Bounce is played only with the space bar and the mouse.
 					</p>
 					<p class="showcase-description">
 						<a href="/static_games/contrastbounce/cover.html">Available to play in browser</a>
