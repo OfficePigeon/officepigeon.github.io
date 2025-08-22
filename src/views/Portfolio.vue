@@ -156,8 +156,8 @@ main {
 					<h2>Loki's Marauders</h2>
 					<p class="showcase-description">
 						An educational game where players take on the role of one of four monster viking captains. Players learn to
-						identify different fallacies and tactics for manipulation as they attempt to sway the other captains and
-						stay wary of their fellow monsters' manipulative language and attempts to trick them.
+						identify different fallacies and tactics for manipulation as they attempt to sway the other captains while
+						staying wary of their fellow monsters' attempts to trick them.
 					</p>
 				</div>
 			</div> <!-- Loki's Marauders -->
@@ -610,7 +610,7 @@ main {
 						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
 						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
 					</p>
-					<p class="showcase-description" style="font-size:12px">
+					<p class="showcase-description" style="font-size:11px">
 						<a href="https://aidanbuffum.itch.io/take-a-breather">Early demo build available on itch.io</a>
 					</p>
 				</div>
