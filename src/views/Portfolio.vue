@@ -11,11 +11,14 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import DownloadIcon from "@/components/icons/DownloadIcon.vue";
 import CopyIcon from "@/components/icons/CopyIcon.vue";
-import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
-import PhoneLogoIcon from "@/components/icons/PhoneLogoIcon.vue";
+import EmailIcon from "@/components/icons/EmailIcon.vue";
+import PresentationIcon from "@/components/icons/PresentationIcon.vue";
+import FileIcon from "@/components/icons/FileIcon.vue";
+import PhoneIcon from "@/components/icons/PhoneIcon.vue";
+import ComputerIcon from "@/components/icons/ComputerIcon.vue";
 
 export default {
-	components: {PhoneLogoIcon, EmailLogoIcon, CopyIcon, DownloadIcon, Swiper, SwiperSlide, },
+	components: {ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide, },
 	methods: {
 		ToggleReadMore(baseId, startIndex, endIndex) {
 			let item = document.getElementById(baseId + startIndex.toString());
@@ -41,7 +44,7 @@ export default {
 		}
 		const refactorHeaderFooter = () => {
 			//removeById("site-header");
-			if (!removeById("site-header-home")) return;
+			removeById("site-header-home");
 			removeById("site-header-directory");
 			removeById("site-header-commission");
 			removeById("site-header-nav");
@@ -69,11 +72,15 @@ main {
 		<h1>Portfolio - Aidan Buffum</h1>
 		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
 			<a href="mailto:aabuffum@gmail.com" title="Email">
-				<EmailLogoIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
+				<EmailIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
 			</a>
 			<a href="mailto:aabuffum@gmail.com" title="Email"> aabuffum@gmail.com </a>
+			<a href="/public/pdf/portfolio/Resume.pdf" title="Resume">
+				<FileIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-left:10px;"/>
+			</a>
+			<a href="/public/pdf/portfolio/Resume.pdf" title="Resume"> Resume </a>
 			<a href="tel:+14018718494" title="Phone">
-				<PhoneLogoIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
+				<PhoneIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
 			</a>
 			<a href="tel:+14018718494" title="Phone">+1(401)871-8494 </a>
 		</div>
@@ -96,10 +103,19 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2021.pdf">
-						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
-					</a> and the <a href="https://www.thenarrativesociety.org/">International Conference on Narrative</a>
+						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						<span title="Serious Play Conference Presentation (2021)">
+							<a href="/pdf/portfolio/SeriousPlayConf2021.pdf">
+								<PresentationIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+						and the <a href="https://www.thenarrativesociety.org/">International Conference on Narrative</a>
 						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships">featured</a>
+						<span title="Article - MITRE’s Latest Serious Game Works to Level Up Personal Relationships (2022)">
+							<a href="/pdf/portfolio/MITRE-Article-2022-01-12.pdf">
+								<FileIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
 						by <a href="https://www.mitre.org/">The MITRE Corporation</a>
 					</p>
 				</div>
@@ -147,9 +163,12 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2023.pdf">
-						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
-					</a>
+						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						<span title="Serious Play Conference Presentation (2023)">
+							<a href="/pdf/portfolio/SeriousPlayConf2023.pdf">
+								<PresentationIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
 					</p>
 				</div>
 				<div class="commission-description">
@@ -172,9 +191,12 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2024.pdf">
-						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
-					</a> and part of
+						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						<span title="Serious Play Conference Presentation (2024)">
+							<a href="/pdf/portfolio/SeriousPlayConf2024.pdf">
+								<PresentationIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span> and part of
 						research submitted for publication in the
 						<a href="http://ijpor.oxfordjournals.org/">International Journal of Public Opinion Research</a>
 					</p>
@@ -262,6 +284,11 @@ main {
 					<p class="showcase-description showcase-little-text">
 						Presented at the <a href="https://festival.gamesforchange.org/">Games for Change Festival</a>
 						and <a href="https://www.wpi.edu/news/imgd-creates-games-change">featured</a>
+						<span title="Article - IMGD Creates Games for Change (2017)">
+							<a href="/pdf/portfolio/WPI-Article-2017-08-23.pdf">
+								<FileIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
 						by <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>
 					</p>
 				</div>
@@ -334,7 +361,10 @@ main {
 						encroaching darkness. Umbra is played only with the arrow keys.
 					</p>
 					<p class="showcase-description">
-						<a href="/static_games/umbra/cover.html">Available to play in browser</a>
+						<a href="/static_games/umbra/cover.html">Play in browser</a>
+						<a href="/static_games/umbra/cover.html" title="Play in browser">
+							<ComputerIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Umbra -->
@@ -365,7 +395,10 @@ main {
 						Bounce is played only with the space bar and the mouse.
 					</p>
 					<p class="showcase-description">
-						<a href="/static_games/contrastbounce/cover.html">Available to play in browser</a>
+						<a href="/static_games/contrastbounce/cover.html">Play in browser</a>
+						<a href="/static_games/contrastbounce/cover.html" title="Play in browser">
+							<ComputerIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Contrast Bounce -->
@@ -424,6 +457,9 @@ main {
 					</p>
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/little-worlds">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/little-worlds" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Little Worlds -->
@@ -455,7 +491,7 @@ main {
 						<a href="https://www.thegamecrafter.com/games/house-party2">Available on The Game Crafter</a>
 					</p>
 					<p class="showcase-description showcase-little-text">
-						*This game depicts consumption of alcoholic beneverages.
+						* This game depicts consumption of alcoholic beneverages.
 					</p>
 				</div>
 			</div> <!-- House Party -->
@@ -487,9 +523,12 @@ main {
 					</p>
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/i-dig-it">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/i-dig-it" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 					<p class="showcase-description showcase-little-text">
-						*Controllers are required to play this game.
+						* Controllers are required to play this game.
 					</p>
 				</div>
 			</div> <!-- I Dig It -->
@@ -522,6 +561,9 @@ main {
 					</p>
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/wizards-vs-robots">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Wizards vs. Robots -->
@@ -554,6 +596,9 @@ main {
 					</p>
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/joe">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/joe" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Joe -->
@@ -586,6 +631,9 @@ main {
 					</p>
 					<p class="showcase-description">
 						<a href="https://erikcerini.itch.io/murder-bee-wrote">Available on itch.io</a>
+						<a href="https://erikcerini.itch.io/murder-bee-wrote" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Murder Bee Wrote -->
@@ -610,8 +658,11 @@ main {
 						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
 						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
 					</p>
-					<p class="showcase-description" style="font-size:11px">
+					<p class="showcase-description showcase-little-text">
 						<a href="https://aidanbuffum.itch.io/take-a-breather">Early demo build available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/take-a-breather" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-little-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Take A Breather -->
@@ -641,25 +692,21 @@ main {
 						As part of the <a href="https://www.code-crafters.org/">Code Crafters</a> project
 					</p>
 					<p class="showcase-description">
-						The <a href="https://www.code-crafters.org/">Code Crafters</a> project aims to use the generation of quilts
-						as a vehicle to teach computer science to users who are familiar with traditional crafts but not
-						programming.
+						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
+						traditional textile crafts but not programming.
 					</p>
 					<p class="showcase-description" id="readMore-QGfCSE1" style="display:none">
-						The first prototype generator for the project was an evolution-based generator written in Java using
-						<a href="https://processing.org/">Processing</a>. This prototype randomly generates a number of quilts
-						according to several base parameters. For as many generations as the user specified, the generator selects
-						some number of "best" quilts from that generation according to user-specified fitness functions. Upon
-						reaching the final generation, the user is able to sift through each of the generated quilts from that
-						generation and view the RGB, Hexadecimal, and HSV values for each triangle in the quilt.
+						The first prototype was an evolution-based generator using Java and
+						<a href="https://processing.org/">Processing</a>. This prototype generates a number of quilts as
+						parameterized by the user and after a configured number of generations, presents the most fit patterns to
+						the user.
 					</p>
 					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
-						The second and prototype generator for the project was a live editor written in JavaScript using
-						<a href="https://p5js.org/">p5.js</a>. This prototype allows the user to upload a text representation of a
-						base quilt to begin editing or to define a quilt entirely in the text fields of the editor. The structure of
-						the editor is built around the idea of user manipulation of the plaintext quilt data. Fabric colors for the
-						quilt are declared before the main body of data and represented with single characters in order to introduce
-						the concept of variables while doing so in a way that many experienced quilters may already understand.
+						The second prototype was a live web-based editor using JavaScript and <a href="https://p5js.org/">p5.js</a>.
+						This prototype provides the user a more code-like interface to begin editing or define patterns entirely
+						within the text fields of the editor. The structure of the editor encourages user manipulation of the text
+						data. Fabric colors are used as a mechanism to represent computer variables while doing so in a way that
+						many experienced quilters may already understand.
 					</p>
 					<div class="showcase-read-more">
 						<button id="readMore-QGfCSE" v-on:click="ToggleReadMore('readMore-QGfCSE', 1, 2)">Read More</button>

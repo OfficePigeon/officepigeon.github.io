@@ -1,14 +1,14 @@
 <script setup>
-import BlueskyLogoIcon from "@/components/icons/BlueskyLogoIcon.vue";
-import DiscordLogoIcon from "@/components/icons/DiscordLogoIcon.vue";
-import EmailLogoIcon from "@/components/icons/EmailLogoIcon.vue";
-import GitHubLogoIcon from "@/components/icons/GitHubLogoIcon.vue";
-import KofiLogoIcon from "@/components/icons/KofiLogoIcon.vue";
-import TumblrLogoIcon from "@/components/icons/TumblrLogoIcon.vue";
-import TwitchLogoIcon from "@/components/icons/TwitchLogoIcon.vue";
-import TwitterLogoIcon from "@/components/icons/TwitterLogoIcon.vue";
-import YouTubeLogoIcon from "@/components/icons/YouTubeLogoIcon.vue";
-import VGenLogoIcon from "@/components/icons/VGenLogoIcon.vue";
+import BlueskyLogoIcon from "@/components/icons/logos/BlueskyLogoIcon.vue";
+import DiscordLogoIcon from "@/components/icons/logos/DiscordLogoIcon.vue";
+import EmailLogoIcon from "@/components/icons/EmailIcon.vue";
+import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
+import KofiLogoIcon from "@/components/icons/logos/KofiLogoIcon.vue";
+import TumblrLogoIcon from "@/components/icons/logos/TumblrLogoIcon.vue";
+import TwitchLogoIcon from "@/components/icons/logos/TwitchLogoIcon.vue";
+import TwitterLogoIcon from "@/components/icons/logos/TwitterLogoIcon.vue";
+import YouTubeLogoIcon from "@/components/icons/logos/YouTubeLogoIcon.vue";
+import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
 </script>
 <template>
 	<div id="site-footer">

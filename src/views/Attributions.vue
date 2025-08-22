@@ -52,6 +52,12 @@ import BubbleLink from "@/components/bubbles/BubbleLink.vue";
 			<h2 class="bubbleHeader">Extra Graphics</h2>
 			<BubbleLink title="Twemoji graphics" subtitle="by Twitter and other contributors" modified="true"
 									licenseText="CC BY 4.0" licenseUrl="https://creativecommons.org/licenses/by/4.0"/>
+			<BubbleLink title="Several Icons" subtitle="by" modified="true"
+									linkText = "Dazzle UI" linkUrl = "https://dazzleui.gumroad.com/l/dazzleiconsfree"
+									licenseText="CC BY 4.0" licenseUrl="https://creativecommons.org/licenses/by/4.0/"/>
+			<BubbleLink title="Several Icons" subtitle="by" modified="true"
+									linkText = "Solar Icons" linkUrl = "https://www.figma.com/community/file/1166831539721848736"
+									licenseText="CC BY 4.0" licenseUrl="https://creativecommons.org/licenses/by/4.0/"/>
 		</div>
 		<div class="bubbleLinks">
 			<h2 class="bubbleHeader">3D Models</h2>
