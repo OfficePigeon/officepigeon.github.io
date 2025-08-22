@@ -377,7 +377,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="commission-description minecraft-font">
-					<h2 style="font-size:22px">Minecraft-Inspired Creature Models</h2>
+					<h2 style="font-size:20px">Minecraft-Inspired Creature Models</h2>
 					<ul>
 						<li>Base Price: $20 USD
 							<ul>

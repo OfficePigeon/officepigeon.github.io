@@ -59,9 +59,13 @@ export default {
 	},
 };
 </script>
-
+<style scoped>
+main {
+	padding: 0;
+}
+</style>
 <template>
-	<div style="min-width:700px;margin:auto;">
+	<div style="min-width:700px;">
 		<h1>Portfolio - Aidan Buffum</h1>
 		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
 			<a href="mailto:aabuffum@gmail.com" title="Email">
@@ -91,26 +95,20 @@ export default {
 							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
 						</swiper-slide>
 					</swiper>
+					<p class="showcase-description showcase-little-text">
+						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2021.pdf">
+						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
+					</a> and the <a href="https://www.thenarrativesociety.org/">International Conference on Narrative</a>
+						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships">featured</a>
+						by <a href="https://www.mitre.org/">The MITRE Corporation</a>
+					</p>
 				</div>
 				<div class="commission-description">
 					<h2>Now We're Talking!</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Education</div>
-					</div>
 					<p class="showcase-description">
 						A game simulating a two-person interaction with a virtual character representing the player's partner whom
 						players interact with across a series of episodes. Each episode features branching dialogues that introduces
 						new learning objectives and builds upon those from previous episodes.
-					</p>
-					<p class="showcase-description" style="font-size:10px">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2021.pdf">
-							<DownloadIcon class="filtered" style="height:10px;width:10px"/>
-						</a> and the <a href="https://www.thenarrativesociety.org/">International Conference on Narrative</a>
-						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships">featured</a>
-						by <a href="https://www.mitre.org/">The MITRE Corporation</a>
 					</p>
 				</div>
 			</div> <!-- Now We're Talking! -->
@@ -124,12 +122,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Keeping Up With The Smiths</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Experimentation</div>
-					</div>
 					<p class="showcase-description">
 						A life-simulation game where the players make financial choices over several in-game years to have the best
 						home on their street. Players are presented with typical or file-free options for their taxes. The
@@ -154,24 +146,18 @@ export default {
 							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
 						</swiper-slide>
 					</swiper>
+					<p class="showcase-description showcase-little-text">
+						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2023.pdf">
+						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
+					</a>
+					</p>
 				</div>
 				<div class="commission-description">
 					<h2>Loki's Marauders</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Education</div>
-					</div>
 					<p class="showcase-description">
 						An educational game where players take on the role of one of four monster viking captains. Players learn to
 						identify different fallacies and tactics for manipulation as they attempt to sway the other captains and
 						stay wary of their fellow monsters' manipulative language and attempts to trick them.
-					</p>
-					<p class="showcase-description" style="font-size:10px">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2023.pdf">
-							<DownloadIcon class="filtered" style="height:10px;width:10px"/>
-						</a>
 					</p>
 				</div>
 			</div> <!-- Loki's Marauders -->
@@ -185,31 +171,24 @@ export default {
 							<img class="slide" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
 						</swiper-slide>
 					</swiper>
-				</div>
-				<div class="commission-description">
-					<h2>TimeQuake Escape!</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Experimentation</div>
-					</div>
-					<p class="showcase-description">
-						A guided census survey experiment aimed to identify whether a gamified experience with ongoing feedback can
-						increase response rates and reporting accuracy from underrepresented populations.
-					</p>
-					<p class="showcase-description" style="font-size:10px">
+					<p class="showcase-description showcase-little-text">
 						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a> <a href="/pdf/portfolio/SeriousPlayConf2024.pdf">
 						<DownloadIcon class="filtered" style="height:10px;width:10px"/>
 					</a> and part of
 						research submitted for publication in the
 						<a href="http://ijpor.oxfordjournals.org/">International Journal of Public Opinion Research</a>
 					</p>
-					<p class="showcase-description" style="font-size:8px">
+				</div>
+				<div class="commission-description">
+					<h2>TimeQuake Escape!</h2>
+					<p class="showcase-description">
+						A guided census survey experiment aimed to identify whether a gamified experience with ongoing feedback can
+						increase response rates and reporting accuracy from underrepresented populations.
+					</p>
+					<p class="showcase-description showcase-little-text">
 						* This game includes art assets created with Generative Artificial Intelligence systems. I do not and have
-						never endorsed the use of AI as a replacement for human artists and creatives. I had limited control over
-						the visual design of the experiment and my objection to the use of AI art was insufficient to change the
-						direction of the game.
+						never endorsed the use of AI as a replacement for human artists and creatives. The inclusion of AI generated
+						images in the project is not something I had any control over.
 					</p>
 				</div>
 			</div> <!-- TimeQuake Escape! -->
@@ -223,12 +202,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Workplace Violence Scenarios</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Experimentation</div>
-					</div>
 					<p class="showcase-description">
 						A set of interactive simulations for behavioral experimentation. Players are tasked with identifying warning signs
 						of potential workplace violence incidents in an experimental environment that aims to measure the user's
@@ -246,12 +219,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Interview Simulation Exercise</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Education</div>
-					</div>
 					<p class="showcase-description">
 						Players interview several candidates for a position and enter into a guided dialogue with their
 						colleagues to discuss the candidates, wherein they must identify inappropriate questions to ask candidates
@@ -269,12 +236,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Agile Tactics</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Education</div>
-					</div>
 					<p class="showcase-description">
 						A multi-episode interactive training story game allowing users to test their knowledge of DevOps and Agile
 						methodologies. Users are given multiple choices in an ongoing dialogues with their boss and colleagues in
@@ -299,23 +260,18 @@ export default {
 							<img class="slide" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
 						</swiper-slide>
 					</swiper>
-				</div>
-				<div class="commission-description">
-					<h2>Dollar Domination</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Board Game</div>
-						<div class="showcase-tag">Education</div>
-					</div>
-					<p class="showcase-description">
-						A Monopoly-style board game designed to acknowledge the original theme of Elizabeth Magie's
-						<i>The Landlord's Game</i> and draw attention to the dangers of unregulated capitalism. 3-6 players fight
-						to control the economy and bankrupt the competition, facing economic inequality and starting with
-						completely different amounts of money.
-					</p>
-					<p class="showcase-description" style="font-size:10px">
+					<p class="showcase-description showcase-little-text">
 						Presented at the <a href="https://festival.gamesforchange.org/">Games for Change Festival</a>
 						and <a href="https://www.wpi.edu/news/imgd-creates-games-change">featured</a>
 						by <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>
+					</p>
+				</div>
+				<div class="commission-description">
+					<h2>Dollar Domination</h2>
+					<p class="showcase-description">
+						A Monopoly-style board game designed to acknowledge the original theme of Elizabeth Magie's
+						<i>The Landlord's Game</i> and draw attention to the dangers of unregulated capitalism. 3-6 players fight
+						to control the economy and bankrupt the competition, facing economic inequality throughout the game.
 					</p>
 				</div>
 			</div> <!-- Dollar Domination -->
@@ -341,10 +297,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Robo Race</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Board Game</div>
-						<div class="showcase-tag">Education</div>
-					</div>
 					<p class="showcase-description">
 						An educational strategy game designed to teach and reinforce logical and critical thinking
 						skills in children aged 5-14. 2-4 players control four robots with secret goal positions, playing cards
@@ -378,11 +330,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Umbra</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">JavaScript</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Perlenspiel</div>
-					</div>
 					<p class="showcase-description">
 						An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an
 						encroaching darkness. Umbra is played only with the arrow keys.
@@ -414,11 +361,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Contrast Bounce</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">JavaScript</div>
-						<div class="showcase-tag">Web-Based</div>
-						<div class="showcase-tag">Perlenspiel</div>
-					</div>
 					<p class="showcase-description">
 						An abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal. Contrast
 						Bounce is played only with the space bar and the mouse.
@@ -450,10 +392,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>ExChange The World</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-					</div>
 					<p class="showcase-description">
 						A physics-based puzzle game in which the player must solve a variety of everyday problems by swapping the
 						locations of objects in the world with a special gun. Though some objects may only be swapped with others of
@@ -480,11 +418,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Little Worlds</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Multiplayer</div>
-					</div>
 					<p class="showcase-description">
 						A competitive party game where 2-4 players race to build the largest celestial body they can. With
 						Katamari-inspired rolling, players grow and shrink by pulling space rubble into their planets and stealing
@@ -514,9 +447,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>House Party</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Board Game</div>
-					</div>
 					<p class="showcase-description">
 						A cooperative game where 3-6 players are throwing a house party but it could get very
 						dangerous very fast. Players must navigate the house, escort guests, help them sober up, and send the
@@ -525,7 +455,7 @@ export default {
 					<p class="showcase-description">
 						<a href="https://www.thegamecrafter.com/games/house-party2">Available on The Game Crafter</a>
 					</p>
-					<p class="showcase-description" style="font-size:10px">
+					<p class="showcase-description showcase-little-text">
 						*This game depicts consumption of alcoholic beneverages.
 					</p>
 				</div>
@@ -552,11 +482,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>I Dig It</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-						<div class="showcase-tag">Multiplayer</div>
-					</div>
 					<p class="showcase-description">
 						A fast-paced, local muliplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their
 						opponents into the abyss and be the last one standing.
@@ -564,7 +489,7 @@ export default {
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/i-dig-it">Available on itch.io</a>
 					</p>
-					<p class="showcase-description" style="font-size:10px">
+					<p class="showcase-description showcase-little-text">
 						*Controllers are required to play this game.
 					</p>
 				</div>
@@ -591,14 +516,10 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Wizards vs. Robots</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">GameMaker</div>
-						<div class="showcase-tag">GML</div>
-					</div>
 					<p class="showcase-description">
-						An action platformer game where the player controls a powerful wizard and takes him down one of two unique
-						paths for a different experience during each playthrough. The player can switch between 3 different spells,
-						each with their own effects and advantages to fight the evil robot horde in the wizard's way.
+						An action platformer game about a wizard destroying robots. The player can switch between 3 different
+						spells, unlocking different spells based on the path they take, each with their own effects and advantages
+						to fight the evil robots in their way.
 					</p>
 					<p class="showcase-description">
 						<a href="https://aidanbuffum.itch.io/wizards-vs-robots">Available on itch.io</a>
@@ -627,10 +548,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Joe</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">GameMaker</div>
-						<div class="showcase-tag">GML</div>
-					</div>
 					<p class="showcase-description">
 						A short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your
 						day-job as a barista, you're just an average joe. Everybody in town knows you. Your boss likes your hard
@@ -663,10 +580,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Murder Bee Wrote</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-					</div>
 					<p class="showcase-description">
 						An infinite platform running game where the player controls a murderer who has switched places with a
 						bumblebee. The player must sate their bloodlust by destroying the bees all around them. Punch bees! Impale
@@ -693,10 +606,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Take A Breather</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Unity</div>
-						<div class="showcase-tag">C#</div>
-					</div>
 					<p class="showcase-description">
 						A slapstick puzzle game in which the player controls escaped animals from the aquarium trying to get back to
 						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
@@ -729,25 +638,15 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Quilt Generation for Computer Science Education</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Java</div>
-						<div class="showcase-tag">JavaScript</div>
-						<div class="showcase-tag">Web-Based</div>
-					</div>
 					<p class="showcase-description">
-						As a part of an earlier iteration of the <a href="https://www.code-crafters.org/">Code Crafters</a> project
+						As part of the <a href="https://www.code-crafters.org/">Code Crafters</a> project
 					</p>
 					<p class="showcase-description">
 						The <a href="https://www.code-crafters.org/">Code Crafters</a> project aims to use the generation of quilts
 						as a vehicle to teach computer science to users who are familiar with traditional crafts but not
 						programming.
-						<span id="readMore-QGfCSE1" style="display:none">
-							To fulfill that goal, workshops were run with software that generates quilt designs based on half-square
-							triangles. Participants will learn how the program works and how to modify the generator / generated
-							quilts to fit their visions.
-						</span>
 					</p>
-					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
+					<p class="showcase-description" id="readMore-QGfCSE1" style="display:none">
 						The first prototype generator for the project was an evolution-based generator written in Java using
 						<a href="https://processing.org/">Processing</a>. This prototype randomly generates a number of quilts
 						according to several base parameters. For as many generations as the user specified, the generator selects
@@ -755,7 +654,7 @@ export default {
 						reaching the final generation, the user is able to sift through each of the generated quilts from that
 						generation and view the RGB, Hexadecimal, and HSV values for each triangle in the quilt.
 					</p>
-					<p class="showcase-description" id="readMore-QGfCSE3" style="display:none">
+					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
 						The second and prototype generator for the project was a live editor written in JavaScript using
 						<a href="https://p5js.org/">p5.js</a>. This prototype allows the user to upload a text representation of a
 						base quilt to begin editing or to define a quilt entirely in the text fields of the editor. The structure of
@@ -763,8 +662,8 @@ export default {
 						quilt are declared before the main body of data and represented with single characters in order to introduce
 						the concept of variables while doing so in a way that many experienced quilters may already understand.
 					</p>
-					<div class="showcase-tags" style="height:22px;">
-						<button id="readMore-QGfCSE" v-on:click="ToggleReadMore('readMore-QGfCSE', 1, 3)">Read More</button>
+					<div class="showcase-read-more">
+						<button id="readMore-QGfCSE" v-on:click="ToggleReadMore('readMore-QGfCSE', 1, 2)">Read More</button>
 					</div>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
@@ -793,9 +692,6 @@ export default {
 				</div>
 				<div class="commission-description">
 					<h2>Mario Level Generator<br>and Quilt Renderer</h2>
-					<div class="showcase-tags">
-						<div class="showcase-tag">Java</div>
-					</div>
 					<p class="showcase-description">
 						A system for generating playable Mario levels, evaluating their playability and platforming challenge,
 						and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
@@ -854,7 +750,7 @@ export default {
 				</div>
 			</div> <!-- Content-Creator Social Media Emotes -->
 			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<h2 style="font-size:22px">Minecraft-Inspired<br>3D Creature Models</h2>
+				<h2 style="font-size:20px">Minecraft-Inspired<br>3D Creature Models</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
 					<div class="showcase-tag">Pixel Art</div>
