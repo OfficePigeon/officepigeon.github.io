@@ -187,8 +187,7 @@ main {
 					</p>
 					<p class="showcase-description showcase-little-text">
 						* This game includes art assets created with Generative Artificial Intelligence systems. I do not and have
-						never endorsed the use of AI as a replacement for human artists and creatives. The inclusion of AI generated
-						images in the project is not something I had any control over.
+						never endorsed the use of AI as a replacement for human artists and creatives.
 					</p>
 				</div>
 			</div> <!-- TimeQuake Escape! -->
