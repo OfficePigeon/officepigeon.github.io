@@ -75,10 +75,10 @@ main {
 				<EmailIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
 			</a>
 			<a href="mailto:aabuffum@gmail.com" title="Email"> aabuffum@gmail.com </a>
-			<a href="/public/pdf/portfolio/Resume.pdf" title="Resume">
+			<a href="/pdf/portfolio/Resume.pdf" title="Resume">
 				<FileIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-left:10px;"/>
 			</a>
-			<a href="/public/pdf/portfolio/Resume.pdf" title="Resume"> Resume </a>
+			<a href="/pdf/portfolio/Resume.pdf" title="Resume"> Resume </a>
 			<a href="tel:+14018718494" title="Phone">
 				<PhoneIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
 			</a>
