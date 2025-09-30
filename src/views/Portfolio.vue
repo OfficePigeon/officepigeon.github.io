@@ -123,8 +123,8 @@ main {
 					<h2>Now We're Talking!</h2>
 					<p class="showcase-description">
 						A game simulating a two-person interaction with a virtual character representing the player's partner whom
-						players interact with across a series of episodes. Each episode features branching dialogues that introduces
-						new learning objectives and builds upon those from previous episodes.
+						players interact with across a series of episodes. Each episode features branching dialogues that introduce
+						new learning objectives and build upon those from previous episodes.
 					</p>
 				</div>
 			</div> <!-- Now We're Talking! -->
