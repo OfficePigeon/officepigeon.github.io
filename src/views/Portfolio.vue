@@ -813,6 +813,13 @@ main {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_xstraycat_posed.gltf"
+														poster="/3d/minecraft_model/render_xstraycat.png"
+														alt="A 3D model of a black cat with gold earrings and a large bow in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
 														src="/3d/minecraft_model/model_piranha.gltf"
 														poster="/3d/minecraft_model/render_piranha.png"
 														alt="A 3D model of a piranha in the Minecraft style"
@@ -926,6 +933,12 @@ main {
 							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_beanie_birrd_strawberry_milk.gltf"
 														poster="/3d/minecraft_skin/render_beanie_birrd_strawberry_milk.gif"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_skin/model_xstraycat.gltf"
+														poster="/3d/minecraft_skin/render_xstraycat.gif"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>

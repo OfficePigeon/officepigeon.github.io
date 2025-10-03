@@ -295,6 +295,12 @@ export default {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
+														src="/3d/minecraft_skin/model_xstraycat.gltf"
+														poster="/3d/minecraft_skin/render_xstraycat.gif"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
 														src="/3d/minecraft_skin/model_tyranomaximum.gltf"
 														poster="/3d/minecraft_skin/render_tyranomaximum.gif"
 														camera-controls touch-action="pan-y"/>
@@ -351,6 +357,13 @@ export default {
 														src="/3d/minecraft_model/model_pigeon.gltf"
 														poster="/3d/minecraft_model/render_pigeon.png"
 														alt="A 3D model of a pigeon in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_xstraycat_posed.gltf"
+														poster="/3d/minecraft_model/render_xstraycat.png"
+														alt="A 3D model of a black cat with gold earrings and a large bow in the Minecraft style"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
