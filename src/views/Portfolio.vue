@@ -71,18 +71,18 @@ main {
 	<div style="min-width:700px;">
 		<h1>Portfolio - Aidan Buffum</h1>
 		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
-			<a href="mailto:aabuffum@gmail.com" title="Email">
+			<a href="mailto:aabuffum@gmail.com" target="_blank" title="Email">
 				<EmailIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
 			</a>
-			<a href="mailto:aabuffum@gmail.com" title="Email"> aabuffum@gmail.com </a>
-			<a href="/pdf/portfolio/Resume.pdf" title="Resume">
+			<a href="mailto:aabuffum@gmail.com" target="_blank" title="Email">aabuffum@gmail.com</a>
+			<a href="/pdf/portfolio/Resume.pdf" target="_blank" title="Resume">
 				<FileIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-left:10px;"/>
 			</a>
-			<a href="/pdf/portfolio/Resume.pdf" title="Resume"> Resume </a>
-			<a href="tel:+14018718494" title="Phone">
+			<a href="/pdf/portfolio/Resume.pdf" target="_blank" title="Resume">Resume</a>
+			<a href="tel:+14018718494" target="_blank" title="Phone">
 				<PhoneIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
 			</a>
-			<a href="tel:+14018718494" title="Phone">+1(401)871-8494 </a>
+			<a href="tel:+14018718494" target="_blank" title="Phone">+1(401)871-8494 </a>
 		</div>
 		<h1 id="SeriousGames">Serious Games</h1>
 		<div class="showcase-group">
@@ -103,20 +103,20 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
 						<span title="Serious Play Conference Presentation (2021)">
-							<a href="/pdf/portfolio/SeriousPlayConf2021.pdf">
+							<a href="/pdf/portfolio/SeriousPlayConf2021.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						and the <a href="https://www.thenarrativesociety.org/">International Conference on Narrative</a>
-						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships">featured</a>
+						and the <a href="https://www.thenarrativesociety.org/" target="_blank">International Conference on Narrative</a>
+						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships" target="_blank">featured</a>
 						<span title="Article - MITRE’s Latest Serious Game Works to Level Up Personal Relationships (2022)">
-							<a href="/pdf/portfolio/MITRE-Article-2022-01-12.pdf">
+							<a href="/pdf/portfolio/MITRE-Article-2022-01-12.pdf" target="_blank">
 								<FileIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						by <a href="https://www.mitre.org/">The MITRE Corporation</a>
+						by <a href="https://www.mitre.org/" target="_blank">The MITRE Corporation</a>
 					</p>
 				</div>
 				<div class="commission-description">
@@ -163,9 +163,9 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
 						<span title="Serious Play Conference Presentation (2023)">
-							<a href="/pdf/portfolio/SeriousPlayConf2023.pdf">
+							<a href="/pdf/portfolio/SeriousPlayConf2023.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
@@ -191,14 +191,14 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/">Serious Play Conference</a>
+						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
 						<span title="Serious Play Conference Presentation (2024)">
-							<a href="/pdf/portfolio/SeriousPlayConf2024.pdf">
+							<a href="/pdf/portfolio/SeriousPlayConf2024.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span> and part of
 						research submitted for publication in the
-						<a href="http://ijpor.oxfordjournals.org/">International Journal of Public Opinion Research</a>
+						<a href="http://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
 					</p>
 				</div>
 				<div class="commission-description">
@@ -282,14 +282,14 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://festival.gamesforchange.org/">Games for Change Festival</a>
-						and <a href="https://www.wpi.edu/news/imgd-creates-games-change">featured</a>
+						Presented at the <a href="https://festival.gamesforchange.org/" target="_blank">Games for Change Festival</a>
+						and <a href="https://www.wpi.edu/news/imgd-creates-games-change" target="_blank">featured</a>
 						<span title="Article - IMGD Creates Games for Change (2017)">
-							<a href="/pdf/portfolio/WPI-Article-2017-08-23.pdf">
+							<a href="/pdf/portfolio/WPI-Article-2017-08-23.pdf" target="_blank">
 								<FileIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						by <a href="https://www.wpi.edu/">Worcester Polytechnic Institute</a>
+						by <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
 					</p>
 				</div>
 				<div class="commission-description">
@@ -361,8 +361,8 @@ main {
 						encroaching darkness. Umbra is played only with the arrow keys.
 					</p>
 					<p class="showcase-description">
-						<a href="/static_games/umbra/cover.html">Play in browser</a>
-						<a href="/static_games/umbra/cover.html" title="Play in browser">
+						<a href="/static_games/umbra/cover.html" target="_blank">Play in browser</a>
+						<a href="/static_games/umbra/cover.html" target="_blank" title="Play in browser">
 							<ComputerIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
@@ -395,13 +395,88 @@ main {
 						Bounce is played only with the space bar and the mouse.
 					</p>
 					<p class="showcase-description">
-						<a href="/static_games/contrastbounce/cover.html">Play in browser</a>
-						<a href="/static_games/contrastbounce/cover.html" title="Play in browser">
+						<a href="/static_games/contrastbounce/cover.html" target="_blank">Play in browser</a>
+						<a href="/static_games/contrastbounce/cover.html" target="_blank" title="Play in browser">
 							<ComputerIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
 			</div> <!-- Contrast Bounce -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/01.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/02.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/03.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/04.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/batastrophe/05.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="commission-description">
+					<h2>Batastrophe</h2>
+					<p class="showcase-description">
+						A split-screen asymmetrical party game. Three players try to remove a rambunctious bat from their home while
+						the bat causes mayhem and breaks everything in its wake. Players take turns controlling the bat, competing
+						to do the most damage across four rounds.
+					</p>
+
+					<p class="showcase-description showcase-little-text">
+						Created as a
+						<a href="https://www.wpi.edu/project-based-learning/project-based-education/major-qualifying-project" target="_blank">Major Qualifying Project</a>
+						<span title="Batastrophe Paper (2020)">
+							<a href="/pdf/portfolio/Batastrophe.pdf" target="_blank">
+								<FileIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+						at <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
+					</p>
+				</div>
+			</div> <!-- Batastrophe -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/houseparty/board.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="commission-description">
+					<h2>House Party</h2>
+					<p class="showcase-description">
+						A cooperative game where 3-6 players are throwing a house party but it could get very
+						dangerous very fast. Players must navigate the house, escort guests, help them sober up, and send the
+						rowdy ones home to keep the party under control.
+					</p>
+					<p class="showcase-description">
+						<a href="https://www.thegamecrafter.com/games/house-party2" target="_blank">Available on The Game Crafter</a>
+					</p>
+					<p class="showcase-description showcase-little-text">
+						* This game depicts consumption of alcoholic beneverages.
+					</p>
+				</div>
+			</div> <!-- House Party -->
 			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -456,45 +531,13 @@ main {
 						moons from their opponents' orbits.
 					</p>
 					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/little-worlds">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/little-worlds" title="Download on itch.io">
+						<a href="https://aidanbuffum.itch.io/little-worlds" target="_blank">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/little-worlds" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
 			</div> <!-- Little Worlds -->
-			<div class="showcase">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/board.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="commission-description">
-					<h2>House Party</h2>
-					<p class="showcase-description">
-						A cooperative game where 3-6 players are throwing a house party but it could get very
-						dangerous very fast. Players must navigate the house, escort guests, help them sober up, and send the
-						rowdy ones home to keep the party under control.
-					</p>
-					<p class="showcase-description">
-						<a href="https://www.thegamecrafter.com/games/house-party2">Available on The Game Crafter</a>
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* This game depicts consumption of alcoholic beneverages.
-					</p>
-				</div>
-			</div> <!-- House Party -->
 			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -522,8 +565,8 @@ main {
 						opponents into the abyss and be the last one standing.
 					</p>
 					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/i-dig-it">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/i-dig-it" title="Download on itch.io">
+						<a href="https://aidanbuffum.itch.io/i-dig-it" target="_blank">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/i-dig-it" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
@@ -560,8 +603,8 @@ main {
 						to fight the evil robots in their way.
 					</p>
 					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/wizards-vs-robots">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" title="Download on itch.io">
+						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
@@ -595,8 +638,8 @@ main {
 						work. You have a face. Grab some coffee. Have some fun!
 					</p>
 					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/joe">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/joe" title="Download on itch.io">
+						<a href="https://aidanbuffum.itch.io/joe" target="_blank">Available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/joe" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
@@ -630,8 +673,8 @@ main {
 						them with the stingers of their fallen! Kill as many bees as possible to earn the ultimate high score!
 					</p>
 					<p class="showcase-description">
-						<a href="https://erikcerini.itch.io/murder-bee-wrote">Available on itch.io</a>
-						<a href="https://erikcerini.itch.io/murder-bee-wrote" title="Download on itch.io">
+						<a href="https://erikcerini.itch.io/murder-bee-wrote" target="_blank">Available on itch.io</a>
+						<a href="https://erikcerini.itch.io/murder-bee-wrote" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
@@ -659,8 +702,8 @@ main {
 						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
 					</p>
 					<p class="showcase-description showcase-little-text">
-						<a href="https://aidanbuffum.itch.io/take-a-breather">Early demo build available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/take-a-breather" title="Download on itch.io">
+						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank">Early demo build available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank" title="Download on itch.io">
 							<DownloadIcon class="filtered showcase-little-text-icon"/>
 						</a>
 					</p>
@@ -689,7 +732,7 @@ main {
 				<div class="commission-description">
 					<h2>Quilt Generation for Computer Science Education</h2>
 					<p class="showcase-description">
-						As part of the <a href="https://www.code-crafters.org/">Code Crafters</a> project
+						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
 					</p>
 					<p class="showcase-description">
 						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
@@ -697,12 +740,12 @@ main {
 					</p>
 					<p class="showcase-description" id="readMore-QGfCSE1" style="display:none">
 						The first prototype was an evolution-based generator using Java and
-						<a href="https://processing.org/">Processing</a>. This prototype generates a number of quilts as
+						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates a number of quilts as
 						parameterized by the user and after a configured number of generations, presents the most fit patterns to
 						the user.
 					</p>
 					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
-						The second prototype was a live web-based editor using JavaScript and <a href="https://p5js.org/">p5.js</a>.
+						The second prototype was a live web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>.
 						This prototype provides the user a more code-like interface to begin editing or define patterns entirely
 						within the text fields of the editor. The structure of the editor encourages user manipulation of the text
 						data. Fabric colors are used as a mechanism to represent computer variables while doing so in a way that

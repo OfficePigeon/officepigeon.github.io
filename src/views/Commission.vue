@@ -93,7 +93,7 @@ export default {
 						<li>Static emotes delivered as .png files</li>
 						<li>Animated emotes delivered as .png, .gif, and .webp files</li>
 						<li>Canvas Size 1200 x 1200px</li>
-						<li>Using bases by <a href="https://ko-fi.com/takiimikiku">Loumon (@takiimikiku)</a></li>
+						<li>Using bases by <a href="https://ko-fi.com/takiimikiku" target="_blank">Loumon (@takiimikiku)</a></li>
 					</ul>
 				</div>
 			</div> <!-- Emotes -->
@@ -221,7 +221,7 @@ export default {
 							</ul>
 						</li>
 						<li>Canvas Size 1200 x 1200px</li>
-						<li>Using base by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
+						<li>Using base by <a href="https://ko-fi.com/mrcactus3" target="_blank">Mr-cactus</a></li>
 					</ul>
 				</div>
 			</div> <!-- Huggin' Reactives -->
@@ -259,7 +259,7 @@ export default {
 							</ul>
 						</li>
 						<li>Canvas Size 1200 x 1200px</li>
-						<li>Using bases by <a href="https://ko-fi.com/mrcactus3">Mr-cactus</a></li>
+						<li>Using bases by <a href="https://ko-fi.com/mrcactus3" target="_blank">Mr-cactus</a></li>
 					</ul>
 				</div>
 			</div> <!-- Floofy Reactives -->
@@ -337,7 +337,7 @@ export default {
 						<li>Base Price: $20 USD
 							<ul>
 								<li>+$5 for custom Cape / Elytra</li>
-								<li>+$5 for <a href="https://ears.y2k.my/">Ears Mod</a> features</li>
+								<li>+$5 for <a href="https://ears.y2k.my/" target="_blank">Ears Mod</a> features</li>
 							</ul>
 						</li>
 						<li>Delivered as .png file</li>
@@ -400,7 +400,7 @@ export default {
 						</li>
 						<li>Delivered as
 							<ul>
-								<li>1 .bbmodel file for <a href="https://www.blockbench.net/">Blockbench</a></li>
+								<li>1 .bbmodel file for <a href="https://www.blockbench.net/" target="_blank">Blockbench</a></li>
 								<li>1 .png texture file</li>
 							</ul>
 						</li>
