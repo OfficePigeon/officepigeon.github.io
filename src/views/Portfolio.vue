@@ -119,7 +119,7 @@ main {
 						by <a href="https://www.mitre.org/" target="_blank">The MITRE Corporation</a>
 					</p>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Now We're Talking!</h2>
 					<p class="showcase-description">
 						A game simulating a two-person interaction with a virtual character representing the player's partner whom
@@ -136,7 +136,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Keeping Up With The Smiths</h2>
 					<p class="showcase-description">
 						A life-simulation game where the players make financial choices over several in-game years to have the best
@@ -171,7 +171,7 @@ main {
 						</span>
 					</p>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Loki's Marauders</h2>
 					<p class="showcase-description">
 						An educational game where players take on the role of one of four monster viking captains. Players learn to
@@ -201,7 +201,7 @@ main {
 						<a href="http://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
 					</p>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>TimeQuake Escape!</h2>
 					<p class="showcase-description">
 						A guided census survey experiment aimed to identify whether a gamified experience with ongoing feedback can
@@ -221,7 +221,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Workplace Violence Scenarios</h2>
 					<p class="showcase-description">
 						A set of interactive simulations for behavioral experimentation. Players are tasked with identifying warning signs
@@ -238,7 +238,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Interview Simulation Exercise</h2>
 					<p class="showcase-description">
 						Players interview several candidates for a position and enter into a guided dialogue with their
@@ -255,7 +255,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Agile Tactics</h2>
 					<p class="showcase-description">
 						A multi-episode interactive training story game allowing users to test their knowledge of DevOps and Agile
@@ -292,7 +292,7 @@ main {
 						by <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
 					</p>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Dollar Domination</h2>
 					<p class="showcase-description">
 						A Monopoly-style board game designed to acknowledge the original theme of Elizabeth Magie's
@@ -321,7 +321,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Robo Race</h2>
 					<p class="showcase-description">
 						An educational strategy game designed to teach and reinforce logical and critical thinking
@@ -354,7 +354,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Umbra</h2>
 					<p class="showcase-description">
 						An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an
@@ -388,7 +388,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Contrast Bounce</h2>
 					<p class="showcase-description">
 						An abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal. Contrast
@@ -425,7 +425,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Batastrophe</h2>
 					<p class="showcase-description">
 						A split-screen asymmetrical party game. Three players try to remove a rambunctious bat from their home while
@@ -462,7 +462,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>House Party</h2>
 					<p class="showcase-description">
 						A cooperative game where 3-6 players are throwing a house party but it could get very
@@ -497,7 +497,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>ExChange The World</h2>
 					<p class="showcase-description">
 						A physics-based puzzle game in which the player must solve a variety of everyday problems by swapping the
@@ -523,7 +523,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Little Worlds</h2>
 					<p class="showcase-description">
 						A competitive party game where 2-4 players race to build the largest celestial body they can. With
@@ -558,7 +558,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>I Dig It</h2>
 					<p class="showcase-description">
 						A fast-paced, local muliplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their
@@ -595,7 +595,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Wizards vs. Robots</h2>
 					<p class="showcase-description">
 						An action platformer game about a wizard destroying robots. The player can switch between 3 different
@@ -630,7 +630,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Joe</h2>
 					<p class="showcase-description">
 						A short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your
@@ -665,7 +665,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Murder Bee Wrote</h2>
 					<p class="showcase-description">
 						An infinite platform running game where the player controls a murderer who has switched places with a
@@ -694,7 +694,7 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Take A Breather</h2>
 					<p class="showcase-description">
 						A slapstick puzzle game in which the player controls escaped animals from the aquarium trying to get back to
@@ -712,25 +712,25 @@ main {
 		</div>
 		<h1 id="NonGameProjects">Non-Game Projects</h1>
 		<div class="showcase-group">
-			<div class="showcase">
+			<div class="showcase" style="width:868px">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
+							<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
+							<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
+							<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
+							<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
-					<h2>Quilt Generation for Computer Science Education</h2>
+				<div class="showcase-description-section">
+					<h2>Quilt Generation for<br>Computer Science Education</h2>
 					<p class="showcase-description">
 						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
 					</p>
@@ -738,22 +738,17 @@ main {
 						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
 						traditional textile crafts but not programming.
 					</p>
-					<p class="showcase-description" id="readMore-QGfCSE1" style="display:none">
-						The first prototype was an evolution-based generator using Java and
+					<p class="showcase-description">
+						The first is an evolution-based generator using Java and
 						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates a number of quilts as
 						parameterized by the user and after a configured number of generations, presents the most fit patterns to
 						the user.
 					</p>
-					<p class="showcase-description" id="readMore-QGfCSE2" style="display:none">
-						The second prototype was a live web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>.
-						This prototype provides the user a more code-like interface to begin editing or define patterns entirely
-						within the text fields of the editor. The structure of the editor encourages user manipulation of the text
-						data. Fabric colors are used as a mechanism to represent computer variables while doing so in a way that
-						many experienced quilters may already understand.
+					<p class="showcase-description">
+						The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
+						code-like interface, this prototype encourages users to edit and define patterns with text in the editor.
+						Fabric colors are used analogously to computer variables in a way that may be easier to understand.
 					</p>
-					<div class="showcase-read-more">
-						<button id="readMore-QGfCSE" v-on:click="ToggleReadMore('readMore-QGfCSE', 1, 2)">Read More</button>
-					</div>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
 			<div class="showcase">
@@ -779,8 +774,8 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
-					<h2>Mario Level Generator<br>and Quilt Renderer</h2>
+				<div class="showcase-description-section">
+					<h2>Mario Level Generator and Quilt Renderer</h2>
 					<p class="showcase-description">
 						A system for generating playable Mario levels, evaluating their playability and platforming challenge,
 						and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
@@ -788,6 +783,71 @@ main {
 					</p>
 				</div>
 			</div> <!-- Mario Level Generator and Quilt Renderer -->
+		</div>
+		<h1 id="OtherTechnicalProjects">Other Technical Projects</h1>
+		<div class="showcase-group">
+			<div class="showcase" style="width:868px">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A virtual car generating camera feeds in a simulated environment" class="slide" src="@/assets/img/portfolio/airsim/car1.png">
+						</swiper-slide>
+					</swiper>
+					<p class="showcase-description showcase-little-text">
+						* Image pulled from Microsoft's
+						<a href="https://www.microsoft.com/en-us/research/blog/autonomous-car-research/" target="_blank">blog post</a>
+						about a 2017 update to the AirSim tool
+					</p>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Synthetic Training Data Generation for Autonomous Vehicle Recognition Systems</h2>
+					<p class="showcase-description">
+						A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
+						tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
+						Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
+						conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
+						annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
+						labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
+						ground navigation.
+					</p>
+				</div>
+			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A multirotor drone flying over a virtual city" class="slide" src="@/assets/img/portfolio/airsim/drone.png">
+						</swiper-slide>
+					</swiper>
+					<p class="showcase-description showcase-little-text">
+						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum (2026)</a>
+					</p>
+					<p class="showcase-description showcase-little-text">
+						* Image pulled from Epic Games'
+						<a href="https://www.unrealengine.com/en-US/spotlights/microsoft-project-airsim-accelerates-autonomous-flight-with-unreal-engine" target="_blank">coverage</a>
+						of the AirSim tool for Unreal Engine
+					</p>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
+					<p class="showcase-description">
+						A digital twin architecture built on top of the
+						<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> tool for simulating large sets of
+						small UAS in real time alongside physical platforms to facilitate training and efficacy evaluation of
+						autonomous collision avoidance systems.
+					</p>
+				</div>
+			</div> <!-- Digital Twins for Collision Avoidance -->
+			<div class="showcase" style="width:252px">
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Network Stability Monitor Dashboard</h2>
+					<p class="showcase-description">
+						A web-based dashboard for visualizing real time network stability information in an interactive graph. Users
+						can navigate a core network and connected systems down to the component level to understand the health,
+						operating states, and underlying structures of the systems under examination.
+					</p>
+				</div>
+			</div> <!-- Network Stability Monitor Dashboard -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">

@@ -81,7 +81,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Emotes</h2>
 					<ul>
 						<li>Base price: $25 USD
@@ -151,7 +151,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Helltaker-Inspired Dancing Sprites</h2>
 					<ul>
 						<li>Base price: $40 USD</li>
@@ -209,7 +209,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Huggin' Reactives</h2>
 					<ul>
 						<li>Base price: $25 USD</li>
@@ -247,7 +247,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Floofy Reactives</h2>
 					<ul>
 						<li>Base price: $15 USD</li>
@@ -331,7 +331,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description minecraft-font">
+				<div class="showcase-description-section minecraft-font">
 					<h2>Minecraft Skins</h2>
 					<ul>
 						<li>Base Price: $20 USD
@@ -389,7 +389,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description minecraft-font">
+				<div class="showcase-description-section minecraft-font">
 					<h2 style="font-size:20px">Minecraft-Inspired Creature Models</h2>
 					<ul>
 						<li>Base Price: $20 USD
@@ -423,7 +423,7 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>PNGTuber / Reactive Images</h2>
 					<ul>
 						<li>Price depends on complexity
@@ -437,7 +437,7 @@ export default {
 				</div>
 			</div> <!-- PNGTuber / Reactive Images -->
 			<div class="showcase">
-				<div class="commission-description">
+				<div class="showcase-description-section">
 					<h2>Literally Anything Else</h2>
 					<ul>
 						<li>Price depends on complexity
