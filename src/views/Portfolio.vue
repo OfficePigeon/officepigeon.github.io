@@ -820,7 +820,7 @@ main {
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
-						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum (2026)</a>
+						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum</a>
 					</p>
 					<p class="showcase-description showcase-little-text">
 						* Image pulled from Epic Games'
@@ -838,16 +838,6 @@ main {
 					</p>
 				</div>
 			</div> <!-- Digital Twins for Collision Avoidance -->
-			<div class="showcase" style="width:252px">
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Network Stability Monitor Dashboard</h2>
-					<p class="showcase-description">
-						A web-based dashboard for visualizing real time network stability information in an interactive graph. Users
-						can navigate a core network and connected systems down to the component level to understand the health,
-						operating states, and underlying structures of the systems under examination.
-					</p>
-				</div>
-			</div> <!-- Network Stability Monitor Dashboard -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">
