@@ -240,6 +240,11 @@ h2 {
 	border: 8px solid;
 	border-color: var(--gray);
 	border-radius: 16px;
+	position:relative;
+}
+.art-showcase .showcase-gallery {
+	position: absolute;
+	bottom: 16px;
 }
 .showcase {
 	min-height: 360px;

@@ -42,39 +42,39 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_dovewich.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_dovewich.gif">
-								<img alt="A grid of cartoon emotes of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/showcase_dovewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/emote/showcase_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_dovewich.gif">
+								<img alt="A grid of cartoon emotes of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_dovewich.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_Venrir.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_Venrir.gif">
-								<img alt="A pair of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/showcase_Venrir.png">
+								<source type="image/webp" srcset="@/assets/img/art/emote/showcase_Venrir.webp">
+								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_Venrir.gif">
+								<img alt="A pair of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_Venrir.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/emote/showcase_SinnaVT.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/emote/showcase_SinnaVT.gif">
-								<img alt="A pair of cartoon emotes of the SinnaVT vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/showcase_SinnaVT.png">
+								<source type="image/webp" srcset="@/assets/img/art/emote/showcase_SinnaVT.webp">
+								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_SinnaVT.gif">
+								<img alt="A pair of cartoon emotes of the SinnaVT vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_SinnaVT.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A cartoon emote of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/laugh_AngelHunnyBunn.png">
+							<img alt="A cartoon emote of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/laugh_AngelHunnyBunn.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/bleh_Kriber.png">
+							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/bleh_Kriber.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/smash_SintheticSkull.png">
+							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/smash_SintheticSkull.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A cartoon emote of the DajzaDj vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/wifeless_DajzaDj.png">
+							<img alt="A cartoon emote of the DajzaDj vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/wifeless_DajzaDj.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A cartoon emote of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/commission/emote/dead_Beanie_Birrd.png">
+							<img alt="A cartoon emote of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/dead_Beanie_Birrd.png">
 						</swiper-slide>
 						<swiper-slide>
 							<img alt="An illustration of the base used for the commission" class="slide" src="@/assets/img/commission/emote/Emote%20Bases%20by%20Loumon.png">
@@ -102,51 +102,51 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_dovewich.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_dovewich.gif">
-								<img alt="A helltaker dancing animation of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_dovewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_dovewich.gif">
+								<img alt="A helltaker dancing animation of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_dovewich.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.gif">
-								<img alt="A helltaker dancing animation of the RinaPumpkin vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_RinaPumpkin.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_RinaPumpkin.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_RinaPumpkin.gif">
+								<img alt="A helltaker dancing animation of the RinaPumpkin vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_RinaPumpkin.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_Cwstal.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_Cwstal.gif">
-								<img alt="A helltaker dancing animation of the Cwstal vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Cwstal.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_Cwstal.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_Cwstal.gif">
+								<img alt="A helltaker dancing animation of the Cwstal vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_Cwstal.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_LilineraCh.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_LilineraCh.gif">
-								<img alt="A helltaker dancing animation of the LilineraCh vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_LilineraCh.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_LilineraCh.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_LilineraCh.gif">
+								<img alt="A helltaker dancing animation of the LilineraCh vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_LilineraCh.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.gif">
-								<img alt="A helltaker dancing animation of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_Beanie_Birrd.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_Beanie_Birrd.gif">
+								<img alt="A helltaker dancing animation of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_Beanie_Birrd.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_ArchieBird.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_ArchieBird.gif">
-								<img alt="A helltaker dancing animation of the ArchieBird vtuber character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ArchieBird.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_ArchieBird.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_ArchieBird.gif">
+								<img alt="A helltaker dancing animation of the ArchieBird vtuber character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_ArchieBird.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/helltaker/helltaker_ych.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/helltaker/helltaker_ych.gif">
-								<img alt="A helltaker dancing animation of the a generic gray character" class="slide no-save-img" src="@/assets/img/commission/helltaker/helltaker_ych.png">
+								<source type="image/webp" srcset="@/assets/img/art/helltaker/helltaker_ych.webp">
+								<source type="image/gif" srcset="@/assets/img/art/helltaker/helltaker_ych.gif">
+								<img alt="A helltaker dancing animation of the a generic gray character" class="slide no-save-img" src="@/assets/img/art/helltaker/helltaker_ych.png">
 							</picture>
 						</swiper-slide>
 					</swiper>
@@ -171,37 +171,37 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_dovewich.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_dovewich.gif">
-								<img alt="A cartoon drawing of the dovewich vtuber character hugging a pigeon" class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_dovewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_dovewich.gif">
+								<img alt="A cartoon drawing of the dovewich vtuber character hugging a pigeon" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_dovewich.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.gif">
-								<img alt="A cartoon drawing of the AngelHunnyBunn vtuber character hugging a pink bat" class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_AngelHunnyBunn.png">
+								<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_AngelHunnyBunn.webp">
+								<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_AngelHunnyBunn.gif">
+								<img alt="A cartoon drawing of the AngelHunnyBunn vtuber character hugging a pink bat" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_AngelHunnyBunn.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_SintheticSkull.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_SintheticSkull.gif">
-								<img alt="A cartoon drawing of the SintheticSkull vtuber character hugging a wolf" class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_SintheticSkull.png">
+								<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_SintheticSkull.webp">
+								<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_SintheticSkull.gif">
+								<img alt="A cartoon drawing of the SintheticSkull vtuber character hugging a wolf" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_SintheticSkull.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.gif">
-								<img alt="A cartoon drawing of the BeanieAviyum vtuber character hugging a cow" class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd2.png">
+								<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_Beanie_Birrd2.webp">
+								<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_Beanie_Birrd2.gif">
+								<img alt="A cartoon drawing of the BeanieAviyum vtuber character hugging a cow" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_Beanie_Birrd2.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/huggin/huggin_Beanie_Birrd.gif">
-								<img alt="A cartoon drawing of the Beanie_Birrd vtuber character hugging a duck" class="slide no-save-img" src="@/assets/img/commission/huggin/huggin_Beanie_Birrd.png">
+								<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_Beanie_Birrd.gif">
+								<img alt="A cartoon drawing of the Beanie_Birrd vtuber character hugging a duck" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_Beanie_Birrd.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
@@ -230,16 +230,16 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/floofy/floofy_dovewich.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/floofy/floofy_dovewich.gif">
-								<img alt="A cartoon drawing of the dovewich vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_dovewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_dovewich.gif">
+								<img alt="A cartoon drawing of the dovewich vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_dovewich.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/floofy/floofy_mousewich.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/floofy/floofy_mousewich.gif">
-								<img alt="A cartoon drawing of the mousewich vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/commission/floofy/floofy_mousewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_mousewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_mousewich.gif">
+								<img alt="A cartoon drawing of the mousewich vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_mousewich.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
@@ -426,9 +426,9 @@ export default {
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.webp">
-								<source type="image/gif" srcset="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.gif">
-								<img alt="An animated talking sprite of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/commission/pngtuber/pngtuber_Beanie_Birrd.png">
+								<source type="image/webp" srcset="@/assets/img/art/pngtuber/pngtuber_Beanie_Birrd.webp">
+								<source type="image/gif" srcset="@/assets/img/art/pngtuber/pngtuber_Beanie_Birrd.gif">
+								<img alt="An animated talking sprite of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/art/pngtuber/pngtuber_Beanie_Birrd.png">
 							</picture>
 						</swiper-slide>
 					</swiper>
