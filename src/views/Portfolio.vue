@@ -649,6 +649,35 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="A screaming cartoon shark and the text Take A Breather By Aidan Buffum" class="slide" src="@/assets/img/portfolio/takeabreather/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A shark flopping down a hill with water bottles raining down around it" class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A stingray in a top hat on a crosswalk" class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_2.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Take A Breather</h2>
+					<p class="showcase-description">
+						A slapstick puzzle game in which the player controls escaped animals from the aquarium trying to get back to
+						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
+						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
+					</p>
+					<p class="showcase-description showcase-little-text">
+						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank">Early demo build available on itch.io</a>
+						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank" title="Download on itch.io">
+							<DownloadIcon class="filtered showcase-little-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Take A Breather -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="A title screen with the text Murder Bee Wrote" class="slide" src="@/assets/img/portfolio/murderbeewrote/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
@@ -684,31 +713,25 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A screaming cartoon shark and the text Take A Breather By Aidan Buffum" class="slide" src="@/assets/img/portfolio/takeabreather/cover.png">
+							<img alt="A title screen with a crab and bright text hyping its dancing ability" class="slide" src="@/assets/img/portfolio/crabdabrevolution/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A shark flopping down a hill with water bottles raining down around it" class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_1.png">
+							<img alt="A crab-themed rhythm game" class="slide" src="@/assets/img/portfolio/crabdabrevolution/gameplay.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A stingray in a top hat on a crosswalk" class="slide" src="@/assets/img/portfolio/takeabreather/screenshot_2.png">
+							<img alt="A loss screen with a distraught crab and bright messages shaming the player" class="slide" src="@/assets/img/portfolio/crabdabrevolution/loss_screen.png">
 						</swiper-slide>
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2>Take A Breather</h2>
+					<h2>Crab-Dab Revolution</h2>
 					<p class="showcase-description">
-						A slapstick puzzle game in which the player controls escaped animals from the aquarium trying to get back to
-						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
-						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
-					</p>
-					<p class="showcase-description showcase-little-text">
-						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank">Early demo build available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-little-text-icon"/>
-						</a>
+						A nonsensical parody rhythm game about crabs dabbing and dancing to absurd beats. The game features
+						hand-animated dancing crabs, a fearsome lobster boss, and a single meme song manually lovingly calibrated
+						for an almost-completable game.
 					</p>
 				</div>
-			</div> <!-- Take A Breather -->
+			</div> <!-- Crab-Dab Revolution -->
 		</div>
 		<h1 id="OtherTechnicalProjects">Other Technical Projects</h1>
 		<div class="showcase-group">
