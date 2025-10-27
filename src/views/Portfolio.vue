@@ -90,16 +90,16 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
+							<img alt="A screenshot of the Now We're Talking! game" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_1.png">
+							<img alt="A screenshot of a Now We're Talking! level introduction screen" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_2.png">
+							<img alt="A screenshot of the Now We're Talking! episode selection screen" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
+							<img alt="A screenshot of the Now We're Talking! character customization screen" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
@@ -132,7 +132,7 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
+							<img alt="A screenshot of the Keeping Up With The Smiths game" class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -150,16 +150,16 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
+							<img alt="A screenshot of the Loki's Marauders game" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_4.png">
+							<img alt="A screenshot of a Loki's Marauders tutorial screen" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_4.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_8.png">
+							<img alt="A screenshot of a Loki's Marauders tutorial screen" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_8.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
+							<img alt="A screenshot of a Loki's Marauders event screen" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
@@ -184,10 +184,10 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
+							<img alt="A screenshot of the TimeQuake Escape! game" class="slide" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
+							<img alt="A screenshot of the TimeQuake Escape! introduction screen" class="slide" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
@@ -217,7 +217,7 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
+							<img alt="A screenshot of the workplace violence scenarios game" class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -234,7 +234,7 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
+							<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -251,7 +251,7 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
+							<img alt="A screenshot of the Agile Tactics game" class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -269,16 +269,16 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
+							<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
+							<img alt="A photo of the components for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/dollardomination/industries.png">
+							<img alt="A showcase of the industries in the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/industries.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
+							<img alt="A photo showing games being presented to Games for Change attendees" class="slide" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
 						</swiper-slide>
 					</swiper>
 					<p class="showcase-description showcase-little-text">
@@ -305,19 +305,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/roborace/cover.png">
+							<img alt="The cover design for the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/roborace/componentsSpread.png">
+							<img alt="A photo of the components for the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/componentsSpread.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/roborace/robotrace1.png">
+							<img alt="A photo of the Robo Race game board during play" class="slide" src="@/assets/img/portfolio/roborace/robotrace1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/roborace/playSession.png">
+							<img alt="A photo of an adult playing the Robo Race game with a young child" class="slide" src="@/assets/img/portfolio/roborace/playSession.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/roborace/robotrace2.png">
+							<img alt="A photo of several adults playing the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/robotrace2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
