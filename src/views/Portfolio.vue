@@ -865,21 +865,21 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="@/assets/img/portfolio/minecraftpouchesmod/pouches_screenshot_0.png">
+							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="@/assets/img/portfolio/minecraftpouchesmod/pouches_screenshot_1.png">
+							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded filled pouch item labeled Pouch of Chicken" class="slide" src="@/assets/img/portfolio/minecraftpouchesmod/pouches_screenshot_2.png">
+							<img alt="A minecraft player holding a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft inventory screen showing a modded filled pouch item labeled Pouch of Chicken" class="slide" src="@/assets/img/portfolio/minecraftpouchesmod/pouches_screenshot_3.png">
+							<img alt="A minecraft inventory screen showing a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft: Mob Pouches</h2>
+					<h2 style="font-size:23px">Minecraft:<br>Mob Pouches</h2>
 					<p class="showcase-description">
 						A simple mod enabling players to pick up and carry creatures similar to the equivalent mechanic in the base
 						game for the transport of fish. The mod can be flexibly configured to support any subset of the game's
@@ -893,6 +893,44 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Mob Pouches -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at a baby piglin" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player holding a gold ingot item while looking at a baby piglin" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at a baby piglin inspecting gold" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_2.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold and an iron ingot dropped by a baby piglin running away" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_3.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at string dropped by a baby piglin after bartering" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_4.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
+					<p class="showcase-description">
+						A simple mod to let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is
+						controlled by using a configurable loot table system in line with the game's base implementation and
+						bartering behavior for adult piglins.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Barter With Babies -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">
