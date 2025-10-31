@@ -1170,6 +1170,42 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Minecraft Skins -->
+			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<h2 style="font-size:20px">3D Character Models</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">3D Modeling</div>
+					<div class="showcase-tag">Media-Inspired</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/misc_model/model_prince.gltf"
+														poster="/3d/misc_model/model_prince.png"
+														alt="A 3D model of the Prince character from the Katamari series"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- 3D Character Models -->
+			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<h2 style="font-size:20px">Animal Crossing-Inspired<br>Villager Model</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">3D Modeling</div>
+					<div class="showcase-tag">Media-Inspired</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/misc_model/model_animal_crossing_pigeon.glb"
+														poster="/3d/misc_model/model_animal_crossing_pigeon.png"
+														alt="A 3D model of a pigeon villager in the Animal Crossing style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- Animal Crossing-Inspired Villager Model -->
 			<div class="art-showcase">
 				<h2>Character Talk Sprites</h2>
 				<div class="showcase-tags">
