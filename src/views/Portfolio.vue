@@ -897,6 +897,40 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters with the text Zombie Villager Variants" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft zombie villager modified to look like the drowned monster" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft zombie villager modified to look like the husk monster" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_2.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_3.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Zombie Villager Variants</h2>
+					<p class="showcase-description">
+						A mod adding extra variants to Minecraft's Zombie Villager monster to match the Drowned and Husk
+						versions of the zombie.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Zombie Villager Variants -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
