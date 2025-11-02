@@ -953,9 +953,9 @@ main {
 				<div class="showcase-description-section">
 					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
 					<p class="showcase-description">
-						A simple mod to let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is
-						controlled by using a configurable loot table system in line with the game's base implementation and
-						bartering behavior for adult piglins.
+						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
+						configurable loot table system in line with the game's base implementation and bartering behavior for adult
+						piglins.
 					</p>
 					<p class="showcase-description">
 						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
