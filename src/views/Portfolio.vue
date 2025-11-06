@@ -861,20 +861,20 @@ main {
 		</div>
 		<h1 id="GameMods">Game Mods</h1>
 		<div class="showcase-group">
-			<div class="showcase">
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_0.png">
+							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_1.png">
+							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player holding a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_2.png">
+							<img alt="A minecraft player holding a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft inventory screen showing a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/portfolio/minecraftpouchesmod/screenshot_3.png">
+							<img alt="A minecraft inventory screen showing a modded filled pouch item labeled Pouch of Chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -893,23 +893,23 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Mob Pouches -->
-			<div class="showcase">
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters with the text Zombie Villager Variants" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/cover.png">
+							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters with the text Zombie Villager Variants" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_0.png">
+							<img alt="A pair of minecraft zombie villagers modified to look like the drowned and husk monsters" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft zombie villager modified to look like the drowned monster" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_1.png">
+							<img alt="A minecraft zombie villager modified to look like the drowned monster" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft zombie villager modified to look like the husk monster" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_2.png">
+							<img alt="A minecraft zombie villager modified to look like the husk monster" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/portfolio/minecraftzombievillagervariantsmod/screenshot_3.png">
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -927,26 +927,54 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Zombie Villager Variants -->
-			<div class="showcase">
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/cover.png">
+							<img alt="A bucket of axolotl marked as leucistic with a chat message from the axolotl saying That's me!" class="slide" src="../assets/img/mods/minecraftentitytooltipsmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player with gold looking at a baby piglin" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_0.png">
+							<img alt="A minecraft player examining a bucket of axolotl marked as leucistic in their inventory" class="slide" src="../assets/img/mods/minecraftentitytooltipsmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player holding a gold ingot item while looking at a baby piglin" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_1.png">
+							<img alt="A minecraft player examining an invisible item frame in their inventory" class="slide" src="../assets/img/mods/minecraftentitytooltipsmod/screenshot_1.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Entity Item Tooltips</h2>
+					<p class="showcase-description">
+						A fully client-side mod that adds extra information to the user interface tooltips for items that can be
+						used to create new entities in the world.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Entity Item Tooltips -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player with gold looking at a baby piglin inspecting gold" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_2.png">
+							<img alt="A minecraft player with gold looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player with gold and an iron ingot dropped by a baby piglin running away" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_3.png">
+							<img alt="A minecraft player holding a gold ingot item while looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player with gold looking at string dropped by a baby piglin after bartering" class="slide" src="../assets/img/portfolio/minecraftbabybarteringmod/screenshot_4.png">
+							<img alt="A minecraft player with gold looking at a baby piglin inspecting gold" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_2.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold and an iron ingot dropped by a baby piglin running away" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_3.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at string dropped by a baby piglin after bartering" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>

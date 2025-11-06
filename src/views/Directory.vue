@@ -31,6 +31,7 @@ import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
 			<h2 class="bubbleHeader">On this Site</h2>
 			<RouterLink class="bubbleLink" to="/" title="Home"><span class="centered">Home</span></RouterLink>
 			<RouterLink class="bubbleLink" to="/commission" title="Commission"><span class="centered">Commissions</span></RouterLink>
+			<RouterLink class="bubbleLink" to="/mods" title="Game Mods"><span class="centered">Game Mods</span></RouterLink>
 			<h2 class="bubbleHeader">Utilities</h2>
 			<RouterLink class="bubbleLink" to="/discord-timestamps" title="Discord Timestamps"><span class="centered">Discord Timestamps</span></RouterLink>
 			<h2 class="bubbleHeader">Legal</h2>

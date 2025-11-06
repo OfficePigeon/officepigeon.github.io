@@ -41,19 +41,27 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 			<RouterLink id="site-header-home" to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
 			<RouterLink id="site-header-directory" to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
 			<RouterLink id="site-header-commission" to="/commission" @click="HideNavDropdown()" title="Commission" class="navButton">Commissions</RouterLink>
+			<RouterLink id="site-header-mods" to="/mods" @click="HideNavDropdown()" title="Game Mods" class="navButton">Game Mods</RouterLink>
 		</div>
 		<!-- Navbar Dropdown -->
 		<div ref="NavigationDropdown" class="navDropdown" id="site-header-nav-dropdown">
 			<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
 			<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
 			<div class="navSeparator">----------- Fun -----------</div>
+			<RouterLink to="/mods" @click="HideNavDropdown()" title="Game Mods" class="navButton">Game Mods</RouterLink>
+			<div class="navSeparator">--------- Utility ---------</div>
 			<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" title="Discord Timestamps" class="navButton">Discord Timestamps</RouterLink>
 		</div>
 	</div>
 </template>
 <style scoped>
-@media only screen and (max-width: 629px) {
+@media only screen and (max-width: 628px) {
 	#site-header-commission {
+		display: none;
+	}
+}
+@media only screen and (max-width: 803px) {
+	#site-header-mods {
 		display: none;
 	}
 }

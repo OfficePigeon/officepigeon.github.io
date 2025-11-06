@@ -13,11 +13,13 @@ import NotFound from '@/views/NotFound.vue';
 import Directory from "@/views/Directory.vue";
 import Attributions from "@/views/Attributions.vue";
 import Portfolio from "@/views/Portfolio.vue";
+import Mods from "@/views/Mods.vue";
 
 const routes = [
 	{ path: '/', component: Home, meta: { title: 'Home - wich.fun' }  },
 	{ path: '/attributions', component: Attributions, meta: { title: 'Attributions - wich.fun' } },
 	{ path: '/commission', component: Commission, meta: { title: 'Comissions - wich.fun' } },
+	{ path: '/mods', component: Mods, meta: { title: 'Mods - wich.fun' } },
 	{ path: '/portfolio/aidan-buffum', component: Portfolio, meta: { title: 'Portfolio - Aidan Buffum' } },
 	{ path: '/directory', component: Directory, meta: { title: 'Directory - wich.fun' } },
 	{ path: '/discord-timestamps', component: DiscordTimestamps, meta: { title: 'Discord Timestamps - wich.fun' } },
