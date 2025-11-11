@@ -184,6 +184,31 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of three minecraft skeleton skulls with coral growing out of them and the text Sunken Skeletons" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="Three minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
+					<p class="showcase-description">
+						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
+						have configurable spawning conditions and multiple variants.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Sunken Skeletons -->
 		</div>
 	</div>
 </template>

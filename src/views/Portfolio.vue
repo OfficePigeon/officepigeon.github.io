@@ -338,19 +338,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="/static_games/umbra/cover.png">
+							<img alt="The Umbra title screen featuring a dark ball on the ground" class="slide" src="/static_games/umbra/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_1.png">
+							<img alt="A screenshot of one of the puzzles in Umbra" class="slide" src="@/assets/img/portfolio/umbra/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_2.png">
+							<img alt="A screenshot of one of the puzzles in Umbra" class="slide" src="@/assets/img/portfolio/umbra/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_3.png">
+							<img alt="A screenshot of one of the puzzles in Umbra" class="slide" src="@/assets/img/portfolio/umbra/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/umbra/screenshot_4.png">
+							<img alt="A screenshot of one of the puzzles in Umbra" class="slide" src="@/assets/img/portfolio/umbra/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -372,19 +372,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="/static_games/contrastbounce/cover.png">
+							<img alt="The Contrast Bounce title screen featuring black and white balls bouncing around" class="slide" src="/static_games/contrastbounce/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_1.png">
+							<img alt="A screenshot of one of the puzzles in Contrast Bounce" class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_2.png">
+							<img alt="A screenshot of one of the puzzles in Contrast Bounce" class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_3.png">
+							<img alt="A screenshot of one of the puzzles in Contrast Bounce" class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_4.png">
+							<img alt="A screenshot of one of the puzzles in Contrast Bounce" class="slide" src="@/assets/img/portfolio/contrastbounce/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -449,16 +449,16 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
+							<img alt="The cover of House Party. Several people are standing around a house while one of them spills a drink" class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/board.png">
+							<img alt="The game bord of House Party with a timeline and a map of the house" class="slide" src="@/assets/img/portfolio/houseparty/board.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
+							<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
+							<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -579,19 +579,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/titleSquare.png">
+							<img alt="A pixelated wizard sitting in grass with the text Wizards vs Robots" class="slide" src="@/assets/img/portfolio/wizardsvsrobots/titleSquare.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_1.png">
+							<img alt="A pixelated wizard shooting a fire ball at a robot" class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_4.png">
+							<img alt="A pixelated wizard in an icy cave with a red orb" class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_4.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_5.png">
+							<img alt="A pixelated wizard in the clouds surrounded by a ring of lightning" class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_5.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_8.png">
+							<img alt="A pixelated wizard fighting many robots in a volcano" class="slide" src="@/assets/img/portfolio/wizardsvsrobots/screenshot_8.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -1018,6 +1018,31 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of three minecraft skeleton skulls with coral growing out of them and the text Sunken Skeletons" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="Three minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
+					<p class="showcase-description">
+						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
+						have configurable spawning conditions and multiple variants.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Sunken Skeletons -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">
