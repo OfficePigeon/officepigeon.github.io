@@ -959,40 +959,28 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/cover.png">
+							<img alt="An icon of two mushroom chickens and the text Cluckshrooms" class="slide" src="../assets/img/mods/minecraftcluckshroomsmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft player with gold looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_0.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A minecraft player holding a gold ingot item while looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_1.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A minecraft player with gold looking at a baby piglin inspecting gold" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_2.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A minecraft player with gold and an iron ingot dropped by a baby piglin running away" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_3.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A minecraft player with gold looking at string dropped by a baby piglin after bartering" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_4.png">
+							<img alt="Two minecraft mushroom chickens standing in a mushroom field" class="slide" src="../assets/img/mods/minecraftcluckshroomsmod/screenshot_0.png">
 						</swiper-slide>
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
+					<h2 style="font-size:23px">Minecraft:<br>Cluckshrooms</h2>
 					<p class="showcase-description">
-						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
-						configurable loot table system in line with the game's base implementation and bartering behavior for adult
-						piglins.
+						Implements the Cluckshroom creature from the Minecraft Earth and Minecraft Dungeons spin-offs in Minecraft.
+						These mushroom chickens behave like a balanced blend of the chicken and mooshroom creatures from the base
+						game.
 					</p>
 					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
+						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
-			</div> <!-- Minecraft Barter With Babies -->
+			</div> <!-- Minecraft Cluckshrooms -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -1043,6 +1031,44 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Sunken Skeletons -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player holding a gold ingot item while looking at a baby piglin" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at a baby piglin inspecting gold" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_2.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold and an iron ingot dropped by a baby piglin running away" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_3.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft player with gold looking at string dropped by a baby piglin after bartering" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/screenshot_4.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
+					<p class="showcase-description">
+						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
+						configurable loot table system in line with the game's base implementation and bartering behavior for adult
+						piglins.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Barter With Babies -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">

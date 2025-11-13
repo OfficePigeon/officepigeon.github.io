@@ -125,6 +125,82 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="An icon of a minecraft chiseled bookshelf with the top decorations and book of an enchanting table and the text Chiseled Bookshelf Enchanting on the side" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="An active minecraft enchanting table surrounded by filled chiseled bookshelves" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
+					<p class="showcase-description">
+						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
+						the number of books necessary for each bookshelf to power the enchanting table.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of two mushroom chickens and the text Cluckshrooms" class="slide" src="../assets/img/mods/minecraftcluckshroomsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="Two minecraft mushroom chickens standing in a mushroom field" class="slide" src="../assets/img/mods/minecraftcluckshroomsmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Cluckshrooms</h2>
+					<p class="showcase-description">
+						Implements the Cluckshroom creature from the Minecraft Earth and Minecraft Dungeons spin-offs in Minecraft.
+						These mushroom chickens behave like a balanced blend of the chicken and mooshroom creatures from the base
+						game.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Cluckshrooms -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of three minecraft skeleton skulls with coral growing out of them and the text Sunken Skeletons" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="Three minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
+					<p class="showcase-description">
+						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
+						have configurable spawning conditions and multiple variants.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Sunken Skeletons -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="A close image of a baby piglin inspecting gold with the text Barter With Babies" class="slide" src="../assets/img/mods/minecraftbabybarteringmod/cover.png">
 						</swiper-slide>
 						<swiper-slide>
@@ -159,56 +235,6 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Barter With Babies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="An icon of a minecraft chiseled bookshelf with the top decorations and book of an enchanting table and the text Chiseled Bookshelf Enchanting on the side" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/cover.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="An active minecraft enchanting table surrounded by filled chiseled bookshelves" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/screenshot_0.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
-					<p class="showcase-description">
-						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
-						the number of books necessary for each bookshelf to power the enchanting table.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
-			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="An icon of three minecraft skeleton skulls with coral growing out of them and the text Sunken Skeletons" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/cover.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="Three minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_0.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
-					<p class="showcase-description">
-						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
-						have configurable spawning conditions and multiple variants.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
-			</div> <!-- Minecraft Sunken Skeletons -->
 		</div>
 	</div>
 </template>
