@@ -25,7 +25,7 @@ export default {
 
 <template>
 	<div style="min-width:700px;margin:auto">
-		<h1 id="GameMods">Game Mods</h1>
+		<h1 id="MinecraftMods" class="minecraft-font">Minecraft Mods</h1>
 		<div class="showcase-group">
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
@@ -235,6 +235,33 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Barter With Babies -->
+		</div>
+		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
+		<div class="showcase-group">
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A diagram of a minecraft sapling going into a furnace and a dead bush coming out" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft smelting screen showing a sapling as the input and a deadh bush as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Saplings to Dead Bushes</h2>
+					<p class="showcase-description">
+						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
 		</div>
 	</div>
 </template>
