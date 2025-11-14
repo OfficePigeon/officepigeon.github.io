@@ -1073,6 +1073,40 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="An icon of a minecraft pig covered in mud with a tulip on its head and the text Muddy Pigs" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pen full of minecraft pigs covered in mud" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pink minecraft pig covered in mud with a red tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_temperate.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A brown minecraft pig covered in mud with a pink tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_warm.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A beige minecraft pig covered in mud with an orange tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_cold.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Muddy Pigs</h2>
+					<p class="showcase-description">
+						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
+						pigs with new mechanics for bathing in mud and making a mess.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Muddy Pigs -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="A diagram of a minecraft sapling going into a furnace and a dead bush coming out" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/cover.png">
 						</swiper-slide>
 						<swiper-slide>
@@ -1335,7 +1369,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Minecraft Skins -->
-			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="art-showcase">
 				<h2 style="font-size:20px">3D Character Models</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
@@ -1353,7 +1387,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- 3D Character Models -->
-			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="art-showcase">
 				<h2 style="font-size:20px">Animal Crossing-Inspired<br>Villager Model</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
