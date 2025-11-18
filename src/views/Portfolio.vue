@@ -687,7 +687,7 @@ main {
 				<div class="showcase-description-section">
 					<h2>I Dig It</h2>
 					<p class="showcase-description">
-						A fast-paced, local muliplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their
+						A fast-paced, local multiplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their
 						opponents into the abyss and be the last one standing.
 					</p>
 					<p class="showcase-description">
