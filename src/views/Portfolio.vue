@@ -142,7 +142,7 @@ main {
 						A life-simulation game where the players make financial choices over several in-game years to have the best
 						home on their street. Players are presented with typical or file-free options for their taxes. The
 						experiment aims to measure whether typical players are more likely to report their taxes accurately with a
-						particular options.
+						particular option.
 					</p>
 				</div>
 			</div> <!-- Keeping Up With The Smiths -->
@@ -331,6 +331,132 @@ main {
 					</p>
 				</div>
 			</div> <!-- Robo Race -->
+		</div>
+		<h1 id="OtherTechnicalProjects">Other Technical Projects</h1>
+		<div class="showcase-group">
+			<div class="showcase" style="width:868px">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Quilt Generation for<br>Computer Science Education</h2>
+					<p class="showcase-description">
+						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
+					</p>
+					<p class="showcase-description">
+						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
+						traditional textile crafts but not programming.
+					</p>
+					<p class="showcase-description">
+						The first is an evolution-based generator using Java and
+						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates a number of quilts as
+						parameterized by the user and after a configured number of generations, presents the most fit patterns to
+						the user.
+					</p>
+					<p class="showcase-description">
+						The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
+						code-like interface, this prototype encourages users to edit and define patterns with text in the editor.
+						Fabric colors are used analogously to computer variables in a way that may be easier to understand.
+					</p>
+				</div>
+			</div> <!-- Quilt Generation for Computer Science Education -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A complex quilt pattern based on a mario level" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A mario level segmented by each tile with a bright grid" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/17.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/13.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/07.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/06.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Mario Level Generator and Quilt Renderer</h2>
+					<p class="showcase-description">
+						A system for generating playable Mario levels, evaluating their playability and platforming challenge,
+						and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
+						pattern.
+					</p>
+				</div>
+			</div> <!-- Mario Level Generator and Quilt Renderer -->
+			<div class="showcase" style="width:868px">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A virtual car generating camera feeds in a simulated environment" class="slide" src="@/assets/img/portfolio/airsim/car1.png">
+						</swiper-slide>
+					</swiper>
+					<p class="showcase-description showcase-little-text">
+						* Image from Microsoft's
+						<a href="https://www.microsoft.com/en-us/research/blog/autonomous-car-research/" target="_blank">blog post</a>
+						about a 2017 update to the AirSim tool
+					</p>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Synthetic Training Data Generation for Autonomous Vehicle Recognition Systems</h2>
+					<p class="showcase-description">
+						A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
+						tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
+						Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
+						conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
+						annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
+						labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
+						ground navigation.
+					</p>
+				</div>
+			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A multirotor drone flying over a virtual city" class="slide" src="@/assets/img/portfolio/airsim/drone.png">
+						</swiper-slide>
+					</swiper>
+					<p class="showcase-description showcase-little-text">
+						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum</a>
+					</p>
+					<p class="showcase-description showcase-little-text">
+						* Image from Epic Games'
+						<a href="https://www.unrealengine.com/en-US/spotlights/microsoft-project-airsim-accelerates-autonomous-flight-with-unreal-engine" target="_blank">coverage</a>
+						of the AirSim tool for Unreal Engine
+					</p>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
+					<p class="showcase-description">
+						A digital twin architecture built on top of the
+						<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> tool for simulating large sets of
+						small UAS in real time alongside physical platforms to facilitate training and efficacy evaluation of
+						autonomous collision avoidance systems.
+					</p>
+				</div>
+			</div> <!-- Digital Twins for Collision Avoidance -->
 		</div>
 		<h1 id="EntertainmentGames">Entertainment Games</h1>
 		<div class="showcase-group">
@@ -732,132 +858,6 @@ main {
 					</p>
 				</div>
 			</div> <!-- Crab-Dab Revolution -->
-		</div>
-		<h1 id="OtherTechnicalProjects">Other Technical Projects</h1>
-		<div class="showcase-group">
-			<div class="showcase" style="width:868px">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Quilt Generation for<br>Computer Science Education</h2>
-					<p class="showcase-description">
-						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
-					</p>
-					<p class="showcase-description">
-						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
-						traditional textile crafts but not programming.
-					</p>
-					<p class="showcase-description">
-						The first is an evolution-based generator using Java and
-						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates a number of quilts as
-						parameterized by the user and after a configured number of generations, presents the most fit patterns to
-						the user.
-					</p>
-					<p class="showcase-description">
-						The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
-						code-like interface, this prototype encourages users to edit and define patterns with text in the editor.
-						Fabric colors are used analogously to computer variables in a way that may be easier to understand.
-					</p>
-				</div>
-			</div> <!-- Quilt Generation for Computer Science Education -->
-			<div class="showcase">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A complex quilt pattern based on a mario level" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A mario level segmented by each tile with a bright grid" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/17.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/13.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/07.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/06.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Mario Level Generator and Quilt Renderer</h2>
-					<p class="showcase-description">
-						A system for generating playable Mario levels, evaluating their playability and platforming challenge,
-						and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
-						pattern.
-					</p>
-				</div>
-			</div> <!-- Mario Level Generator and Quilt Renderer -->
-			<div class="showcase" style="width:868px">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A virtual car generating camera feeds in a simulated environment" class="slide" src="@/assets/img/portfolio/airsim/car1.png">
-						</swiper-slide>
-					</swiper>
-					<p class="showcase-description showcase-little-text">
-						* Image from Microsoft's
-						<a href="https://www.microsoft.com/en-us/research/blog/autonomous-car-research/" target="_blank">blog post</a>
-						about a 2017 update to the AirSim tool
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Synthetic Training Data Generation for Autonomous Vehicle Recognition Systems</h2>
-					<p class="showcase-description">
-						A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
-						tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
-						Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
-						conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
-						annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
-						labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
-						ground navigation.
-					</p>
-				</div>
-			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
-			<div class="showcase">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A multirotor drone flying over a virtual city" class="slide" src="@/assets/img/portfolio/airsim/drone.png">
-						</swiper-slide>
-					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum</a>
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* Image from Epic Games'
-						<a href="https://www.unrealengine.com/en-US/spotlights/microsoft-project-airsim-accelerates-autonomous-flight-with-unreal-engine" target="_blank">coverage</a>
-						of the AirSim tool for Unreal Engine
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
-					<p class="showcase-description">
-						A digital twin architecture built on top of the
-						<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> tool for simulating large sets of
-						small UAS in real time alongside physical platforms to facilitate training and efficacy evaluation of
-						autonomous collision avoidance systems.
-					</p>
-				</div>
-			</div> <!-- Digital Twins for Collision Avoidance -->
 		</div>
 		<h1 id="GameMods">Game Mods</h1>
 		<div class="showcase-group">
