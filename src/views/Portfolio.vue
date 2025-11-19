@@ -47,6 +47,7 @@ export default {
 			removeById("site-header-home");
 			removeById("site-header-directory");
 			removeById("site-header-commission");
+			removeById("site-header-mods");
 			removeById("site-header-nav");
 
 			removeById("site-footer-icons");
