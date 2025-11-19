@@ -373,6 +373,27 @@ main {
 					</p>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
+			<div class="showcase" style="width:868px">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A split-image comparison between a sparse virtual forest and a colored segmentation map classifying the parts of the forest with different colors" class="slide" src="@/assets/img/portfolio/synthdataforcars/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Synthetic Training Data Generation for Autonomous Vehicle Recognition Systems</h2>
+					<p class="showcase-description">
+						A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
+						tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
+						Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
+						conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
+						annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
+						labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
+						ground navigation.
+					</p>
+				</div>
+			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
 			<div class="showcase">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -405,48 +426,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Mario Level Generator and Quilt Renderer -->
-			<div class="showcase" style="width:868px">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A virtual car generating camera feeds in a simulated environment" class="slide" src="@/assets/img/portfolio/airsim/car1.png">
-						</swiper-slide>
-					</swiper>
-					<p class="showcase-description showcase-little-text">
-						* Image from Microsoft's
-						<a href="https://www.microsoft.com/en-us/research/blog/autonomous-car-research/" target="_blank">blog post</a>
-						about a 2017 update to the AirSim tool
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Synthetic Training Data Generation for Autonomous Vehicle Recognition Systems</h2>
-					<p class="showcase-description">
-						A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
-						tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
-						Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
-						conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
-						annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
-						labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
-						ground navigation.
-					</p>
-				</div>
-			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
-			<div class="showcase">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="A multirotor drone flying over a virtual city" class="slide" src="@/assets/img/portfolio/airsim/drone.png">
-						</swiper-slide>
-					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Submitted to the <a href="https://scitech.aiaa.org/" target="_blank">AAIA SciTech Forum</a>
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* Image from Epic Games'
-						<a href="https://www.unrealengine.com/en-US/spotlights/microsoft-project-airsim-accelerates-autonomous-flight-with-unreal-engine" target="_blank">coverage</a>
-						of the AirSim tool for Unreal Engine
-					</p>
-				</div>
+			<div class="showcase" style="width:252px">
 				<div class="showcase-description-section">
 					<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
 					<p class="showcase-description">
@@ -457,6 +437,37 @@ main {
 					</p>
 				</div>
 			</div> <!-- Digital Twins for Collision Avoidance -->
+			<div class="showcase" style="width:868px">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="../assets/img/portfolio/puzzlebox/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_2.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Reprogrammable Puzzle Box</h2>
+					<p class="showcase-description">
+						A prototype tool for <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>'s
+						annual escape rooms, the reprogrammable puzzle box is built to be solved after receiving a combination of
+						keypad inputs and dial turns. Puzzles on the box are designed in multiple stages, the progress of which are
+						displayed on lights embedded in the box. Programmers can define the number of puzzle stages required by the
+						box before unlocking with over 19,000 possible input combinations, including support for randomized
+						combinations for each stage at runtime. The box can be manually locked and unlocked remotely and cheat
+						protection is built into the box such that resetting the box will reset progress but will not unlock the
+						box.
+					</p>
+				</div>
+			</div> <!-- Reprogrammable Puzzle Box -->
 		</div>
 		<h1 id="EntertainmentGames">Entertainment Games</h1>
 		<div class="showcase-group">
@@ -853,8 +864,8 @@ main {
 					<h2>Crab-Dab Revolution</h2>
 					<p class="showcase-description">
 						A nonsensical parody rhythm game about crabs dabbing and dancing to absurd beats. The game features
-						hand-animated dancing crabs, a fearsome lobster boss, and a single meme song manually lovingly calibrated
-						for an almost-completable game.
+						hand-animated dancing crabs, a fearsome lobster boss, and a single meme song manually and lovingly
+						calibrated for an almost-completable game.
 					</p>
 				</div>
 			</div> <!-- Crab-Dab Revolution -->
