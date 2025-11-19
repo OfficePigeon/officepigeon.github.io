@@ -263,7 +263,7 @@ main {
 					<h2>Agile Tactics</h2>
 					<p class="showcase-description">
 						A multi-episode interactive training story game allowing users to test their knowledge of DevOps and Agile
-						methodologies. Users are given multiple choices in an ongoing dialogues with their boss and colleagues in
+						methodologies. Users are given multiple choices in an ongoing dialogue with their boss and colleagues in
 						which they must choose the correct responses in order to win their team's trust and deliver the project on
 						time.
 					</p>
