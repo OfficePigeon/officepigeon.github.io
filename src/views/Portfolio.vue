@@ -16,9 +16,12 @@ import PresentationIcon from "@/components/icons/PresentationIcon.vue";
 import FileIcon from "@/components/icons/FileIcon.vue";
 import PhoneIcon from "@/components/icons/PhoneIcon.vue";
 import ComputerIcon from "@/components/icons/ComputerIcon.vue";
+import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
 
 export default {
-	components: {ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide, },
+	components: {
+		GitHubLogoIcon,
+		ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide, },
 	methods: {
 		ToggleReadMore(baseId, startIndex, endIndex) {
 			let item = document.getElementById(baseId + startIndex.toString());
@@ -680,19 +683,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/idigit/cover.png">
+							<img alt="The I Dig It title screen" class="slide" src="@/assets/img/portfolio/idigit/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_title.png">
+							<img alt="The main menu for I Dig It with play instructions" class="slide" src="@/assets/img/portfolio/idigit/screenshot_title.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_1.png">
+							<img alt="Two simple blob game characters digging holes in a blocky field" class="slide" src="@/assets/img/portfolio/idigit/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/idigit/screenshot_winner.png">
+							<img alt="An end screen announcing a red blob character as the winner" class="slide" src="@/assets/img/portfolio/idigit/screenshot_winner.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/idigit/WPIShowfest_Spring2019.png">
+							<img alt="A photo of two people playing I Dig It on a large screen with a smiling bystander" class="slide" src="@/assets/img/portfolio/idigit/WPIShowfest_Spring2019.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -902,6 +905,10 @@ main {
 						<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Mob Pouches -->
@@ -936,6 +943,10 @@ main {
 						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Zombie Villager Variants -->
@@ -964,6 +975,10 @@ main {
 						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Entity Item Tooltips -->
@@ -990,6 +1005,10 @@ main {
 						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Cluckshrooms -->
@@ -1015,6 +1034,10 @@ main {
 						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
@@ -1039,6 +1062,10 @@ main {
 						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
@@ -1078,6 +1105,10 @@ main {
 						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Barter With Babies -->
@@ -1112,6 +1143,10 @@ main {
 						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Muddy Pigs -->
@@ -1122,7 +1157,7 @@ main {
 							<img alt="A diagram of a minecraft sapling going into a furnace and a dead bush coming out" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft smelting screen showing a sapling as the input and a deadh bush as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/screenshot_0.png">
+							<img alt="A minecraft smelting screen showing a sapling as the input and a dead bush as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/screenshot_0.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -1138,6 +1173,10 @@ main {
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
