@@ -9,6 +9,7 @@ import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
 import TumblrLogoIcon from "@/components/icons/logos/TumblrLogoIcon.vue";
 import DiscordLogoIcon from "@/components/icons/logos/DiscordLogoIcon.vue";
 import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
+import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
 			<RouterLink class="bubbleLink" to="/tumblr" title="Tumblr"><TumblrLogoIcon class="bubbleLinkIcon"/> Tumblr</RouterLink>
 			<RouterLink class="bubbleLink" to="/vgen" title="VGen"><VGenLogoIcon class="bubbleLinkIcon"/> VGen</RouterLink>
 			<RouterLink class="bubbleLink" to="/ko-fi" title="Ko-fi"><KofiLogoIcon class="bubbleLinkIcon"/> Ko-fi</RouterLink>
+			<RouterLink class="bubbleLink" to="/modrinth" title="Modrinth"><ModrinthLogoIcon class="bubbleLinkIcon"/> Modrinth</RouterLink>
 			<RouterLink class="bubbleLink" to="/discord" title="Discord"><DiscordLogoIcon class="bubbleLinkIcon"/> Discord</RouterLink>
 			<RouterLink class="bubbleLink" to="/github" title="GitHub"><GitHubLogoIcon class="bubbleLinkIcon"/> GitHub</RouterLink>
 			<a class="bubbleLink" href="mailto:girlboss@wich.fun" title="Email"><EmailLogoIcon class="bubbleLinkIcon filtered"/> Email</a>

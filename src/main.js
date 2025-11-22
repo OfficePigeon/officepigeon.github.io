@@ -34,12 +34,13 @@ const redirects = {
 	'/bluesky': 'https://bsky.app/profile/OfficePigeon.bsky.social',
 	'/discord': 'https://discord.com/invite/jB9exg6anW',
 	'/github': 'https://github.com/OfficePigeon',
-	'/vgen': 'https://vgen.co/OfficePigeon',
 	'/ko-fi': 'https://ko-fi.com/OfficePigeon',
+	'/modrinth': 'https://modrinth.com/user/OfficePigeon',
 	'/tumblr': 'https://OfficePigeon.tumblr.com/',
 	'/twitch': 'https://twitch.tv/dovewich',
-	'/x': 'https://x.com/OfficePigeon',
 	'/twitter': 'https://twitter.com/OfficePigeon',
+	'/vgen': 'https://vgen.co/OfficePigeon',
+	'/x': 'https://x.com/OfficePigeon',
 	'/youtube': 'https://youtube.com/@OfficePigeon',
 }
 router.beforeEach((to, from) => {

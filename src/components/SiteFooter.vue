@@ -9,6 +9,7 @@ import TwitchLogoIcon from "@/components/icons/logos/TwitchLogoIcon.vue";
 import TwitterLogoIcon from "@/components/icons/logos/TwitterLogoIcon.vue";
 import YouTubeLogoIcon from "@/components/icons/logos/YouTubeLogoIcon.vue";
 import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
+import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 </script>
 <template>
 	<div id="site-footer">
@@ -20,6 +21,7 @@ import VGenLogoIcon from "@/components/icons/logos/VGenLogoIcon.vue";
 			<RouterLink to="/tumblr" title="Tumblr" class="tooltip"><TumblrLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Tumblr</span></RouterLink>
 			<RouterLink to="/vgen" title="VGen" class="tooltip"><VGenLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">VGen</span></RouterLink>
 			<RouterLink to="/ko-fi" title="Ko-fi" class="tooltip"><KofiLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Ko-fi</span></RouterLink>
+			<RouterLink to="/modrinth" title="Modrinth" class="tooltip"><ModrinthLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Modrinth</span></RouterLink>
 			<RouterLink to="/discord" title="Discord" class="tooltip"><DiscordLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Discord Server</span></RouterLink>
 			<RouterLink to="/github" title="GitHub" class="tooltip"><GitHubLogoIcon class="social-icon filtered"/><span class="tooltipText">GitHub</span></RouterLink>
 			<a href="mailto:girlboss@wich.fun" title="Email" class="tooltip"><EmailLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Email</span></a>
