@@ -930,6 +930,18 @@ main {
 						<swiper-slide>
 							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_3.png">
 						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_4.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_5.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_6.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of minecraft zombies and corresponding villagers" class="slide" src="../assets/img/mods/minecraftzombievillagervariantsmod/screenshot_7.png">
+						</swiper-slide>
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
@@ -1050,6 +1062,9 @@ main {
 						<swiper-slide>
 							<img alt="Three minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_0.png">
 						</swiper-slide>
+						<swiper-slide>
+							<img alt="Two minecraft skeletons with coral growing out of them in a coral reef" class="slide" src="../assets/img/mods/minecraftsunkenskeletonsmod/screenshot_1.png">
+						</swiper-slide>
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
@@ -1150,6 +1165,125 @@ main {
 					</p>
 				</div>
 			</div> <!-- Minecraft Muddy Pigs -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An image of a bouldering zombie with the text Bouldering Zombies" class="slide" src="../assets/img/mods/minecraftboulderingzombiesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A bouldering zombie standing in a field at night" class="slide" src="../assets/img/mods/minecraftboulderingzombiesmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Bouldering Zombies</h2>
+					<p class="showcase-description">
+						Implements the Bouldering Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies
+						can climb walls like the spider monsters from the base game.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Bouldering Zombies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a frozen zombie with the text Frozen Zombies" class="slide" src="../assets/img/mods/minecraftfrozenzombiesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A frozen zombie standing in the snow at night" class="slide" src="../assets/img/mods/minecraftfrozenzombiesmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A frozen zombie standing in the snow at night" class="slide" src="../assets/img/mods/minecraftfrozenzombiesmod/screenshot_1.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Frozen Zombies</h2>
+					<p class="showcase-description">
+						Implements the Frozen Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
+						throw snowballs with a slowing effect at players before chasing them down.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Frozen Zombies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a jungle zombie with the text Jungle Zombies" class="slide" src="../assets/img/mods/minecraftjunglezombiesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A jungle jungle standing in a jungle" class="slide" src="../assets/img/mods/minecraftjunglezombiesmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Jungle Zombies</h2>
+					<p class="showcase-description">
+						Implements the Jungle Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
+						have a poisonous attack but they can be trimmed back to the zombies from the base game with a set of shears.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Jungle Zombies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An image of a lobber zombie with the text Lobber Zombies" class="slide" src="../assets/img/mods/minecraftlobberzombiesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A lobber zombie standing in a field at night" class="slide" src="../assets/img/mods/minecraftlobberzombiesmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Lobber Zombies</h2>
+					<p class="showcase-description">
+						Implements the Lobber Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies can
+						throw rotten flesh as a ranged attack.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Lobber Zombies -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
