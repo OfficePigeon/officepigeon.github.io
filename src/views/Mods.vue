@@ -10,10 +10,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import DownloadIcon from "@/components/icons/DownloadIcon.vue";
+import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
 
 
 export default {
-	components: {DownloadIcon, Swiper, SwiperSlide, },
+	components: {GitHubLogoIcon, DownloadIcon, Swiper, SwiperSlide, },
 	setup() {
 		return {
 			pagination: { clickable: true },
@@ -284,6 +285,31 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Barter With Babies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A close image of a honey slime with the text Honey Slimes" class="slide" src="../assets/img/mods/minecrafthoneyslimesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of honey slimes and crystallized honey blocks arranged neatly" class="slide" src="../assets/img/mods/minecrafthoneyslimesmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Honey Slimes</h2>
+					<p class="showcase-description">
+						Adds a new Honey Slime monster to Minecraft. These slimes behave like a neutral version of those from the
+						base game, only targeting poisoned entities and dropping new crystallized honey.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/honey-slimes" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Bouldering Zombies -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
