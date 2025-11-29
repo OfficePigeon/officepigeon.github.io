@@ -213,7 +213,7 @@ main {
 					</p>
 					<p class="showcase-description showcase-little-text">
 						* This game includes art assets created with Generative Artificial Intelligence systems. I do not and have
-						never endorsed the use of AI as a replacement for human artists and creatives.
+						never endorsed the use of AI as a total replacement for human artists and creatives.
 					</p>
 				</div>
 			</div> <!-- TimeQuake Escape! -->
@@ -547,22 +547,22 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/cover.png">
+							<img alt="An abstract screen with the title Batastrophe surrounded by small bats" class="slide" src="@/assets/img/portfolio/batastrophe/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/01.png">
+							<img alt="A screenshot of a bat flying through a house with a score marker for damage caused" class="slide" src="@/assets/img/portfolio/batastrophe/01.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/02.png">
+							<img alt="A screenshot of a hastily armored human character chasing a bat through a house" class="slide" src="@/assets/img/portfolio/batastrophe/02.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/03.png">
+							<img alt="A split-screen view of asymmetric gameplay between three human characters and a bat character" class="slide" src="@/assets/img/portfolio/batastrophe/03.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/04.png">
+							<img alt="A split-screen view of asymmetric gameplay between three human characters and a bat character" class="slide" src="@/assets/img/portfolio/batastrophe/04.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/batastrophe/05.png">
+							<img alt="A split-screen view of asymmetric gameplay between a human character and a bat character who has been stunned" class="slide" src="@/assets/img/portfolio/batastrophe/05.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -622,19 +622,19 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/cover.png">
+							<img alt="The cover graphic for ExChange The World by Aidan Buffum and Kyle Trottier" class="slide" src="@/assets/img/portfolio/exchangetheworld/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
+							<img alt="A gameplay screenshot of a soccer [football] ball highlighted while swinging in a tire swing" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
+							<img alt="A gameplay screenshot of miscellaneous objects floating in a pool" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
+							<img alt="A gameplay screenshot of a highlighted dog teleported into a tree by the player" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
+							<img alt="A gameplay screenshot of a highlighted squirrel in a tree with a picnic table precariously stuck on another branch" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -651,16 +651,16 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/littleworlds/cover.png">
+							<img alt="A title graphic of earth being orbited by the moon, a billiards ball, and a soccer [football] ball" class="slide" src="@/assets/img/portfolio/littleworlds/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_1.png">
+							<img alt="A gameplay screenshot of earth rolling through a small debris field in space with household objects in orbit" class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_1.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_2.png">
+							<img alt="A gameplay screenshot of mars rolling through a small debris field in space with household objects in orbit" class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_2.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_3.png">
+							<img alt="A gameplay screenshot of pluto rolling through a small debris field in space with household objects in orbit" class="slide" src="@/assets/img/portfolio/littleworlds/screenshot_3.png">
 						</swiper-slide>
 					</swiper>
 				</div>
