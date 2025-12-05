@@ -57,6 +57,10 @@ export default {
 						<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Mob Pouches -->
@@ -103,6 +107,10 @@ export default {
 						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Zombie Villager Variants -->
@@ -131,34 +139,13 @@ export default {
 						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
-					</p>
-				</div>
-			</div> <!-- Minecraft Entity Item Tooltips -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="An icon of a minecraft chiseled bookshelf with the top decorations and book of an enchanting table and the text Chiseled Bookshelf Enchanting on the side" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/cover.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="An active minecraft enchanting table surrounded by filled chiseled bookshelves" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/screenshot_0.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
-					<p class="showcase-description">
-						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
-						the number of books necessary for each bookshelf to power the enchanting table.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
+						and open source
+						<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
-			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
+			</div> <!-- Minecraft Entity Item Tooltips -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -182,9 +169,42 @@ export default {
 						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Cluckshrooms -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a minecraft chiseled bookshelf with the top decorations and book of an enchanting table and the text Chiseled Bookshelf Enchanting on the side" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="An active minecraft enchanting table surrounded by filled chiseled bookshelves" class="slide" src="../assets/img/mods/minecraftchiseledenchantingmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
+					<p class="showcase-description">
+						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
+						the number of books necessary for each bookshelf to power the enchanting table.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -210,43 +230,13 @@ export default {
 						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
-					</p>
-				</div>
-			</div> <!-- Minecraft Sunken Skeletons -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<div class="showcase-gallery">
-					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-						<swiper-slide>
-							<img alt="An icon of a minecraft pig covered in mud with a tulip on its head and the text Muddy Pigs" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/cover.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A pen full of minecraft pigs covered in mud" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/screenshot_0.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A pink minecraft pig covered in mud with a red tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_temperate.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A brown minecraft pig covered in mud with a pink tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_warm.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A beige minecraft pig covered in mud with an orange tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_cold.png">
-						</swiper-slide>
-					</swiper>
-				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Muddy Pigs</h2>
-					<p class="showcase-description">
-						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
-						pigs with new mechanics for bathing in mud and making a mess.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
+						and open source
+						<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
-			</div> <!-- Minecraft Muddy Pigs -->
+			</div> <!-- Minecraft Sunken Skeletons -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -282,9 +272,51 @@ export default {
 						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Barter With Babies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a minecraft pig covered in mud with a tulip on its head and the text Muddy Pigs" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pen full of minecraft pigs covered in mud" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pink minecraft pig covered in mud with a red tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_temperate.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A brown minecraft pig covered in mud with a pink tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_warm.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A beige minecraft pig covered in mud with an orange tulip on its head" class="slide" src="../assets/img/mods/minecraftmuddypigsmod/pig_cold.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Muddy Pigs</h2>
+					<p class="showcase-description">
+						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
+						pigs with new mechanics for bathing in mud and making a mess.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Muddy Pigs -->
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -306,6 +338,10 @@ export default {
 						<a href="https://modrinth.com/mod/honey-slimes" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Honey-Slime-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
@@ -331,6 +367,10 @@ export default {
 						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
@@ -360,6 +400,10 @@ export default {
 						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Frozen Zombies -->
@@ -384,6 +428,10 @@ export default {
 						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>
@@ -410,9 +458,64 @@ export default {
 						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
 						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
 					</p>
 				</div>
 			</div> <!-- Minecraft Lobber Zombies -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of Minecraft's Steve character with his head on fire and an open console window with the text /ignite Steve" class="slide" src="../assets/img/mods/minecraftcommandignitemod/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Commands: Ignite & Extinguish</h2>
+					<p class="showcase-description">
+						A minimalistic mod adding new /ignite and /extinguish console commands to set entities on fire and put them
+						out.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/command-ignite" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Command: Ignite -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a glowing Minecraft Chorus Fruit and an open console window with the text /chorus" class="slide" src="../assets/img/mods/minecraftcommandchorusmod/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Command: Chorus</h2>
+					<p class="showcase-description">
+						A whimsical mod adding a new /chorus console command to randomly teleport entities a short distance.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/command-chorus" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Command: Chorus -->
 		</div>
 		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
 		<div class="showcase-group">
@@ -423,7 +526,7 @@ export default {
 							<img alt="A diagram of a minecraft sapling going into a furnace and a dead bush coming out" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/cover.png">
 						</swiper-slide>
 						<swiper-slide>
-							<img alt="A minecraft smelting screen showing a sapling as the input and a deadh bush as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/screenshot_0.png">
+							<img alt="A minecraft smelting screen showing a sapling as the input and a dead bush as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/screenshot_0.png">
 						</swiper-slide>
 					</swiper>
 				</div>
@@ -432,10 +535,17 @@ export default {
 					<p class="showcase-description">
 						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
 					</p>
+					<p class="showcase-description showcase-little-text">
+						* Data packs are Minecraft mods that do not require changes to the game code.
+					</p>
 					<p class="showcase-description">
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
 							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
 						</a>
 					</p>
 				</div>

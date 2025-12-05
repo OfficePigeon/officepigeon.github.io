@@ -1317,6 +1317,57 @@ main {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="An icon of Minecraft's Steve character with his head on fire and an open console window with the text /ignite Steve" class="slide" src="../assets/img/mods/minecraftcommandignitemod/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Commands: Ignite & Extinguish</h2>
+					<p class="showcase-description">
+						A minimalistic mod adding new /ignite and /extinguish console commands to set entities on fire and put them
+						out.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/command-ignite" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Command: Ignite -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a glowing Minecraft Chorus Fruit and an open console window with the text /chorus" class="slide" src="../assets/img/mods/minecraftcommandchorusmod/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Command: Chorus</h2>
+					<p class="showcase-description">
+						A whimsical mod adding a new /chorus console command to randomly teleport entities a short distance.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/command-chorus" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Command: Chorus -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="A diagram of a minecraft sapling going into a furnace and a dead bush coming out" class="slide" src="../assets/img/mods/minecraftdatapacks/saplingstodeadbushes/cover.png">
 						</swiper-slide>
 						<swiper-slide>
