@@ -518,6 +518,7 @@ export default {
 			</div> <!-- Minecraft Command: Chorus -->
 		</div>
 		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
+		<p style="text-align:center">Data packs are Minecraft mods that do not require changes to the game code.</p>
 		<div class="showcase-group">
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
@@ -535,9 +536,6 @@ export default {
 					<p class="showcase-description">
 						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
 					</p>
-					<p class="showcase-description showcase-little-text">
-						* Data packs are Minecraft mods that do not require changes to the game code.
-					</p>
 					<p class="showcase-description">
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
 						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
@@ -550,6 +548,35 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A diagram of minecraft bones being crafted into a bone block" class="slide" src="../assets/img/mods/minecraftdatapacks/boneblockshortcut/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A minecraft crafting screen showing three bones as input and a bone block as the output" class="slide" src="../assets/img/mods/minecraftdatapacks/boneblockshortcut/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Bone Block Shortcut</h2>
+					<p class="showcase-description">
+						A simple data pack creating a recipe to make crafting bone blocks from bones faster by skipping the step of
+						converting them to bone meal.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Bone-Block-Shortcut-Datapack" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
 		</div>
 	</div>
 </template>
