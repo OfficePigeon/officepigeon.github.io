@@ -226,6 +226,12 @@ h2 {
 	visibility: visible;
 }
 
+.text-note {
+	font-family: 'Cascadia Code', sans-serif;
+	font-size: 12px;
+	background-color:var(--background-color-input);
+}
+
 .showcase-group {
 	display: flex;
 	align-items: center;

@@ -14,11 +14,13 @@ import Directory from "@/views/Directory.vue";
 import Attributions from "@/views/Attributions.vue";
 import Portfolio from "@/views/Portfolio.vue";
 import Mods from "@/views/Mods.vue";
+import ExcitingChess from "@/views/ExcitingChess.vue";
 
 const routes = [
 	{ path: '/', component: Home, meta: { title: 'Home - wich.fun' }  },
 	{ path: '/attributions', component: Attributions, meta: { title: 'Attributions - wich.fun' } },
 	{ path: '/commission', component: Commission, meta: { title: 'Comissions - wich.fun' } },
+	{ path: '/excitingchess', component: ExcitingChess, meta: { title: 'Exciting Chess - wich.fun' } },
 	{ path: '/mods', component: Mods, meta: { title: 'Mods - wich.fun' } },
 	{ path: '/portfolio/aidan-buffum', component: Portfolio, meta: { title: 'Portfolio - Aidan Buffum' } },
 	{ path: '/directory', component: Directory, meta: { title: 'Directory - wich.fun' } },
