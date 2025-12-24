@@ -49,6 +49,7 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 			<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
 			<div class="navSeparator">----------- Fun -----------</div>
 			<RouterLink to="/mods" @click="HideNavDropdown()" title="Game Mods" class="navButton">Game Mods</RouterLink>
+			<RouterLink to="/excitingchess" @click="HideNavDropdown()" title="Exciting Chess" class="navButton">Exciting Chess</RouterLink>
 			<div class="navSeparator">--------- Utility ---------</div>
 			<RouterLink to="/discord-timestamps" @click="HideNavDropdown()" title="Discord Timestamps" class="navButton">Discord Timestamps</RouterLink>
 		</div>
