@@ -469,6 +469,34 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="An icon of Minecraft's Alex character being struck by lightning with the text Lightning Rod Copper Armor over head" class="slide" src="../assets/img/mods/minecraftlightningrodcopperarmormod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of Minecraft's Steve character and two lightning rods sparkling before a thunder storm" class="slide" src="../assets/img/mods/minecraftlightningrodcopperarmormod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Lightning Rod Copper Armor</h2>
+					<p class="showcase-description">
+						A silly mod increasing the likelihood of entities wearing copper armor of being struck by lightning.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Lightning-Rod-Armor" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Lightning Rod Copper Armor -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="An icon of Minecraft's Steve character with his head on fire and an open console window with the text /ignite Steve" class="slide" src="../assets/img/mods/minecraftcommandignitemod/cover.png">
 						</swiper-slide>
 					</swiper>
