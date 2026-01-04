@@ -497,6 +497,72 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="A close icon of a Minecraft llama covered in moss with the text Mossy Llamas" class="slide" src="../assets/img/mods/minecraftmossyllamasmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of two Minecraft llamas covered in moss and pale moss respectively" class="slide" src="../assets/img/mods/minecraftmossyllamasmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Mossy Llamas</h2>
+					<p class="showcase-description">
+						A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Mossy Llamas -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a Minecraft netherite upgrade template glowing with the text Reusable Smithing" class="slide" src="../assets/img/mods/minecraftreusablemithingmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of the Minecraft smithing screen upgrading a diamond chestplate to a netherite chestplate" class="slide" src="../assets/img/mods/minecraftreusablemithingmod/screenshot_0.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of the Minecraft smithing screen after upgrading a diamond chestplate to a netherite chestplate where the template has not been consumed" class="slide" src="../assets/img/mods/minecraftreusablemithingmod/screenshot_1.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of the Minecraft smithing screen applying an armor trim to a netherite chestplate" class="slide" src="../assets/img/mods/minecraftreusablemithingmod/screenshot_2.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A screenshot of the Minecraft smithing screen after applying an armor trim to a netherite chestplate where the template has not been consumed" class="slide" src="../assets/img/mods/minecraftreusablemithingmod/screenshot_3.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Reusable Smithing</h2>
+					<p class="showcase-description">
+						A utility mod adjusting the game's smithing system so that armor trimming and upgrade recipes no longer
+						consume the smithing template items as part of the recipe.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Reusable Smithing -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
 							<img alt="An icon of Minecraft's Steve character with his head on fire and an open console window with the text /ignite Steve" class="slide" src="../assets/img/mods/minecraftcommandignitemod/cover.png">
 						</swiper-slide>
 					</swiper>
@@ -544,6 +610,35 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Command: Chorus -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a split screenshot between Minecraft's Steve character on a locator bar and Steve hidden from the bar wearing a carved pumpkin on his head" class="slide" src="../assets/img/mods/minecraftdatadrivenlocatorbarhidingmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A split screenshot between Minecraft's Steve character on a locator bar and Steve hidden from the bar wearing a carved pumpkin on his head" class="slide" src="../assets/img/mods/minecraftdatadrivenlocatorbarhidingmod/screenshot_0.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Minecraft:<br>Data Driven Locator Bar Hiding</h2>
+					<p class="showcase-description">
+						A utility mod enabling the set of items worn by players to hide from the locator bar to be modified by data
+						packs, bundled with an example pack removing carved pumpkins from the set.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Data Driven Locator Bar Hiding -->
 		</div>
 		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
 		<p style="text-align:center">Data packs are Minecraft mods that do not require changes to the game code.</p>
