@@ -32,6 +32,9 @@ export default {
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
+							<img alt="An icon of a custom pouch item for Minecraft with the text Mob Pouches" class="slide" src="../assets/img/mods/minecraftpouchesmod/cover.png">
+						</swiper-slide>
+						<swiper-slide>
 							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_0.png">
 						</swiper-slide>
 						<swiper-slide>
@@ -46,7 +49,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Mob Pouches</h2>
+					<h2 style="font-size:23px">Mob Pouches</h2>
 					<p class="showcase-description">
 						A simple mod enabling players to pick up and carry creatures similar to the equivalent mechanic in the base
 						game for the transport of fish. The mod can be flexibly configured to support any subset of the game's
@@ -97,7 +100,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Zombie Villager Variants</h2>
+					<h2 style="font-size:23px">Zombie Villager Variants</h2>
 					<p class="showcase-description">
 						A mod adding extra variants to Minecraft's Zombie Villager monster to match the Drowned and Husk
 						versions of the zombie.
@@ -129,7 +132,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Entity Item Tooltips</h2>
+					<h2 style="font-size:23px">Entity Item Tooltips</h2>
 					<p class="showcase-description">
 						A fully client-side mod that adds extra information to the user interface tooltips for items that can be
 						used to create new entities in the world.
@@ -158,7 +161,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Cluckshrooms</h2>
+					<h2 style="font-size:23px">Cluckshrooms</h2>
 					<p class="showcase-description">
 						Implements the Cluckshroom creature from the Minecraft Earth and Minecraft Dungeons spin-offs in Minecraft.
 						These mushroom chickens behave like a balanced blend of the chicken and mooshroom creatures from the base
@@ -188,7 +191,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
+					<h2 style="font-size:23px">Chiseled Bookshelf Enchanting</h2>
 					<p class="showcase-description">
 						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
 						the number of books necessary for each bookshelf to power the enchanting table.
@@ -220,7 +223,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
+					<h2 style="font-size:23px">Sunken Skeletons</h2>
 					<p class="showcase-description">
 						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
 						have configurable spawning conditions and multiple variants.
@@ -261,7 +264,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
+					<h2 style="font-size:23px">Barter With Babies</h2>
 					<p class="showcase-description">
 						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
 						configurable loot table system in line with the game's base implementation and bartering behavior for adult
@@ -300,7 +303,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Muddy Pigs</h2>
+					<h2 style="font-size:23px">Muddy Pigs</h2>
 					<p class="showcase-description">
 						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
 						pigs with new mechanics for bathing in mud and making a mess.
@@ -329,7 +332,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Honey Slimes</h2>
+					<h2 style="font-size:23px">Honey Slimes</h2>
 					<p class="showcase-description">
 						Adds a new Honey Slime monster to Minecraft. These slimes behave like a neutral version of those from the
 						base game, only targeting poisoned entities and dropping new crystallized honey.
@@ -358,7 +361,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Bouldering Zombies</h2>
+					<h2 style="font-size:23px">Bouldering Zombies</h2>
 					<p class="showcase-description">
 						Implements the Bouldering Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies
 						can climb walls like the spider monsters from the base game.
@@ -390,7 +393,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Frozen Zombies</h2>
+					<h2 style="font-size:23px">Frozen Zombies</h2>
 					<p class="showcase-description">
 						Implements the Frozen Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
 						throw snowballs with a slowing effect at players before chasing them down.
@@ -419,7 +422,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Jungle Zombies</h2>
+					<h2 style="font-size:23px">Jungle Zombies</h2>
 					<p class="showcase-description">
 						Implements the Jungle Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
 						have a poisonous attack but they can be trimmed back to the zombies from the base game with a set of shears.
@@ -448,7 +451,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Lobber Zombies</h2>
+					<h2 style="font-size:23px">Lobber Zombies</h2>
 					<p class="showcase-description">
 						Implements the Lobber Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies can
 						throw rotten flesh as a ranged attack.
@@ -477,7 +480,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Lightning Rod Copper Armor</h2>
+					<h2 style="font-size:23px">Lightning Rod Copper Armor</h2>
 					<p class="showcase-description">
 						A silly mod increasing the likelihood of entities wearing copper armor of being struck by lightning.
 					</p>
@@ -505,7 +508,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Mossy Llamas</h2>
+					<h2 style="font-size:23px">Mossy Llamas</h2>
 					<p class="showcase-description">
 						A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
 					</p>
@@ -542,7 +545,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Reusable Smithing</h2>
+					<h2 style="font-size:23px">Reusable Smithing</h2>
 					<p class="showcase-description">
 						A utility mod adjusting the game's smithing system so that armor trimming and upgrade recipes no longer
 						consume the smithing template items as part of the recipe.
@@ -568,7 +571,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Commands: Ignite & Extinguish</h2>
+					<h2 style="font-size:23px">Commands: Ignite & Extinguish</h2>
 					<p class="showcase-description">
 						A minimalistic mod adding new /ignite and /extinguish console commands to set entities on fire and put them
 						out.
@@ -594,7 +597,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Command: Chorus</h2>
+					<h2 style="font-size:23px">Command: Chorus</h2>
 					<p class="showcase-description">
 						A whimsical mod adding a new /chorus console command to randomly teleport entities a short distance.
 					</p>
@@ -622,7 +625,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Data Driven Locator Bar Hiding</h2>
+					<h2 style="font-size:23px">Data Driven Locator Bar Hiding</h2>
 					<p class="showcase-description">
 						A utility mod enabling the set of items worn by players to hide from the locator bar to be modified by data
 						packs, bundled with an example pack removing carved pumpkins from the set.
@@ -655,7 +658,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Saplings to Dead Bushes</h2>
+					<h2 style="font-size:23px">Saplings to Dead Bushes</h2>
 					<p class="showcase-description">
 						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
 					</p>
@@ -683,7 +686,7 @@ export default {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Bone Block Shortcut</h2>
+					<h2 style="font-size:23px">Bone Block Shortcut</h2>
 					<p class="showcase-description">
 						A simple data pack creating a recipe to make crafting bone blocks from bones faster by skipping the step of
 						converting them to bone meal.
@@ -700,6 +703,57 @@ export default {
 					</p>
 				</div>
 			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a custom pouch item for Minecraft with a Villager sticking out and the text Pouchable Villagers" class="slide" src="../assets/img/mods/minecraftdatapacks/mobpouchespouchablevillagers/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Mob Pouches: Pouchable Villagers</h2>
+					<p class="showcase-description">
+						An example data pack for the Mob Pouches mod that enables Villagers to be transported with pouches.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Data Pack: Mob Pouches - Pouchable Villagers -->
+			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a Minecraft's Steve character on a locator bar wearing a carved pumpkin on his head" class="slide" src="../assets/img/mods/minecraftdatapacks/datadrivenlocatorbarhidingshowcarvedpumpkins/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2 style="font-size:23px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
+					<p class="showcase-description">
+						An example data pack for the Data Driven Locator Bar Hiding mod that excludes Carved Pumpkins from the mod's
+						tag, enabling players wearing Carved Pumpkins to show up on the locator bar.
+					</p>
+					<p class="showcase-description">
+						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank">Available on Modrinth</a>
+						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="Download on Modrinth">
+							<DownloadIcon class="filtered showcase-text-icon"/>
+						</a>
+						and open source
+						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="GitHub">
+							<GitHubLogoIcon class="filtered showcase-text-icon"/>
+						</a>
+					</p>
+				</div>
+			</div> <!-- Minecraft Data Pack: Data Driven Locator Bar Hiding - Show Carved Pumpkins -->
 		</div>
 	</div>
 </template>

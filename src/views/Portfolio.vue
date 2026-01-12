@@ -21,20 +21,7 @@ import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
 export default {
 	components: {
 		GitHubLogoIcon,
-		ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide, },
-	methods: {
-		ToggleReadMore(baseId, startIndex, endIndex) {
-			let item = document.getElementById(baseId + startIndex.toString());
-			if (item) {
-				let none = item.style.display === 'none';
-				for (let i = startIndex; i <= endIndex; i++) {
-					item = document.getElementById(baseId + i.toString());
-					if (item) item.style.display = none ? 'block' : 'none'
-				}
-				item = document.getElementById(baseId);
-				if (item) item.innerText = none ? 'Read Less' : 'Read More';
-			}
-		}
+		ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide
 	},
 	setup() {
 		const removeById = (id) => {
@@ -202,7 +189,7 @@ main {
 							</a>
 						</span> and part of
 						research submitted for publication in the
-						<a href="http://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
+						<a href="https://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
 					</p>
 				</div>
 				<div class="showcase-description-section">
@@ -879,6 +866,9 @@ main {
 			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a custom pouch item for Minecraft with the text Mob Pouches" class="slide" src="../assets/img/mods/minecraftpouchesmod/cover.png">
+						</swiper-slide>
 						<swiper-slide>
 							<img alt="A minecraft player holding a modded pouch item while looking at a chicken" class="slide" src="../assets/img/mods/minecraftpouchesmod/screenshot_0.png">
 						</swiper-slide>
