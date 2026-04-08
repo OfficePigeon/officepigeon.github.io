@@ -651,7 +651,7 @@ The following software may be included in this product: browserslist. A copy of 
 
 The MIT License (MIT)
 
-Copyright 2014 Andrey Sitnik <andrey@sitnik.ru> and other contributors
+Copyright 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -1270,7 +1270,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 -----
 
-The following software may be included in this product: electron-to-chromium. A copy of the source code may be downloaded from https://github.com/kilian/electron-to-chromium/. This software contains the following license and notice below:
+The following software may be included in this product: electron-to-chromium. A copy of the source code may be downloaded from git+https://github.com/Kilian/electron-to-chromium.git. This software contains the following license and notice below:
 
 Copyright 2018 Kilian Valkhof
 
@@ -1455,7 +1455,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 -----
 
-The following software may be included in this product: fs-extra. A copy of the source code may be downloaded from https://github.com/jprichardson/node-fs-extra. This software contains the following license and notice below:
+The following software may be included in this product: fs-extra. A copy of the source code may be downloaded from git+https://github.com/jprichardson/node-fs-extra.git. This software contains the following license and notice below:
 
 (The MIT License)
 
@@ -2275,7 +2275,7 @@ The following software may be included in this product: postcss. A copy of the s
 
 The MIT License (MIT)
 
-Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
+Copyright 2013 Andrey Sitnik <andrey@sitnik.es>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
