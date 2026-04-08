@@ -51,8 +51,27 @@ export default {
 							<picture>
 								<source type="image/webp" srcset="@/assets/img/art/emote/showcase_Venrir.webp">
 								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_Venrir.gif">
-								<img alt="A pair of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_Venrir.png">
+								<img alt="A set of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_Venrir.png">
 							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pair of cartoon emotes of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_AngelHunnyBunn.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of cartoon emotes of the eyesofpucci vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_eyesofpucci.png">
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/emote/wave_eyesofpucci.gif">
+								<source type="image/gif" srcset="@/assets/img/art/emote/wave_eyesofpucci.gif">
+								<img alt="A cartoon emote of the eyesofpucci vtuber mascot" class="slide no-save-img" src="@/assets/img/art/emote/wave_eyesofpucci.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/bleh_Kriber.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/smash_SintheticSkull.png">
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
@@ -60,15 +79,6 @@ export default {
 								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_SinnaVT.gif">
 								<img alt="A pair of cartoon emotes of the SinnaVT vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_SinnaVT.png">
 							</picture>
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/laugh_AngelHunnyBunn.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/bleh_Kriber.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/smash_SintheticSkull.png">
 						</swiper-slide>
 						<swiper-slide>
 							<img alt="A cartoon emote of the DajzaDj vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/wifeless_DajzaDj.png">
@@ -212,7 +222,7 @@ export default {
 				<div class="showcase-description-section">
 					<h2>Huggin' Reactives</h2>
 					<ul>
-						<li>Base price: $25 USD</li>
+						<li>Base price: $15 USD</li>
 						<li>Delivered as
 							<ul>
 								<li>2 .png files (mouth open/closed)</li>
@@ -237,9 +247,16 @@ export default {
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_mousewich.webp">
-								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_mousewich.gif">
-								<img alt="A cartoon drawing of the mousewich vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_mousewich.png">
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_maofall.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_maofall.gif">
+								<img alt="A cartoon drawing of the maofall vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_maofall.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_amorettie.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_amorettie.gif">
+								<img alt="A cartoon drawing of the amorettie vtuber in a fluffy pigeon onesie" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_amorettie.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
@@ -250,7 +267,7 @@ export default {
 				<div class="showcase-description-section">
 					<h2>Floofy Reactives</h2>
 					<ul>
-						<li>Base price: $15 USD</li>
+						<li>Base price: $10 USD</li>
 						<li>Delivered as
 							<ul>
 								<li>2 .png files (mouth open/closed)</li>
@@ -263,8 +280,49 @@ export default {
 					</ul>
 				</div>
 			</div> <!-- Floofy Reactives -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_dovewich.gif">
+								<img alt="A lethal company dancing animation of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dovewich.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.gif">
+								<img alt="A helltaker dancing animation of the DahliaStarbright vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.gif">
+								<img alt="A helltaker dancing animation of the QrissyBugg vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.png">
+							</picture>
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Lethal Company-Inspired Dancing Sprites</h2>
+					<ul>
+						<li>Base price: $40 USD</li>
+						<li>Delivered as
+							<ul>
+								<li>1 .png file</li>
+								<li>1 animated .gif file</li>
+								<li>1 animated .webp file</li>
+							</ul>
+						</li>
+						<li>Canvas Size 300 x 300px</li>
+					</ul>
+				</div>
+			</div> <!-- Lethal Company-Inspired Dancing Sprites -->
 		</div>
-		<h1>Minecraft Commissions</h1>
+		<h1>Pixel Art Commissions</h1>
 		<div class="showcase-group">
 			<div class="showcase" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
@@ -350,7 +408,7 @@ export default {
 								<li>+$5 for <a href="https://ears.y2k.my/" target="_blank">Ears Mod</a> features</li>
 							</ul>
 						</li>
-						<li>Delivered as .png file</li>
+						<li>Delivered as a .png file</li>
 						<li>Canvas Size 64 x 64</li>
 						<li>Meant for Minecraft Java Edition*</li>
 					</ul>
@@ -371,9 +429,23 @@ export default {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
-														src="/3d/minecraft_model/model_xstraycat_posed.gltf"
+														src="/3d/minecraft_model/model_salarymander_winston.gltf"
+														poster="/3d/minecraft_model/render_salarymander_winston.png"
+														alt="A 3D model of a corgi with a saddle on its back and a slinky for a leg in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_xstraycat.gltf"
 														poster="/3d/minecraft_model/render_xstraycat.png"
 														alt="A 3D model of a black cat with gold earrings and a large bow in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_salarymander_blocko.gltf"
+														poster="/3d/minecraft_model/render_salarymander_blocko.png"
+														alt="A 3D model of an abstract blue character with a scarf in the Minecraft style"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
@@ -418,6 +490,26 @@ export default {
 					</ul>
 				</div>
 			</div> <!-- Minecraft-Inspired Creature Models -->
+			<div class="showcase">
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A pixel art rendition of the dovewich vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_dovewich.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of the SintheticSkull vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sintheticskull.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<div class="showcase-description-section">
+					<h2>Pokemon-Inspired Sprites</h2>
+					<ul>
+						<li>Base price: $30 USD</li>
+						<li>Delivered as a .png file</li>
+						<li>Canvas Size 80 x 80px</li>
+					</ul>
+				</div>
+			</div> <!-- Pokemon-Inspired Sprites -->
 		</div>
 		<h1>Other Commissions</h1>
 		<div class="showcase-group">

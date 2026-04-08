@@ -42,6 +42,7 @@ import BubbleLink from "@/components/bubbles/BubbleLink.vue";
 			<BubbleLink title="Love (dovewiLove)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiLove_emibirdee.png"/>
 			<BubbleLink title="Knife (dovewiKnife)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiKnife_emibirdee.png"/>
 			<BubbleLink title="Scritch (dovewiScritch)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiScritch_emibirdee.gif"/>
+			<BubbleLink title="Bread (dovewiBread)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiBread_emibirdee.png"/>
 			<BubbleLink title="Raid (dovewiRaid)" subtitle="by" linkText="Emibirdee" linkUrl="https://vgen.co/emibirdee" thumbnail="/attributions/thumbnails/dovewiRaid_emibirdee.png"/>
 		</div>
 		<div class="bubbleLinks">

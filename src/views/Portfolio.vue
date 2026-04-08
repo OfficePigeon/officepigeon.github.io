@@ -1560,10 +1560,29 @@ main {
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
-								<source type="image/webp" srcset="@/assets/img/art/emote/showcase_Venrir.webp">
-								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_Venrir.gif">
-								<img alt="A pair of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_Venrir.png">
+								<source type="image/webp" srcset="../assets/img/art/emote/showcase_Venrir.webp">
+								<source type="image/gif" srcset="../assets/img/art/emote/showcase_Venrir.gif">
+								<img alt="A pair of cartoon emotes of the Venrir vtuber character" class="slide no-save-img" src="../assets/img/art/emote/showcase_Venrir.png">
 							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pair of cartoon emotes of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_AngelHunnyBunn.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A set of cartoon emotes of the eyesofpucci vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_eyesofpucci.png">
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/emote/wave_eyesofpucci.gif">
+								<source type="image/gif" srcset="@/assets/img/art/emote/wave_eyesofpucci.gif">
+								<img alt="A cartoon emote of the eyesofpucci vtuber mascot" class="slide no-save-img" src="@/assets/img/art/emote/wave_eyesofpucci.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/bleh_Kriber.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/smash_SintheticSkull.png">
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
@@ -1571,15 +1590,6 @@ main {
 								<source type="image/gif" srcset="@/assets/img/art/emote/showcase_SinnaVT.gif">
 								<img alt="A pair of cartoon emotes of the SinnaVT vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/showcase_SinnaVT.png">
 							</picture>
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the AngelHunnyBunn vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/laugh_AngelHunnyBunn.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the Kriber vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/bleh_Kriber.png">
-						</swiper-slide>
-						<swiper-slide>
-							<img alt="A cartoon emote of the SintheticSkull vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/smash_SintheticSkull.png">
 						</swiper-slide>
 						<swiper-slide>
 							<img alt="A cartoon emote of the DajzaDj vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/wifeless_DajzaDj.png">
@@ -1608,9 +1618,23 @@ main {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
-														src="/3d/minecraft_model/model_xstraycat_posed.gltf"
+														src="/3d/minecraft_model/model_salarymander_winston.gltf"
+														poster="/3d/minecraft_model/render_salarymander_winston.png"
+														alt="A 3D model of a corgi with a saddle on its back and a slinky for a leg in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_xstraycat.gltf"
 														poster="/3d/minecraft_model/render_xstraycat.png"
 														alt="A 3D model of a black cat with gold earrings and a large bow in the Minecraft style"
+														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+														src="/3d/minecraft_model/model_salarymander_blocko.gltf"
+														poster="/3d/minecraft_model/render_salarymander_blocko.png"
+														alt="A 3D model of an abstract blue character with a scarf in the Minecraft style"
 														camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
@@ -1780,6 +1804,23 @@ main {
 				</div>
 			</div> <!-- Minecraft Skins -->
 			<div class="art-showcase">
+				<h2>Pokemon-Inspired Sprites</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Pixel Art</div>
+					<div class="showcase-tag">Media-Inspired</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="A pixel art rendition of the dovewich vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_dovewich.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of the SintheticSkull vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sintheticskull.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- Pokemon Sprites -->
+			<div class="art-showcase">
 				<h2 style="font-size:20px">3D Character Models</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
@@ -1797,6 +1838,39 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- 3D Character Models -->
+			<div class="art-showcase">
+				<h2 style="font-size:18px">Lethal Company-Inspired Dancing Sprites</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Illustration</div>
+					<div class="showcase-tag">Animation</div>
+					<div class="showcase-tag">Media-Inspired</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_dovewich.gif">
+								<img alt="A lethal company dancing animation of the dovewich vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dovewich.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.gif">
+								<img alt="A helltaker dancing animation of the DahliaStarbright vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.gif">
+								<img alt="A helltaker dancing animation of the QrissyBugg vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.png">
+							</picture>
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- Lethal Company-Inspired Dancing Sprites -->
 			<div class="art-showcase">
 				<h2 style="font-size:20px">Animal Crossing-Inspired<br>Villager Model</h2>
 				<div class="showcase-tags">
