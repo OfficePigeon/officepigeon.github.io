@@ -171,7 +171,7 @@ main {
 						</span>
 					<span title="Serious Play Conference Presentation (2023) - Recording (YouTube)">
 							<a href="https://www.youtube.com/watch?v=GwzRHcKO9iE" target="_blank">
-								<YouTubeLogoIcon class="filtered showcase-little-text-icon"/>
+								<YouTubeLogoIcon class="hover-filtered showcase-little-text-icon"/>
 							</a>
 						</span>
 					<span title="Serious Play Conference Presentation (2023) - Recording (Archive)">
@@ -210,7 +210,7 @@ main {
 						</span>
 					<span title="Serious Play Conference Presentation (2024) - Recording (YouTube)">
 							<a href="https://www.youtube.com/watch?v=25o488NXUWk" target="_blank">
-								<YouTubeLogoIcon class="filtered showcase-little-text-icon"/>
+								<YouTubeLogoIcon class="hover-filtered showcase-little-text-icon"/>
 							</a>
 						</span>
 					<span title="Serious Play Conference Presentation (2024) - Recording (Archive)">
