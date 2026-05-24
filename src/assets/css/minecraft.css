@@ -149,3 +149,8 @@ html[data-theme='dark'] {
 .minecraft-font,.minecraft-font * {
 	font-family: Minecraft, sans-serif;
 }
+.minecraft-background {
+	background-image:var(--minecraft-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}

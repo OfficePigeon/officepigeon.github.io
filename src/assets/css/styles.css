@@ -140,6 +140,12 @@ h2 {
 	height: 42px;
 	object-fit: contain;
 }
+.bubbleLinkIconSmall {
+	margin: 6px 6px 0 0;
+	width: 24px;
+	height: 24px;
+	object-fit: contain;
+}
 
 .bubbleCredit {
 	display: block;
@@ -238,8 +244,7 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.art-showcase {
-	height: 380px;
+.wide-showcase, .short-showcase, .tall-showcase {
 	width: 300px;
 	margin: 4px;
 	padding: 16px;
@@ -248,27 +253,40 @@ h2 {
 	border-radius: 16px;
 	position:relative;
 }
-.art-showcase .showcase-gallery {
+.short-showcase h2, .tall-showcase h2 {
+	font-size: 20px;
+}
+.short-showcase {
+	height: 380px;
+}
+.short-showcase .showcase-gallery {
 	position: absolute;
 	bottom: 16px;
 }
-.showcase {
-	min-height: 360px;
-	max-height: max-content;
-	width: 560px;
-	margin: 4px;
-	padding: 16px;
+.tall-showcase {
+	height: 452px;
+}
+.wide-showcase {
+	height: 352px;
 	display: flex;
-	border: 8px solid;
-	border-color: var(--gray);
-	border-radius: 16px;
+}
+.wide-showcase .showcase-description {
+	padding-left: 20px;
 }
 .showcase-gallery {
 	flex: 1;
 	width: 300px;
+	min-width: 300px;
 	max-width: 300px;
 	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
 	float: left;
+	margin: 8px 0;
+}
+.showcase-description {
+	margin-top: 8px;
+	margin-bottom: 0;
 }
 .showcase-little-text {
 	font-size: 10px;
@@ -279,33 +297,21 @@ h2 {
 	height: 12px;
 	line-height: 10px;
 	position: relative;
-	top: 2px;
-	margin:0 0 0 6px;
+	top: 3px;
+	margin:0 0 0 2px;
 }
 .showcase-text-icon {
-	width: 20px;
-	height: 20px;
-	line-height: 18px;
+	width: 19px;
+	height: 19px;
+	line-height: 20px;
 	position: relative;
-	top: 2px;
+	top: 3px;
 	margin:0 0 0 6px;
 }
-.showcase-read-more {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	height: 22px;
-	margin-top: 4px;
+.showcase-tags a .showcase-text-icon {
+	top: 0;
 }
-.showcase-read-more button {
-	position: relative;
-	top: 4px;
-}
-.showcase-description-section {
-	flex: 1;
-}
-.showcase .carousel-inner model-viewer {
+.wide-showcase .carousel-inner model-viewer {
 	width: 300px;
 	height: 300px;
 }
@@ -333,11 +339,6 @@ h2 {
 	width: max-content;
 	white-space: nowrap;
 	height: 14px;
-}
-.showcase-description {
-	margin-top: 8px;
-	margin-bottom: 0;
-	padding-left: 20px;
 }
 /* Slides */
 .slide {

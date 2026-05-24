@@ -26,7 +26,7 @@ import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 			<RouterLink to="/github" title="GitHub" class="tooltip"><GitHubLogoIcon class="social-icon filtered"/><span class="tooltipText">GitHub</span></RouterLink>
 			<a href="mailto:girlboss@wich.fun" title="Email" class="tooltip"><EmailLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Email</span></a>
 		</div>
-		<p class="copyright" id="site-footer-copyright">Copyright &copy{{ new Date().getFullYear().toString() }} dovewich</p>
+		<p class="copyright" id="site-footer-copyright">Copyright &copy2016-{{ new Date().getFullYear().toString() }} dovewich</p>
 	</div>
 </template>
 <style scoped>

@@ -16,25 +16,28 @@ import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 	<h1>Directory</h1>
 	<div class="bubbleSections">
 		<div class="bubbleLinks">
-			<h2 class="bubbleHeader">Links</h2>
+			<h2 class="bubbleHeader">Social Media</h2>
 			<RouterLink class="bubbleLink" to="/twitch" title="Twitch"><TwitchLogoIcon class="bubbleLinkIcon"/> Twitch</RouterLink>
 			<RouterLink class="bubbleLink" to="/youtube" title="YouTube"><YouTubeLogoIcon class="bubbleLinkIcon"/> YouTube</RouterLink>
 			<RouterLink class="bubbleLink" to="/twitter" title="Twitter"><TwitterLogoIcon class="bubbleLinkIcon"/> Twitter</RouterLink>
 			<RouterLink class="bubbleLink" to="/bluesky" title="Bluesky"><BlueskyLogoIcon class="bubbleLinkIcon"/> Bluesky</RouterLink>
 			<RouterLink class="bubbleLink" to="/tumblr" title="Tumblr"><TumblrLogoIcon class="bubbleLinkIcon"/> Tumblr</RouterLink>
+		</div>
+		<div class="bubbleLinks">
+			<h2 class="bubbleHeader">Commissions</h2>
 			<RouterLink class="bubbleLink" to="/vgen" title="VGen"><VGenLogoIcon class="bubbleLinkIcon"/> VGen</RouterLink>
 			<RouterLink class="bubbleLink" to="/ko-fi" title="Ko-fi"><KofiLogoIcon class="bubbleLinkIcon"/> Ko-fi</RouterLink>
-			<RouterLink class="bubbleLink" to="/modrinth" title="Modrinth"><ModrinthLogoIcon class="bubbleLinkIcon"/> Modrinth</RouterLink>
-			<RouterLink class="bubbleLink" to="/discord" title="Discord"><DiscordLogoIcon class="bubbleLinkIcon"/> Discord</RouterLink>
+			<h2 class="bubbleHeader">Development</h2>
 			<RouterLink class="bubbleLink" to="/github" title="GitHub"><GitHubLogoIcon class="bubbleLinkIcon"/> GitHub</RouterLink>
-			<a class="bubbleLink" href="mailto:girlboss@wich.fun" title="Email"><EmailLogoIcon class="bubbleLinkIcon filtered"/> Email</a>
+			<h2 class="bubbleHeader">Contact</h2>
+			<RouterLink class="bubbleLink" to="/discord" title="Discord"><DiscordLogoIcon class="bubbleLinkIcon"/> Discord</RouterLink>
+			<a class="bubbleLink" href="mailto:girlboss@wich.fun" title="Email" target="_blank"><EmailLogoIcon class="bubbleLinkIcon filtered"/> Email</a>
 		</div>
 		<div class="bubbleLinks">
 			<h2 class="bubbleHeader">On this Site</h2>
 			<RouterLink class="bubbleLink" to="/" title="Home"><span class="centered">Home</span></RouterLink>
-			<RouterLink class="bubbleLink" to="/commission" title="Commission"><span class="centered">Commissions</span></RouterLink>
 			<h2 class="bubbleHeader">Fun</h2>
-			<RouterLink class="bubbleLink" to="/mods" title="Game Mods"><span class="centered">Game Mods</span></RouterLink>
+			<RouterLink class="bubbleLink" to="/mods" title="Game Mods"><a href="/modrinth" title="Modrinth" target="_blank"><ModrinthLogoIcon class="bubbleLinkIcon"/></a> Game Mods</RouterLink>
 			<RouterLink class="bubbleLink" to="/excitingchess" title="Exciting Chess"><span class="centered">Exciting Chess</span></RouterLink>
 			<h2 class="bubbleHeader">Utilities</h2>
 			<RouterLink class="bubbleLink" to="/discord-timestamps" title="Discord Timestamps"><span class="centered">Discord Timestamps</span></RouterLink>

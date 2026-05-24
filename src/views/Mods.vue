@@ -11,10 +11,11 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import DownloadIcon from "@/components/icons/DownloadIcon.vue";
 import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
+import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 
 
 export default {
-	components: {GitHubLogoIcon, DownloadIcon, Swiper, SwiperSlide, },
+	components: { GitHubLogoIcon, ModrinthLogoIcon, DownloadIcon, Swiper, SwiperSlide, },
 	setup() {
 		return {
 			pagination: { clickable: true },
@@ -28,7 +29,18 @@ export default {
 	<div style="min-width:700px;margin:auto">
 		<h1 id="MinecraftMods" class="minecraft-font">Minecraft Mods</h1>
 		<div class="showcase-group">
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mob Pouches</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -48,26 +60,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Mob Pouches</h2>
-					<p class="showcase-description">
-						A simple mod enabling players to pick up and carry creatures similar to the equivalent mechanic in the base
-						game for the transport of fish. The mod can be flexibly configured to support any subset of the game's
-						creatures.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/mob-pouches" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
+				<p class="showcase-description">
+					Pouches to pick up and carry mobs like bucketed fish. Generally compatibile with most base-game and modded mobs.
+				</p>
+			</div> <!-- Mob Pouches -->
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Zombie Villager Variants</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
 				</div>
-			</div> <!-- Minecraft Mob Pouches -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -99,25 +107,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Zombie Villager Variants</h2>
-					<p class="showcase-description">
-						A mod adding extra variants to Minecraft's Zombie Villager monster to match the Drowned and Husk
-						versions of the zombie.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Extra Zombie Villager variants to match the Drowned, Husk, and some modded zombie types.
+				</p>
 			</div> <!-- Minecraft Zombie Villager Variants -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Entity Item Tooltips</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -131,25 +136,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Entity Item Tooltips</h2>
-					<p class="showcase-description">
-						A fully client-side mod that adds extra information to the user interface tooltips for items that can be
-						used to create new entities in the world.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A client-side mod that adds extra tooltip information for entity-creating items like spawn eggs and buckets.
+				</p>
 			</div> <!-- Minecraft Entity Item Tooltips -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Cluckshrooms</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -160,26 +162,23 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Cluckshrooms</h2>
-					<p class="showcase-description">
-						Implements the Cluckshroom creature from the Minecraft Earth and Minecraft Dungeons spin-offs in Minecraft.
-						These mushroom chickens behave like a balanced blend of the chicken and mooshroom creatures from the base
-						game.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Cluckshroom from Minecraft Earth, creating a mob that balances the best of chickens and mooshrooms.
+				</p>
 			</div> <!-- Minecraft Cluckshrooms -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Chiseled Bookshelf Enchanting</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Optional Client</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -190,25 +189,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Chiseled Bookshelf Enchanting</h2>
-					<p class="showcase-description">
-						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
-						the number of books necessary for each bookshelf to power the enchanting table.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A configuration mod that allows chiseled bookshelves to be used for enchanting.
+				</p>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Sunken Skeletons</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -222,25 +218,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Sunken Skeletons</h2>
-					<p class="showcase-description">
-						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
-						have configurable spawning conditions and multiple variants.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Sunken Skeleton from Minecraft Dungeons, adding a new underwater threat with multiple variants.
+				</p>
 			</div> <!-- Minecraft Sunken Skeletons -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Barter With Babies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -263,26 +256,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Barter With Babies</h2>
-					<p class="showcase-description">
-						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
-						configurable loot table system in line with the game's base implementation and bartering behavior for adult
-						piglins.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A configuration mod that lets baby piglins barter like adults with a balanced new loot table.
+				</p>
 			</div> <!-- Minecraft Barter With Babies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Muddy Pigs</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -302,25 +291,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Muddy Pigs</h2>
-					<p class="showcase-description">
-						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
-						pigs with new mechanics for bathing in mud and making a mess.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Inspired by Muddy Pigs from Minecraft Earth, extends pigs with new mechanics for bathing in mud and making a mess.
+				</p>
 			</div> <!-- Minecraft Muddy Pigs -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Honey Slimes</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Honey-Slime-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -331,25 +317,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Honey Slimes</h2>
-					<p class="showcase-description">
-						Adds a new Honey Slime monster to Minecraft. These slimes behave like a neutral version of those from the
-						base game, only targeting poisoned entities and dropping new crystallized honey.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/honey-slimes" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Honey-Slime-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Adds a new neutral Honey Slime mob and honey block set to expand on flowering biomes.
+				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Bouldering Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -360,25 +343,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Bouldering Zombies</h2>
-					<p class="showcase-description">
-						Implements the Bouldering Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies
-						can climb walls like the spider monsters from the base game.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Bouldering Zombie from Minecraft Earth, adding a new undead climbing threat to rival spiders.
+				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Frozen Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -392,25 +372,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Frozen Zombies</h2>
-					<p class="showcase-description">
-						Implements the Frozen Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
-						throw snowballs with a slowing effect at players before chasing them down.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Frozen Zombie monster from Minecraft Dungeons, initiating deadly snowball fights in the night.
+				</p>
 			</div> <!-- Minecraft Frozen Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Jungle Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -421,25 +398,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Jungle Zombies</h2>
-					<p class="showcase-description">
-						Implements the Jungle Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
-						have a poisonous attack but they can be trimmed back to the zombies from the base game with a set of shears.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Jungle Zombie from Minecraft Dungeons, adding a toxic threat to jungles and a source of vines.
+				</p>
 			</div> <!-- Minecraft Jungle Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Lobber Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -450,25 +424,23 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Lobber Zombies</h2>
-					<p class="showcase-description">
-						Implements the Lobber Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies can
-						throw rotten flesh as a ranged attack.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Lobber Zombie from Minecraft Earth, introducing a zombie that doesn't need to be close to be dangerous.
+				</p>
 			</div> <!-- Minecraft Lobber Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Lightning Rod Copper Armor</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Optional Client</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Lightning-Rod-Armor" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -479,24 +451,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Lightning Rod Copper Armor</h2>
-					<p class="showcase-description">
-						A silly mod increasing the likelihood of entities wearing copper armor of being struck by lightning.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Lightning-Rod-Armor" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A silly mod making copper armor a whole lot riskier to wear in a thunderstorm.
+				</p>
 			</div> <!-- Minecraft Lightning Rod Copper Armor -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mossy Llamas</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Client + Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Mossy-Llamas-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -507,24 +477,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Mossy Llamas</h2>
-					<p class="showcase-description">
-						A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
+				</p>
 			</div> <!-- Minecraft Mossy Llamas -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Reusable Smithing</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/reusable-smithing" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Reusable-Smithing-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -544,25 +512,23 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Reusable Smithing</h2>
-					<p class="showcase-description">
-						A utility mod adjusting the game's smithing system so that armor trimming and upgrade recipes no longer
-						consume the smithing template items as part of the recipe.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A utility mod adjusting smithing so that armor trimming and upgrade recipes no longer consume template items
+					as part of the recipe.
+				</p>
 			</div> <!-- Minecraft Reusable Smithing -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Commands: Ignite & Extinguish</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -570,25 +536,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Commands: Ignite & Extinguish</h2>
-					<p class="showcase-description">
-						A minimalistic mod adding new /ignite and /extinguish console commands to set entities on fire and put them
-						out.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/command-ignite" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					/ignite and /extinguish console commands to ignite entities and put them out.
+				</p>
 			</div> <!-- Minecraft Command: Ignite -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Command: Chorus</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -596,24 +559,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Command: Chorus</h2>
-					<p class="showcase-description">
-						A whimsical mod adding a new /chorus console command to randomly teleport entities a short distance.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/command-chorus" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A whimsical new /chorus console command to randomly teleport entities a short distance.
+				</p>
 			</div> <!-- Minecraft Command: Chorus -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Data Driven Locator Bar Hiding</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -624,29 +585,26 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Data Driven Locator Bar Hiding</h2>
-					<p class="showcase-description">
-						A utility mod enabling the set of items worn by players to hide from the locator bar to be modified by data
-						packs, bundled with an example pack removing carved pumpkins from the set.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A utility mod for data packs to configure the items that hide players from the locator bar.
+				</p>
 			</div> <!-- Minecraft Data Driven Locator Bar Hiding -->
 		</div>
 		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
 		<p style="text-align:center">Data packs are Minecraft mods that do not require changes to the game code.</p>
 		<div class="showcase-group">
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Saplings to Dead Bushes</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -657,24 +615,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Saplings to Dead Bushes</h2>
-					<p class="showcase-description">
-						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A recipe data pack for smelting Saplings into Dead Bushes.
+				</p>
 			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Bone Block Shortcut</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Bone-Block-Shortcut-Datapack" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -685,25 +641,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Bone Block Shortcut</h2>
-					<p class="showcase-description">
-						A simple data pack creating a recipe to make crafting bone blocks from bones faster by skipping the step of
-						converting them to bone meal.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Bone-Block-Shortcut-Datapack" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A shortcut recipe data pack for crafting bone blocks directly from bones, skipping the bone meal step.
+				</p>
 			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mob Pouches: Pouchable Villagers</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -711,24 +664,22 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Mob Pouches: Pouchable Villagers</h2>
-					<p class="showcase-description">
-						An example data pack for the Mob Pouches mod that enables Villagers to be transported with pouches.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					An example data pack for the Mob Pouches mod letting Villagers be pouched.
+				</p>
 			</div> <!-- Minecraft Data Pack: Mob Pouches - Pouchable Villagers -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2 style="font-size:14px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Server</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -736,23 +687,9 @@ export default {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
-					<p class="showcase-description">
-						An example data pack for the Data Driven Locator Bar Hiding mod that excludes Carved Pumpkins from the mod's
-						tag, enabling players wearing Carved Pumpkins to show up on the locator bar.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					An example data pack for the Data Driven Locator Bar Hiding mod making players wearing pumpkins show up on the bar.
+				</p>
 			</div> <!-- Minecraft Data Pack: Data Driven Locator Bar Hiding - Show Carved Pumpkins -->
 		</div>
 	</div>

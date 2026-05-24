@@ -40,13 +40,11 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 			</button>
 			<RouterLink id="site-header-home" to="/" @click="HideNavDropdown()" title="Home" class="navButton">Home</RouterLink>
 			<RouterLink id="site-header-directory" to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
-			<RouterLink id="site-header-commission" to="/commission" @click="HideNavDropdown()" title="Commission" class="navButton">Commissions</RouterLink>
 			<RouterLink id="site-header-mods" to="/mods" @click="HideNavDropdown()" title="Game Mods" class="navButton">Game Mods</RouterLink>
 		</div>
 		<!-- Navbar Dropdown -->
 		<div ref="NavigationDropdown" class="navDropdown" id="site-header-nav-dropdown">
 			<RouterLink to="/directory" @click="HideNavDropdown()" title="Directory" class="navButton">Directory</RouterLink>
-			<RouterLink to="/commission" @click="HideNavDropdown()" title="Commissions" class="navButton">Commissions</RouterLink>
 			<div class="navSeparator">----------- Fun -----------</div>
 			<RouterLink to="/mods" @click="HideNavDropdown()" title="Game Mods" class="navButton">Game Mods</RouterLink>
 			<RouterLink to="/excitingchess" @click="HideNavDropdown()" title="Exciting Chess" class="navButton">Exciting Chess</RouterLink>
@@ -57,11 +55,6 @@ function ToggleHide(x) { x.className = x.className.replace(" navShow", ""); }
 </template>
 <style scoped>
 @media only screen and (max-width: 628px) {
-	#site-header-commission {
-		display: none;
-	}
-}
-@media only screen and (max-width: 803px) {
 	#site-header-mods {
 		display: none;
 	}

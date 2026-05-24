@@ -7,7 +7,6 @@ import './assets/js/common.js';
 
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
-import Commission from "@/views/Commission.vue";
 import DiscordTimestamps from '@/views/DiscordTimestamps.vue';
 import NotFound from '@/views/NotFound.vue';
 import Directory from "@/views/Directory.vue";
@@ -19,7 +18,6 @@ import ExcitingChess from "@/views/ExcitingChess.vue";
 const routes = [
 	{ path: '/', component: Home, meta: { title: 'Home - wich.fun' }  },
 	{ path: '/attributions', component: Attributions, meta: { title: 'Attributions - wich.fun' } },
-	{ path: '/commission', component: Commission, meta: { title: 'Comissions - wich.fun' } },
 	{ path: '/excitingchess', component: ExcitingChess, meta: { title: 'Exciting Chess - wich.fun' } },
 	{ path: '/mods', component: Mods, meta: { title: 'Mods - wich.fun' } },
 	{ path: '/portfolio/aidan-buffum', component: Portfolio, meta: { title: 'Portfolio - Aidan Buffum' } },
@@ -34,6 +32,7 @@ const router = createRouter({
 });
 const redirects = {
 	'/bluesky': 'https://bsky.app/profile/OfficePigeon.bsky.social',
+	'/commission': 'https://vgen.co/OfficePigeon',
 	'/discord': 'https://discord.com/invite/jB9exg6anW',
 	'/github': 'https://github.com/OfficePigeon',
 	'/ko-fi': 'https://ko-fi.com/OfficePigeon',

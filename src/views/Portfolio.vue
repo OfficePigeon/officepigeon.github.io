@@ -17,9 +17,17 @@ import FileIcon from "@/components/icons/FileIcon.vue";
 import PhoneIcon from "@/components/icons/PhoneIcon.vue";
 import ComputerIcon from "@/components/icons/ComputerIcon.vue";
 import GitHubLogoIcon from "@/components/icons/logos/GitHubLogoIcon.vue";
+import YouTubeLogoIcon from "@/components/icons/logos/YouTubeLogoIcon.vue";
+import VideoIcon from "@/components/icons/VideoIcon.vue";
+import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
+import ItchIOLogoIcon from "@/components/icons/logos/ItchIOLogoIcon.vue";
 
 export default {
 	components: {
+		ItchIOLogoIcon,
+		ModrinthLogoIcon,
+		VideoIcon,
+		YouTubeLogoIcon,
 		GitHubLogoIcon,
 		ComputerIcon, FileIcon, PhoneIcon, EmailIcon, CopyIcon, DownloadIcon, PresentationIcon, Swiper, SwiperSlide
 	},
@@ -42,7 +50,7 @@ export default {
 
 			removeById("site-footer-icons");
 			let e = document.getElementById("site-footer-copyright");
-			if (e) e.innerHTML = "Copyright &copy" +  new Date().getFullYear().toString() + " Aidan Buffum"
+			if (e) e.innerHTML = "Copyright &copy2016-" +  new Date().getFullYear().toString() + " Aidan Buffum"
 		}
 		refactorHeaderFooter();
 		setInterval(refactorHeaderFooter, 1000);
@@ -59,26 +67,27 @@ main {
 }
 </style>
 <template>
-	<div style="min-width:700px;">
+	<div style="min-width:700px">
 		<h1>Portfolio - Aidan Buffum</h1>
-		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center;">
+		<div style="display: flex;align-items:center;justify-content:center;flex-wrap:wrap;height:36px;line-height:36px;vertical-align:center">
 			<a href="mailto:aabuffum@gmail.com" target="_blank" title="Email">
-				<EmailIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px;"/>
+				<EmailIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-right:10px"/>
 			</a>
 			<a href="mailto:aabuffum@gmail.com" target="_blank" title="Email">aabuffum@gmail.com</a>
 			<a href="/pdf/portfolio/Resume.pdf" target="_blank" title="Resume">
-				<FileIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-left:10px;"/>
+				<FileIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding-left:10px"/>
 			</a>
 			<a href="/pdf/portfolio/Resume.pdf" target="_blank" title="Resume">Resume</a>
 			<a href="tel:+14018718494" target="_blank" title="Phone">
-				<PhoneIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px;"/>
+				<PhoneIcon class="social-icon hover-filtered" style="height:36px;width:36px;padding:0 10px"/>
 			</a>
 			<a href="tel:+14018718494" target="_blank" title="Phone">+1(401)871-8494 </a>
 		</div>
 		<h1 id="SeriousGames">Serious Games</h1>
 		<div class="showcase-group">
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>Now We're Talking!</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Now We're Talking! game" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
@@ -93,52 +102,46 @@ main {
 							<img alt="A screenshot of the Now We're Talking! character customization screen" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_3.png">
 						</swiper-slide>
 					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
-						<span title="Serious Play Conference Presentation (2021)">
+				</div>
+				<p class="showcase-description">
+					An emotional intelligence game simulating interactions with a virtual stand-in for the player's partner. Each
+					episode features branching dialogues and new learning objectives building upon those from previous episodes.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
+					<span title="Serious Play Conference Presentation (2021)">
 							<a href="/pdf/portfolio/SeriousPlayConf2021.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						and the <a href="https://www.thenarrativesociety.org/" target="_blank">International Conference on Narrative</a>
-						and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships" target="_blank">featured</a>
-						<span title="Article - MITRE’s Latest Serious Game Works to Level Up Personal Relationships (2022)">
+					and the <a href="https://www.thenarrativesociety.org/" target="_blank">International Conference on Narrative</a>
+					and <a href="https://www.mitre.org/news-insights/impact-story/mitres-latest-serious-game-works-level-personal-relationships" target="_blank">featured</a>
+					<span title="Article - MITRE’s Latest Serious Game Works to Level Up Personal Relationships (2022)">
 							<a href="/pdf/portfolio/MITRE-Article-2022-01-12.pdf" target="_blank">
 								<FileIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						by <a href="https://www.mitre.org/" target="_blank">The MITRE Corporation</a>
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Now We're Talking!</h2>
-					<p class="showcase-description">
-						A game simulating a two-person interaction with a virtual character representing the player's partner whom
-						players interact with across a series of episodes. Each episode features branching dialogues that introduce
-						new learning objectives and build upon those from previous episodes.
-					</p>
-				</div>
+					by <a href="https://www.mitre.org/" target="_blank">The MITRE Corporation</a>
+				</p>
 			</div> <!-- Now We're Talking! -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2 style="font-size:18px">Keeping Up With The Smiths</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Keeping Up With The Smiths game" class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Keeping Up With The Smiths</h2>
-					<p class="showcase-description">
-						A life-simulation game where the players make financial choices over several in-game years to have the best
-						home on their street. Players are presented with typical or file-free options for their taxes. The
-						experiment aims to measure whether typical players are more likely to report their taxes accurately with a
-						particular option.
-					</p>
-				</div>
+				<p class="showcase-description">
+					An experimental game analyzing tax reporting accuracy with a file-free system. In the life-simulation game,
+					the player makes financial choices over several in-game years with the goal of having the best home on their
+					street. Each year, players have varying choices between typical or file-free options for their taxes.
+				</p>
 			</div> <!-- Keeping Up With The Smiths -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>Loki's Marauders</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Loki's Marauders game" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
@@ -153,26 +156,34 @@ main {
 							<img alt="A screenshot of a Loki's Marauders event screen" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_9.png">
 						</swiper-slide>
 					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
-						<span title="Serious Play Conference Presentation (2023)">
+				</div>
+				<p class="showcase-description">
+					An educational game where players take on the role of one of four monster viking captains. Players learn to
+					identify different fallacies and tactics for manipulation as they attempt to sway the other captains while
+					staying wary of their fellow monsters' attempts to trick them.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
+					<span title="Serious Play Conference Presentation (2023)">
 							<a href="/pdf/portfolio/SeriousPlayConf2023.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Loki's Marauders</h2>
-					<p class="showcase-description">
-						An educational game where players take on the role of one of four monster viking captains. Players learn to
-						identify different fallacies and tactics for manipulation as they attempt to sway the other captains while
-						staying wary of their fellow monsters' attempts to trick them.
-					</p>
-				</div>
+					<span title="Serious Play Conference Presentation (2023) - Recording (YouTube)">
+							<a href="https://www.youtube.com/watch?v=GwzRHcKO9iE" target="_blank">
+								<YouTubeLogoIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+					<span title="Serious Play Conference Presentation (2023) - Recording (Archive)">
+							<a href="/video/portfolio/SeriousPlayConf2023.mkv" target="_blank">
+								<VideoIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+				</p>
 			</div> <!-- Loki's Marauders -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>TimeQuake Escape!</h2>
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the TimeQuake Escape! game" class="slide" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
@@ -181,86 +192,88 @@ main {
 							<img alt="A screenshot of the TimeQuake Escape! introduction screen" class="slide" src="@/assets/img/portfolio/NWT/TimeQuake_2.png">
 						</swiper-slide>
 					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
-						<span title="Serious Play Conference Presentation (2024)">
+				</div>
+				<p class="showcase-description">
+					A guided census survey experiment aimed to identify whether a gamified experience with ongoing feedback can
+					increase response rates and reporting accuracy from underrepresented populations.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					* This game includes art assets created with Generative Artificial Intelligence systems. I do not and have
+					never endorsed the use of AI as a total replacement for human artists and creatives.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					Presented at the <a href="https://seriousplayconf.com/" target="_blank">Serious Play Conference</a>
+					<span title="Serious Play Conference Presentation (2024) - Presentation">
 							<a href="/pdf/portfolio/SeriousPlayConf2024.pdf" target="_blank">
 								<PresentationIcon class="filtered showcase-little-text-icon"/>
 							</a>
-						</span> and part of
-						research submitted for publication in the
-						<a href="https://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>TimeQuake Escape!</h2>
-					<p class="showcase-description">
-						A guided census survey experiment aimed to identify whether a gamified experience with ongoing feedback can
-						increase response rates and reporting accuracy from underrepresented populations.
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* This game includes art assets created with Generative Artificial Intelligence systems. I do not and have
-						never endorsed the use of AI as a total replacement for human artists and creatives.
-					</p>
-				</div>
+						</span>
+					<span title="Serious Play Conference Presentation (2024) - Recording (YouTube)">
+							<a href="https://www.youtube.com/watch?v=25o488NXUWk" target="_blank">
+								<YouTubeLogoIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+					<span title="Serious Play Conference Presentation (2024) - Recording (Archive)">
+							<a href="/video/portfolio/SeriousPlayConf2024.mp4" target="_blank">
+								<VideoIcon class="filtered showcase-little-text-icon"/>
+							</a>
+						</span>
+					and part of research submitted for publication in the
+					<a href="https://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
+				</p>
 			</div> <!-- TimeQuake Escape! -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2 style="font-size:16px">Workplace Violence Scenarios</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the workplace violence scenarios game" class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Workplace Violence Scenarios</h2>
-					<p class="showcase-description">
-						A set of interactive simulations for behavioral experimentation. Players are tasked with identifying warning signs
-						of potential workplace violence incidents in an experimental environment that aims to measure the user's
-						responses and reactivity to different scenarios and behaviors.
-					</p>
-				</div>
+				<p class="showcase-description">
+					A set of interactive simulations for behavioral experimentation. Players are tasked with identifying warning signs
+					of potential workplace violence incidents in an experimental environment that aims to measure the user's
+					responses and reactivity to different scenarios and behaviors.
+				</p>
 			</div> <!-- Workplace Violence Scenarios -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>Interview Simulation Exercise</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Interview Simulation Exercise</h2>
-					<p class="showcase-description">
-						Players interview several candidates for a position and enter into a guided dialogue with their
-						colleagues to discuss the candidates, wherein they must identify inappropriate questions to ask candidates
-						and educate their colleagues on appropriate interviewing procedures.
-					</p>
-				</div>
+				<p class="showcase-description">
+					An interview training game where the player interviews several candidates for a position and discusses the
+					candidates in a guided dialogue with their colleagues. The player must identify inappropriate questions and
+					educate their colleagues on proper interviewing procedures.
+				</p>
 			</div> <!-- Interview Simulation Exercise -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>Agile Tactics</h2>
+				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Agile Tactics game" class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Agile Tactics</h2>
-					<p class="showcase-description">
-						A multi-episode interactive training story game allowing users to test their knowledge of DevOps and Agile
-						methodologies. Users are given multiple choices in an ongoing dialogue with their boss and colleagues in
-						which they must choose the correct responses in order to win their team's trust and deliver the project on
-						time.
-					</p>
-				</div>
+				<p class="showcase-description">
+					A multi-episode interactive training game allowing users to test their knowledge of DevOps and Agile
+					methodologies. Users are given multiple choices in an ongoing dialogue with their boss and colleagues in
+					which they must choose the correct responses in order to win their team's trust and deliver the project on
+					time.
+				</p>
 			</div> <!-- Agile Tactics -->
-			<div class="showcase">
-				<div class="showcase-gallery">
+			<div class="tall-showcase">
+				<h2>Dollar Domination</h2>
+				<div class="showcase-gallery" style="height:260px;min-height:260px;max-height:260px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
+							<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/cover.png">
 						</swiper-slide>
 						<swiper-slide>
 							<img alt="A photo of the components for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
@@ -272,27 +285,24 @@ main {
 							<img alt="A photo showing games being presented to Games for Change attendees" class="slide" src="@/assets/img/portfolio/dollardomination/gamesforchange.png">
 						</swiper-slide>
 					</swiper>
-					<p class="showcase-description showcase-little-text">
-						Presented at the <a href="https://festival.gamesforchange.org/" target="_blank">Games for Change Festival</a>
-						and <a href="https://www.wpi.edu/news/imgd-creates-games-change" target="_blank">featured</a>
-						<span title="Article - IMGD Creates Games for Change (2017)">
+				</div>
+				<p class="showcase-description">
+					A Monopoly-style board game about unregulated capitalism where players try to gain control of the economy
+					while facing increasing economic inequality.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					Presented at the <a href="https://festival.gamesforchange.org/" target="_blank">Games for Change Festival</a>
+					and <a href="https://www.wpi.edu/news/imgd-creates-games-change" target="_blank">featured</a>
+					<span title="Article - IMGD Creates Games for Change (2017)">
 							<a href="/pdf/portfolio/WPI-Article-2017-08-23.pdf" target="_blank">
 								<FileIcon class="filtered showcase-little-text-icon"/>
 							</a>
 						</span>
-						by <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
-					</p>
-				</div>
-				<div class="showcase-description-section">
-					<h2>Dollar Domination</h2>
-					<p class="showcase-description">
-						A Monopoly-style board game designed to acknowledge the original theme of Elizabeth Magie's
-						<i>The Landlord's Game</i> and draw attention to the dangers of unregulated capitalism. 3-6 players fight
-						to control the economy and bankrupt the competition, facing economic inequality throughout the game.
-					</p>
-				</div>
+					by <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
+				</p>
 			</div> <!-- Dollar Domination -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Robo Race</h2>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -312,20 +322,15 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Robo Race</h2>
-					<p class="showcase-description">
-						An educational strategy game designed to teach and reinforce logical and critical thinking
-						skills in children aged 5-14. 2-4 players control four robots with secret goal positions, playing cards
-						from their hands to advance their robots while setting their opponents back. The game's rules vary by age
-						group to keep the game engaging and educational.
-					</p>
-				</div>
+				<p class="showcase-description">
+					A game teaching logical and critical thinking skills for ages 5-14+ with varied rules by age group. Players
+					use cards to move robots to their secret goals and set others back.
+				</p>
 			</div> <!-- Robo Race -->
 		</div>
 		<h1 id="OtherTechnicalProjects">Other Technical Projects</h1>
 		<div class="showcase-group">
-			<div class="showcase" style="width:868px">
+			<div class="wide-showcase" style="width:868px">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -364,7 +369,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
-			<div class="showcase" style="width:868px">
+			<div class="wide-showcase" style="width:868px">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -385,7 +390,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
-			<div class="showcase">
+			<div class="wide-showcase" style="width:560px">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -417,7 +422,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Mario Level Generator and Quilt Renderer -->
-			<div class="showcase" style="width:252px">
+			<div class="wide-showcase" style="width:252px">
 				<div class="showcase-description-section">
 					<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
 					<p class="showcase-description">
@@ -428,7 +433,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Digital Twins for Collision Avoidance -->
-			<div class="showcase" style="width:868px">
+			<div class="wide-showcase" style="width:868px">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -462,7 +467,15 @@ main {
 		</div>
 		<h1 id="EntertainmentGames">Entertainment Games</h1>
 		<div class="showcase-group">
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Umbra</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Puzzle</div>
+					<div class="showcase-tag">JavaScript</div>
+					<a href="/static_games/umbra/cover.html" target="_blank" title="Play in Browser">
+						<ComputerIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -482,21 +495,20 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Umbra</h2>
-					<p class="showcase-description">
-						An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an
-						encroaching darkness. Umbra is played only with the arrow keys.
-					</p>
-					<p class="showcase-description">
-						<a href="/static_games/umbra/cover.html" target="_blank">Play in browser</a>
-						<a href="/static_games/umbra/cover.html" target="_blank" title="Play in browser">
-							<ComputerIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an encroaching darkness.
+				</p>
 			</div> <!-- Umbra -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Contrast Bounce</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Physics</div>
+					<div class="showcase-tag">Puzzle</div>
+					<div class="showcase-tag">JavaScript</div>
+					<a href="/static_games/contrastbounce/cover.html" target="_blank" title="Play in Browser">
+						<ComputerIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -516,21 +528,19 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Contrast Bounce</h2>
-					<p class="showcase-description">
-						An abstract puzzle game where the player inverts the colors of the map to fire a ball at the goal. Contrast
-						Bounce is played only with the space bar and the mouse.
-					</p>
-					<p class="showcase-description">
-						<a href="/static_games/contrastbounce/cover.html" target="_blank">Play in browser</a>
-						<a href="/static_games/contrastbounce/cover.html" target="_blank" title="Play in browser">
-							<ComputerIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					An abstract puzzle game where the player inverts the colors of the map to bounce a ball into the goal.
+				</p>
 			</div> <!-- Contrast Bounce -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Batastrophe</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Asymmetric</div>
+					<div class="showcase-tag">Multiplayer</div>
+					<div class="showcase-tag">Party</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -554,14 +564,11 @@ main {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2>Batastrophe</h2>
 					<p class="showcase-description">
-						A split-screen asymmetrical party game. Three players try to remove a rambunctious bat from their home while
-						the bat causes mayhem and breaks everything in its wake. Players take turns controlling the bat, competing
-						to do the most damage across four rounds.
+						A split-screen party game where players take turns breaking everything in their house as a bat and running
+						damage control.
 					</p>
-
-					<p class="showcase-description showcase-little-text">
+					<p class="showcase-description showcase-little-text" style="margin-top:0">
 						Created as a
 						<a href="https://www.wpi.edu/project-based-learning/project-based-education/major-qualifying-project" target="_blank">Major Qualifying Project</a>
 						<span title="Batastrophe Paper (2020)">
@@ -573,7 +580,15 @@ main {
 					</p>
 				</div>
 			</div> <!-- Batastrophe -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>House Party</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Cooperative</div>
+					<div class="showcase-tag">Board Game</div>
+					<div class="showcase-tag">3-6 Players</div>
+					<a href="https://www.thegamecrafter.com/games/house-party2" target="_blank"
+						 title="Available on The Game Crafter" style="text-decoration:none;margin-left:4px">$</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -591,21 +606,22 @@ main {
 					</swiper>
 				</div>
 				<div class="showcase-description-section">
-					<h2>House Party</h2>
 					<p class="showcase-description">
-						A cooperative game where 3-6 players are throwing a house party but it could get very
-						dangerous very fast. Players must navigate the house, escort guests, help them sober up, and send the
-						rowdy ones home to keep the party under control.
+						Keep your house party safe by escorting guests, sobering them up, and getting the rowdy ones home before anyone gets hurt.
 					</p>
-					<p class="showcase-description">
-						<a href="https://www.thegamecrafter.com/games/house-party2" target="_blank">Available on The Game Crafter</a>
-					</p>
-					<p class="showcase-description showcase-little-text">
+					<p class="showcase-description showcase-little-text" style="margin-top:4px">
 						* This game depicts consumption of alcoholic beneverages.
 					</p>
 				</div>
 			</div> <!-- House Party -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>ExChange The World</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Physics</div>
+					<div class="showcase-tag">Puzzle</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -625,16 +641,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>ExChange The World</h2>
-					<p class="showcase-description">
-						A physics-based puzzle game in which the player must solve a variety of everyday problems by swapping the
-						locations of objects in the world with a special gun. Though some objects may only be swapped with others of
-						the same kind, every object dynamically influences its surroundings when swapped.
-					</p>
-				</div>
+				<p class="showcase-description">
+					Solve a variety of everyday problems with a special swap gun. Not every pair of objects swaps but every swap
+					matters. ExChange The World carefully!
+				</p>
 			</div> <!-- ExChange The World -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Little Worlds</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Physics</div>
+					<div class="showcase-tag">Multiplayer</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+					<a href="https://aidanbuffum.itch.io/little-worlds" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -651,22 +673,21 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Little Worlds</h2>
-					<p class="showcase-description">
-						A competitive party game where 2-4 players race to build the largest celestial body they can. With
-						Katamari-inspired rolling, players grow and shrink by pulling space rubble into their planets and stealing
-						moons from their opponents' orbits.
-					</p>
-					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/little-worlds" target="_blank">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/little-worlds" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Players race to build the largest planet they can. With Katamari-inspired rolling, planets grow and real
+					orbits and pilfered moons.
+				</p>
 			</div> <!-- Little Worlds -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>I Dig It</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Multiplayer</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+					<a href="https://aidanbuffum.itch.io/i-dig-it" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -686,24 +707,23 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>I Dig It</h2>
-					<p class="showcase-description">
-						A fast-paced, local multiplayer, competitive digging game. 2-4 Players must quickly dig holes to drop their
-						opponents into the abyss and be the last one standing.
-					</p>
-					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/i-dig-it" target="_blank">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/i-dig-it" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* Controllers are required to play this game.
-					</p>
-				</div>
+				<p class="showcase-description">
+					In a fast-paced frenzy, players must dig the ground out from under their opponents until they are the last one standing.
+				</p>
+				<p class="showcase-description showcase-little-text">
+					* Controllers are required to play this game.
+				</p>
 			</div> <!-- I Dig It -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Wizards vs. Robots</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Action</div>
+					<div class="showcase-tag">Platformer</div>
+					<div class="showcase-tag">GameMaker</div>
+					<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -723,22 +743,21 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Wizards vs. Robots</h2>
-					<p class="showcase-description">
-						An action platformer game about a wizard destroying robots. The player can switch between 3 different
-						spells, unlocking different spells based on the path they take, each with their own effects and advantages
-						to fight the evil robots in their way.
-					</p>
-					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					It's a wizard's job to destroy robots! Follow a branching path and switch between spells to fight the evil
+					robots in the way of victory.
+				</p>
 			</div> <!-- Wizards vs. Robots -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Joe</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Comedy</div>
+					<div class="showcase-tag">RPG</div>
+					<div class="showcase-tag">GameMaker</div>
+					<a href="https://aidanbuffum.itch.io/joe" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -758,22 +777,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Joe</h2>
-					<p class="showcase-description">
-						A short comedy role playing game with nothing out of the ordinary. You play as Joe A. Verage. Outside your
-						day-job as a barista, you're just an average joe. Everybody in town knows you. Your boss likes your hard
-						work. You have a face. Grab some coffee. Have some fun!
-					</p>
-					<p class="showcase-description">
-						<a href="https://aidanbuffum.itch.io/joe" target="_blank">Available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/joe" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					There's nothing out of the ordinary about Joe A. Verage. Outside his barista day-job, he's just an
+					average joe. Grab a coffee and have some fun!
+				</p>
 			</div> <!-- Joe -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Take A Breather</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Comedy</div>
+					<div class="showcase-tag">Physics</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+					<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -787,22 +806,21 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Take A Breather</h2>
-					<p class="showcase-description">
-						A slapstick puzzle game in which the player controls escaped animals from the aquarium trying to get back to
-						the ocean. With QWOP-style gameplay, players control each bone of the animal independently. As a true fish
-						out of water, players will have to seek out puddles and other sources of hydration to stop and Take a Breather.
-					</p>
-					<p class="showcase-description showcase-little-text">
-						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank">Early demo build available on itch.io</a>
-						<a href="https://aidanbuffum.itch.io/take-a-breather" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-little-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A QWOP-style slapstick game about a shark out of water. Seek out hydration and stop to Take a Breather.
+				</p>
 			</div> <!-- Take A Breather -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Murder Bee Wrote</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Platformer</div>
+					<div class="showcase-tag">Runner</div>
+					<div class="showcase-tag">C#</div>
+					<div class="showcase-tag">Unity</div>
+					<a href="https://erikcerini.itch.io/murder-bee-wrote" target="_blank" title="itch.io">
+						<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -822,22 +840,18 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Murder Bee Wrote</h2>
-					<p class="showcase-description">
-						An infinite platform running game where the player controls a murderer who has switched places with a
-						bumblebee. The player must sate their bloodlust by destroying the bees all around them. Punch bees! Impale
-						them with the stingers of their fallen! Kill as many bees as possible to earn the ultimate high score!
-					</p>
-					<p class="showcase-description">
-						<a href="https://erikcerini.itch.io/murder-bee-wrote" target="_blank">Available on itch.io</a>
-						<a href="https://erikcerini.itch.io/murder-bee-wrote" target="_blank" title="Download on itch.io">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A murderer has switched places with a bumblebee but their bloodlust cannot be sated. Punch bees and impale
+					them with the stingers of the fallen!
+				</p>
 			</div> <!-- Murder Bee Wrote -->
-			<div class="showcase">
+			<div class="tall-showcase">
+				<h2>Crab-Dab Revolution</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Parody</div>
+					<div class="showcase-tag">Rhythm</div>
+					<div class="showcase-tag">GameMaker</div>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -851,19 +865,26 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2>Crab-Dab Revolution</h2>
-					<p class="showcase-description">
-						A nonsensical parody rhythm game about crabs dabbing and dancing to absurd beats. The game features
-						hand-animated dancing crabs, a fearsome lobster boss, and a single meme song manually and lovingly
-						calibrated for an almost-completable game.
-					</p>
-				</div>
+				<p class="showcase-description">
+					Crabs dabbing to absurd beats with hand-animated dance moves, a fearsome lobster boss, and loving calibration
+					for an almost-completable game.
+				</p>
 			</div> <!-- Crab-Dab Revolution -->
 		</div>
 		<h1 id="GameMods">Game Mods</h1>
 		<div class="showcase-group">
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mob Pouches</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -883,26 +904,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Mob Pouches</h2>
-					<p class="showcase-description">
-						A simple mod enabling players to pick up and carry creatures similar to the equivalent mechanic in the base
-						game for the transport of fish. The mod can be flexibly configured to support any subset of the game's
-						creatures.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/mob-pouches" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/mob-pouches" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
+				<p class="showcase-description">
+					Pouches to pick up and carry mobs like bucketed fish. Generally compatibile with most base-game and modded mobs.
+				</p>
+			</div> <!-- Mob Pouches -->
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Zombie Villager Variants</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
 				</div>
-			</div> <!-- Minecraft Mob Pouches -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -934,25 +951,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Zombie Villager Variants</h2>
-					<p class="showcase-description">
-						A mod adding extra variants to Minecraft's Zombie Villager monster to match the Drowned and Husk
-						versions of the zombie.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/zombie-villager-variants" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Zombie-Villager-Variants-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Extra Zombie Villager variants to match the Drowned, Husk, and some modded zombie types.
+				</p>
 			</div> <!-- Minecraft Zombie Villager Variants -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Entity Item Tooltips</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -966,25 +980,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Entity Item Tooltips</h2>
-					<p class="showcase-description">
-						A fully client-side mod that adds extra information to the user interface tooltips for items that can be
-						used to create new entities in the world.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/entity-item-tooltips" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Entity-Tooltips-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A client-side mod that adds extra tooltip information for entity-creating items like spawn eggs and buckets.
+				</p>
 			</div> <!-- Minecraft Entity Item Tooltips -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Cluckshrooms</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -995,26 +1006,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Cluckshrooms</h2>
-					<p class="showcase-description">
-						Implements the Cluckshroom creature from the Minecraft Earth and Minecraft Dungeons spin-offs in Minecraft.
-						These mushroom chickens behave like a balanced blend of the chicken and mooshroom creatures from the base
-						game.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/cluckshrooms" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Cluckshroom-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Cluckshroom from Minecraft Earth, creating a mob that balances the best of chickens and mooshrooms.
+				</p>
 			</div> <!-- Minecraft Cluckshrooms -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Chiseled Bookshelf Enchanting</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1025,25 +1032,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Chiseled Bookshelf Enchanting</h2>
-					<p class="showcase-description">
-						Allows chiseled bookshelves to act as a source of enchanting power with in-game configurations to control
-						the number of books necessary for each bookshelf to power the enchanting table.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/chiseled-bookshelf-enchanting" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Chiseled-Bookshelf-Enchanting-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A configuration mod that allows chiseled bookshelves to be used for enchanting.
+				</p>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Sunken Skeletons</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1057,25 +1061,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Sunken Skeletons</h2>
-					<p class="showcase-description">
-						Implements the Sunken Skeleton monsters from the Minecraft Dungeons spin-off in Minecraft. These skeletons
-						have configurable spawning conditions and multiple variants.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/sunken-skeletons" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Sunken-Skeleton-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Sunken Skeleton from Minecraft Dungeons, adding a new underwater threat with multiple variants.
+				</p>
 			</div> <!-- Minecraft Sunken Skeletons -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Barter With Babies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1098,26 +1099,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Barter With Babies</h2>
-					<p class="showcase-description">
-						Let baby piglins barter a little, just like the grown ups! Baby piglins' bartering is controlled by using a
-						configurable loot table system in line with the game's base implementation and bartering behavior for adult
-						piglins.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/barter-with-babies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Baby-Bartering-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A configuration mod that lets baby piglins barter like adults with a balanced new loot table.
+				</p>
 			</div> <!-- Minecraft Barter With Babies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Muddy Pigs</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1137,25 +1134,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Muddy Pigs</h2>
-					<p class="showcase-description">
-						Inspired by the Muddy Pig variant from the Minecraft Earth spin-off, this mod extends Minecraft's standard
-						pigs with new mechanics for bathing in mud and making a mess.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/muddy-pigs-mod" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Muddy-Pigs-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Inspired by Muddy Pigs from Minecraft Earth, extends pigs with new mechanics for bathing in mud and making a mess.
+				</p>
 			</div> <!-- Minecraft Muddy Pigs -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Honey Slimes</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Honey-Slime-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1166,25 +1160,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Honey Slimes</h2>
-					<p class="showcase-description">
-						Adds a new Honey Slime monster to Minecraft. These slimes behave like a neutral version of those from the
-						base game, only targeting poisoned entities and dropping new crystallized honey.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/honey-slimes" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/honey-slimes" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Honey-Slime-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Adds a new neutral Honey Slime mob and honey block set to expand on flowering biomes.
+				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Bouldering Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1195,25 +1186,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Bouldering Zombies</h2>
-					<p class="showcase-description">
-						Implements the Bouldering Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies
-						can climb walls like the spider monsters from the base game.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/bouldering-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Bouldering-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Bouldering Zombie from Minecraft Earth, adding a new undead climbing threat to rival spiders.
+				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Frozen Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1227,25 +1215,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Frozen Zombies</h2>
-					<p class="showcase-description">
-						Implements the Frozen Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
-						throw snowballs with a slowing effect at players before chasing them down.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/frozen-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Frozen-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Frozen Zombie monster from Minecraft Dungeons, initiating deadly snowball fights in the night.
+				</p>
 			</div> <!-- Minecraft Frozen Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Jungle Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1256,25 +1241,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Jungle Zombies</h2>
-					<p class="showcase-description">
-						Implements the Jungle Zombie monster from the Minecraft Dungeons spin-off game in Minecraft. These zombies
-						have a poisonous attack but they can be trimmed back to the zombies from the base game with a set of shears.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/jungle-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Jungle-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Jungle Zombie from Minecraft Dungeons, adding a toxic threat to jungles and a source of vines.
+				</p>
 			</div> <!-- Minecraft Jungle Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Lobber Zombies</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1285,25 +1267,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Lobber Zombies</h2>
-					<p class="showcase-description">
-						Implements the Lobber Zombie monster from the Minecraft Earth spin-off game in Minecraft. These zombies can
-						throw rotten flesh as a ranged attack.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/lobber-zombies" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Lobber-Zombie-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					Implements the Lobber Zombie from Minecraft Earth, introducing a zombie that doesn't need to be close to be dangerous.
+				</p>
 			</div> <!-- Minecraft Lobber Zombies -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Lightning Rod Copper Armor</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Lightning-Rod-Armor" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1314,24 +1293,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Lightning Rod Copper Armor</h2>
-					<p class="showcase-description">
-						A silly mod increasing the likelihood of entities wearing copper armor of being struck by lightning.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/lightning-rod-copper-armor" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Lightning-Rod-Armor" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A silly mod making copper armor a whole lot riskier to wear in a thunderstorm.
+				</p>
 			</div> <!-- Minecraft Lightning Rod Copper Armor -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mossy Llamas</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Mossy-Llamas-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1342,24 +1319,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Mossy Llamas</h2>
-					<p class="showcase-description">
-						A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://modrinth.com/mod/mossy-llamas" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
+				</p>
 			</div> <!-- Minecraft Mossy Llamas -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Reusable Smithing</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/reusable-smithing" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Reusable-Smithing-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1379,25 +1354,23 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Reusable Smithing</h2>
-					<p class="showcase-description">
-						A utility mod adjusting the game's smithing system so that armor trimming and upgrade recipes no longer
-						consume the smithing template items as part of the recipe.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A utility mod adjusting smithing so that armor trimming and upgrade recipes no longer consume template items
+					as part of the recipe.
+				</p>
 			</div> <!-- Minecraft Reusable Smithing -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Commands: Ignite & Extinguish</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1405,25 +1378,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Commands: Ignite & Extinguish</h2>
-					<p class="showcase-description">
-						A minimalistic mod adding new /ignite and /extinguish console commands to set entities on fire and put them
-						out.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/command-ignite" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/command-ignite" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Command-Ignite-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					/ignite and /extinguish console commands to ignite entities and put them out.
+				</p>
 			</div> <!-- Minecraft Command: Ignite -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Command: Chorus</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1431,24 +1401,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Command: Chorus</h2>
-					<p class="showcase-description">
-						A whimsical mod adding a new /chorus console command to randomly teleport entities a short distance.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/command-chorus" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/command-chorus" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Command-Chorus-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A whimsical new /chorus console command to randomly teleport entities a short distance.
+				</p>
 			</div> <!-- Minecraft Command: Chorus -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Data Driven Locator Bar Hiding</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Fabric</div>
+					<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1459,25 +1427,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Data Driven Locator Bar Hiding</h2>
-					<p class="showcase-description">
-						A utility mod enabling the set of items worn by players to hide from the locator bar to be modified by data
-						packs, bundled with an example pack removing carved pumpkins from the set.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/mod/data-driven-locator-bar-hiding" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A utility mod for data packs to configure the items that hide players from the locator bar.
+				</p>
 			</div> <!-- Minecraft Data Driven Locator Bar Hiding -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Saplings to Dead Bushes</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1488,27 +1453,22 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Saplings to Dead Bushes</h2>
-					<p class="showcase-description">
-						A simple data pack creating a recipe to make Dead Bushes renewable by smelting Saplings.
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* Data packs are Minecraft mods that do not require changes to the game code.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/saplings-to-dead-bushes" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Saplings-To-Dead-Bushes-Datapack" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A recipe data pack for smelting Saplings into Dead Bushes.
+				</p>
 			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
-			<div class="showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Bone Block Shortcut</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Bone-Block-Shortcut-Datapack" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
 				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
@@ -1519,31 +1479,60 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-				<div class="showcase-description-section">
-					<h2 style="font-size:23px">Minecraft:<br>Bone Block Shortcut</h2>
-					<p class="showcase-description">
-						A simple data pack creating a recipe to make crafting bone blocks from bones faster by skipping the step of
-						converting them to bone meal.
-					</p>
-					<p class="showcase-description showcase-little-text">
-						* Data packs are Minecraft mods that do not require changes to the game code.
-					</p>
-					<p class="showcase-description">
-						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank">Available on Modrinth</a>
-						<a href="https://modrinth.com/datapack/bone-block-shortcut" target="_blank" title="Download on Modrinth">
-							<DownloadIcon class="filtered showcase-text-icon"/>
-						</a>
-						and open source
-						<a href="https://github.com/OfficePigeon/Bone-Block-Shortcut-Datapack" target="_blank" title="GitHub">
-							<GitHubLogoIcon class="filtered showcase-text-icon"/>
-						</a>
-					</p>
-				</div>
+				<p class="showcase-description">
+					A shortcut recipe data pack for crafting bone blocks directly from bones, skipping the bone meal step.
+				</p>
 			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2>Mob Pouches: Pouchable Villagers</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/mob-pouches-pouchable-villagers" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Pouches-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a custom pouch item for Minecraft with a Villager sticking out and the text Pouchable Villagers" class="slide" src="../assets/img/mods/minecraftdatapacks/mobpouchespouchablevillagers/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<p class="showcase-description">
+					An example data pack for the Mob Pouches mod letting Villagers be pouched.
+				</p>
+			</div> <!-- Minecraft Data Pack: Mob Pouches - Pouchable Villagers -->
+			<div class="tall-showcase minecraft-font minecraft-background">
+				<h2 style="font-size:14px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Minecraft</div>
+					<div class="showcase-tag">Data Pack</div>
+					<a href="https://modrinth.com/datapack/data-driven-locator-bar-hiding-show-carved-pumpkins" target="_blank" title="Modrinth">
+						<ModrinthLogoIcon class="hover-filtered showcase-text-icon"/>
+					</a>
+					<a href="https://github.com/OfficePigeon/Data-Driven-Locator-Bar-Hiding-Mod" target="_blank" title="GitHub">
+						<GitHubLogoIcon class="filtered showcase-text-icon"/>
+					</a>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<img alt="An icon of a Minecraft's Steve character on a locator bar wearing a carved pumpkin on his head" class="slide" src="../assets/img/mods/minecraftdatapacks/datadrivenlocatorbarhidingshowcarvedpumpkins/cover.png">
+						</swiper-slide>
+					</swiper>
+				</div>
+				<p class="showcase-description">
+					An example data pack for the Data Driven Locator Bar Hiding mod making players wearing pumpkins show up on the bar.
+				</p>
+			</div> <!-- Minecraft Data Pack: Data Driven Locator Bar Hiding - Show Carved Pumpkins -->
 		</div>
 		<h1 id="Artwork">Artwork</h1>
 		<div class="showcase-group">
-			<div class="art-showcase">
+			<div class="short-showcase">
 				<h2>Content-Creator Social Media Emotes</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Illustration</div>
@@ -1595,13 +1584,23 @@ main {
 							<img alt="A cartoon emote of the DajzaDj vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/wifeless_DajzaDj.png">
 						</swiper-slide>
 						<swiper-slide>
+							<img alt="A cartoon emote of the Beanie_Aviyum vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/drinked_Beanie_Aviyum.png">
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/emote/fine_eri_nostalgae.webp">
+								<source type="image/gif" srcset="@/assets/img/art/emote/fine_eri_nostalgae.gif">
+								<img alt="A cartoon emote of the eri_nostalgae vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/fine_eri_nostalgae.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
 							<img alt="A cartoon emote of the Beanie_Birrd vtuber character" class="slide no-save-img" src="@/assets/img/art/emote/dead_Beanie_Birrd.png">
 						</swiper-slide>
 					</swiper>
 				</div>
 			</div> <!-- Content-Creator Social Media Emotes -->
-			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
-				<h2 style="font-size:20px">Minecraft-Inspired<br>3D Creature Models</h2>
+			<div class="short-showcase minecraft-font minecraft-background">
+				<h2>Minecraft-Inspired<br>3D Creature Models</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
 					<div class="showcase-tag">Pixel Art</div>
@@ -1661,7 +1660,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Minecraft-Inspired 3D Creature Models -->
-			<div class="art-showcase">
+			<div class="short-showcase">
 				<h2>Helltaker-Inspired Dancing Sprites</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Illustration</div>
@@ -1722,7 +1721,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Helltaker-Inspired Dancing Sprites -->
-			<div class="art-showcase minecraft-font" style="background-image:var(--minecraft-bg);background-size:64px;image-rendering:pixelated;">
+			<div class="short-showcase minecraft-font minecraft-background">
 				<h2>Minecraft Skins</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Pixel Art</div>
@@ -1803,7 +1802,46 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Minecraft Skins -->
-			<div class="art-showcase">
+			<div class="short-showcase">
+				<h2>Babbling Character Talk Sprites</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Illustration</div>
+					<div class="showcase-tag">Animation</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/awawa/awawa_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/awawa/awawa_dovewich.gif">
+								<img alt="A cartoon animation of the dovewich vtuber babbling" class="slide no-save-img" src="@/assets/img/art/awawa/awawa_dovewich.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/awawa/awawa_kerriri.webp">
+								<source type="image/gif" srcset="@/assets/img/art/awawa/awawa_kerriri.gif">
+								<img alt="A cartoon animation of the kerriri vtuber babbling" class="slide no-save-img" src="@/assets/img/art/awawa/awawa_kerriri.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/awawa/awawa_Venrir.webp">
+								<source type="image/gif" srcset="@/assets/img/art/awawa/awawa_Venrir.gif">
+								<img alt="A cartoon animation of the Venrir vtuber babbling" class="slide no-save-img" src="@/assets/img/art/awawa/awawa_Venrir.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/awawa/awawa_Sinner_Sister.webp">
+								<source type="image/gif" srcset="@/assets/img/art/awawa/awawa_Sinner_Sister.gif">
+								<img alt="A cartoon animation of the Sinner_Sister vtuber babbling" class="slide no-save-img" src="@/assets/img/art/awawa/awawa_Sinner_Sister.png">
+							</picture>
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- Awawa Reactives -->
+			<div class="short-showcase">
 				<h2>Pokemon-Inspired Sprites</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Pixel Art</div>
@@ -1815,13 +1853,28 @@ main {
 							<img alt="A pixel art rendition of the dovewich vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_dovewich.png">
 						</swiper-slide>
 						<swiper-slide>
+							<img alt="A pixel art rendition of a character in a vintage dress in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_cheri_cerise.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of a brown cat wearing a sporty outfit in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_madkiska.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of an energetic character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sapphirenoble.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of a character in a nurse uniform in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_hazelch98.png">
+						</swiper-slide>
+						<swiper-slide>
+							<img alt="A pixel art rendition of a cool young man in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_miloupshur.png">
+						</swiper-slide>
+						<swiper-slide>
 							<img alt="A pixel art rendition of the SintheticSkull vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sintheticskull.png">
 						</swiper-slide>
 					</swiper>
 				</div>
 			</div> <!-- Pokemon Sprites -->
-			<div class="art-showcase">
-				<h2 style="font-size:20px">3D Character Models</h2>
+			<div class="short-showcase">
+				<h2>Katamari-Inspired Character Model</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
 					<div class="showcase-tag">Media-Inspired</div>
@@ -1837,8 +1890,8 @@ main {
 						</swiper-slide>
 					</swiper>
 				</div>
-			</div> <!-- 3D Character Models -->
-			<div class="art-showcase">
+			</div> <!-- Katamari-Inspired Character Model -->
+			<div class="short-showcase">
 				<h2 style="font-size:18px">Lethal Company-Inspired Dancing Sprites</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Illustration</div>
@@ -1871,8 +1924,8 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Lethal Company-Inspired Dancing Sprites -->
-			<div class="art-showcase">
-				<h2 style="font-size:20px">Animal Crossing-Inspired<br>Villager Model</h2>
+			<div class="short-showcase">
+				<h2 style="font-size:18px">Animal Crossing-Inspired<br>Villager Model</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">3D Modeling</div>
 					<div class="showcase-tag">Media-Inspired</div>
@@ -1889,7 +1942,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Animal Crossing-Inspired Villager Model -->
-			<div class="art-showcase">
+			<div class="short-showcase">
 				<h2>Character Talk Sprites</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Illustration</div>
@@ -1935,7 +1988,7 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Huggin' Reactives -->
-			<div class="art-showcase">
+			<div class="short-showcase">
 				<h2>Character Animation</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Illustration</div>
@@ -1960,6 +2013,39 @@ main {
 					</swiper>
 				</div>
 			</div> <!-- Character Animation -->
+			<div class="short-showcase">
+				<h2
+				>Fluffy Talk Sprites</h2>
+				<div class="showcase-tags">
+					<div class="showcase-tag">Illustration</div>
+					<div class="showcase-tag">Animation</div>
+				</div>
+				<div class="showcase-gallery">
+					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_dovewich.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_dovewich.gif">
+								<img alt="A cartoon drawing of the dovewich vtuber character in a fluffy pigeon outfit" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_dovewich.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_maofall.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_maofall.gif">
+								<img alt="A cartoon drawing of the maofall vtuber character in a fluffy bunny outfit" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_maofall.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/floofy/floofy_amorettie.webp">
+								<source type="image/gif" srcset="@/assets/img/art/floofy/floofy_amorettie.gif">
+								<img alt="A cartoon drawing of the amoretti vtuber character in a fluffy bunny outfit" class="slide no-save-img" src="@/assets/img/art/floofy/floofy_amorettie.png">
+							</picture>
+						</swiper-slide>
+					</swiper>
+				</div>
+			</div> <!-- Floofy Reactives -->
 		</div>
 	</div>
 </template>
