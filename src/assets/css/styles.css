@@ -110,7 +110,7 @@ h2 {
 }
 .bubbleLinks {
 	text-align: center;
-	min-width: 280px;
+	min-width: 250px;
 	width: max-content;
 	flex-direction: column;
 }
@@ -188,7 +188,7 @@ h2 {
 .tooltip .tooltipText {
 	visibility: hidden;
 	width: max-content;
-	max-width:280px;
+	max-width:300px;
 	background-color: var(--background-color-input);
 	border: 1px solid var(--gray);
 	text-align: center;
@@ -244,8 +244,8 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 }
-.wide-showcase, .short-showcase, .tall-showcase {
-	width: 280px;
+.wide-showcase, .short-showcase, .tall-showcase, .medium-showcase {
+	width: 250px;
 	margin: 4px;
 	padding: 16px;
 	border: 8px solid;
@@ -253,7 +253,7 @@ h2 {
 	border-radius: 16px;
 	position:relative;
 }
-.short-showcase h2, .tall-showcase h2 {
+.short-showcase h2, .tall-showcase h2, .medium-showcase h2 {
 	font-size: 20px;
 }
 .short-showcase {
@@ -264,10 +264,13 @@ h2 {
 	bottom: 16px;
 }
 .tall-showcase {
+	height: 502px;
+}
+.medium-showcase {
 	height: 452px;
 }
 .wide-showcase {
-	height: 352px;
+	height: 302px;
 	display: flex;
 }
 .wide-showcase .showcase-description {
@@ -275,12 +278,12 @@ h2 {
 }
 .showcase-gallery {
 	flex: 1;
-	width: 280px;
-	min-width: 280px;
-	max-width: 280px;
-	height: 280px;
-	min-height: 280px;
-	max-height: 280px;
+	width: 250px;
+	min-width: 250px;
+	max-width: 250px;
+	height: 250px;
+	min-height: 250px;
+	max-height: 250px;
 	float: left;
 	margin: 8px 0;
 }
@@ -312,8 +315,8 @@ h2 {
 	top: 0;
 }
 .wide-showcase .carousel-inner model-viewer {
-	width: 280px;
-	height: 280px;
+	width: 250px;
+	height: 250px;
 }
 .showcase-tags {
 	display: flex;

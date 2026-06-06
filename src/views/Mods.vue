@@ -29,7 +29,7 @@ export default {
 	<div style="min-width:700px;margin:auto">
 		<h1 id="MinecraftMods" class="minecraft-font">Minecraft Mods</h1>
 		<div class="showcase-group">
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mob Pouches</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -64,7 +64,7 @@ export default {
 					Pouches to pick up and carry mobs like bucketed fish. Generally compatibile with most base-game and modded mobs.
 				</p>
 			</div> <!-- Mob Pouches -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Zombie Villager Variants</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -111,7 +111,7 @@ export default {
 					Extra Zombie Villager variants to match the Drowned, Husk, and some modded zombie types.
 				</p>
 			</div> <!-- Minecraft Zombie Villager Variants -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Entity Item Tooltips</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client</div>
@@ -140,7 +140,7 @@ export default {
 					A client-side mod that adds extra tooltip information for entity-creating items like spawn eggs and buckets.
 				</p>
 			</div> <!-- Minecraft Entity Item Tooltips -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Cluckshrooms</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -166,7 +166,7 @@ export default {
 					Implements the Cluckshroom from Minecraft Earth, creating a mob that balances the best of chickens and mooshrooms.
 				</p>
 			</div> <!-- Minecraft Cluckshrooms -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Chiseled Bookshelf Enchanting</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -193,7 +193,7 @@ export default {
 					A configuration mod that allows chiseled bookshelves to be used for enchanting.
 				</p>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Sunken Skeletons</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -222,7 +222,7 @@ export default {
 					Implements the Sunken Skeleton from Minecraft Dungeons, adding a new underwater threat with multiple variants.
 				</p>
 			</div> <!-- Minecraft Sunken Skeletons -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Barter With Babies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -260,7 +260,7 @@ export default {
 					A configuration mod that lets baby piglins barter like adults with a balanced new loot table.
 				</p>
 			</div> <!-- Minecraft Barter With Babies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Muddy Pigs</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -295,7 +295,7 @@ export default {
 					Inspired by Muddy Pigs from Minecraft Earth, extends pigs with new mechanics for bathing in mud and making a mess.
 				</p>
 			</div> <!-- Minecraft Muddy Pigs -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Honey Slimes</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -321,7 +321,7 @@ export default {
 					Adds a new neutral Honey Slime mob and honey block set to expand on flowering biomes.
 				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Bouldering Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -347,7 +347,7 @@ export default {
 					Implements the Bouldering Zombie from Minecraft Earth, adding a new undead climbing threat to rival spiders.
 				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Frozen Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -376,7 +376,7 @@ export default {
 					Implements the Frozen Zombie monster from Minecraft Dungeons, initiating deadly snowball fights in the night.
 				</p>
 			</div> <!-- Minecraft Frozen Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Jungle Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -402,7 +402,7 @@ export default {
 					Implements the Jungle Zombie from Minecraft Dungeons, adding a toxic threat to jungles and a source of vines.
 				</p>
 			</div> <!-- Minecraft Jungle Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Lobber Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -428,7 +428,7 @@ export default {
 					Implements the Lobber Zombie from Minecraft Earth, introducing a zombie that doesn't need to be close to be dangerous.
 				</p>
 			</div> <!-- Minecraft Lobber Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Lightning Rod Copper Armor</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -455,7 +455,7 @@ export default {
 					A silly mod making copper armor a whole lot riskier to wear in a thunderstorm.
 				</p>
 			</div> <!-- Minecraft Lightning Rod Copper Armor -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mossy Llamas</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Client + Server</div>
@@ -481,7 +481,7 @@ export default {
 					A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
 				</p>
 			</div> <!-- Minecraft Mossy Llamas -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Reusable Smithing</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -517,7 +517,7 @@ export default {
 					as part of the recipe.
 				</p>
 			</div> <!-- Minecraft Reusable Smithing -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Commands: Ignite & Extinguish</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -540,7 +540,7 @@ export default {
 					/ignite and /extinguish console commands to ignite entities and put them out.
 				</p>
 			</div> <!-- Minecraft Command: Ignite -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Command: Chorus</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -563,7 +563,7 @@ export default {
 					A whimsical new /chorus console command to randomly teleport entities a short distance.
 				</p>
 			</div> <!-- Minecraft Command: Chorus -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Data Driven Locator Bar Hiding</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -593,7 +593,7 @@ export default {
 		<h1 id="Minecraft" class="minecraft-font">Minecraft Data Packs</h1>
 		<p style="text-align:center">Data packs are Minecraft mods that do not require changes to the game code.</p>
 		<div class="showcase-group">
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Saplings to Dead Bushes</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -619,7 +619,7 @@ export default {
 					A recipe data pack for smelting Saplings into Dead Bushes.
 				</p>
 			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Bone Block Shortcut</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -645,7 +645,7 @@ export default {
 					A shortcut recipe data pack for crafting bone blocks directly from bones, skipping the bone meal step.
 				</p>
 			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mob Pouches: Pouchable Villagers</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>
@@ -668,7 +668,7 @@ export default {
 					An example data pack for the Mob Pouches mod letting Villagers be pouched.
 				</p>
 			</div> <!-- Minecraft Data Pack: Mob Pouches - Pouchable Villagers -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2 style="font-size:14px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Server</div>

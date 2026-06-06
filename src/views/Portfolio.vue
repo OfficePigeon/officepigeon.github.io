@@ -87,7 +87,7 @@ main {
 		<div class="showcase-group">
 			<div class="tall-showcase">
 				<h2>Now We're Talking!</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Now We're Talking! game" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
@@ -126,7 +126,7 @@ main {
 			</div> <!-- Now We're Talking! -->
 			<div class="tall-showcase">
 				<h2 style="font-size:18px">Keeping Up With The Smiths</h2>
-				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Keeping Up With The Smiths game" class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
@@ -141,7 +141,7 @@ main {
 			</div> <!-- Keeping Up With The Smiths -->
 			<div class="tall-showcase">
 				<h2>Loki's Marauders</h2>
-				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Loki's Marauders game" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
@@ -183,7 +183,7 @@ main {
 			</div> <!-- Loki's Marauders -->
 			<div class="tall-showcase">
 				<h2>TimeQuake Escape!</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the TimeQuake Escape! game" class="slide" src="@/assets/img/portfolio/nwt/TimeQuake_1.png">
@@ -224,7 +224,7 @@ main {
 			</div> <!-- TimeQuake Escape! -->
 			<div class="tall-showcase">
 				<h2 style="font-size:16px">Workplace Violence Scenarios</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the workplace violence scenarios game" class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
@@ -239,7 +239,7 @@ main {
 			</div> <!-- Workplace Violence Scenarios -->
 			<div class="tall-showcase">
 				<h2>Interview Simulation Exercise</h2>
-				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
@@ -254,7 +254,7 @@ main {
 			</div> <!-- Interview Simulation Exercise -->
 			<div class="tall-showcase">
 				<h2>Agile Tactics</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Agile Tactics game" class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
@@ -270,10 +270,10 @@ main {
 			</div> <!-- Agile Tactics -->
 			<div class="tall-showcase">
 				<h2>Dollar Domination</h2>
-				<div class="showcase-gallery" style="height:260px;min-height:260px;max-height:260px">
+				<div class="showcase-gallery">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
-							<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/cover.png">
+							<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/coverSquare.png">
 						</swiper-slide>
 						<swiper-slide>
 							<img alt="A photo of the components for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/dollarDomination.png">
@@ -353,14 +353,12 @@ main {
 						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
 					</p>
 					<p class="showcase-description">
-						Two prototype quilt generators and editors aimed to teach computer science to users who are familiar with
-						traditional textile crafts but not programming.
+						Two quilt design programs designed for computer science education for crafters unfamiliar with programming.
 					</p>
 					<p class="showcase-description">
 						The first is an evolution-based generator using Java and
-						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates a number of quilts as
-						parameterized by the user and after a configured number of generations, presents the most fit patterns to
-						the user.
+						<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates quilts
+						based on user parameters over several generations before presenting results.
 					</p>
 					<p class="showcase-description">
 						The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
@@ -467,7 +465,7 @@ main {
 		</div>
 		<h1 id="EntertainmentGames">Entertainment Games</h1>
 		<div class="showcase-group">
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Umbra</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Puzzle</div>
@@ -499,7 +497,7 @@ main {
 					An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an encroaching darkness.
 				</p>
 			</div> <!-- Umbra -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Contrast Bounce</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Physics</div>
@@ -532,7 +530,7 @@ main {
 					An abstract puzzle game where the player inverts the colors of the map to bounce a ball into the goal.
 				</p>
 			</div> <!-- Contrast Bounce -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Batastrophe</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Asymmetric</div>
@@ -580,7 +578,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- Batastrophe -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>House Party</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Cooperative</div>
@@ -614,7 +612,7 @@ main {
 					</p>
 				</div>
 			</div> <!-- House Party -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>ExChange The World</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Physics</div>
@@ -646,7 +644,7 @@ main {
 					matters. ExChange The World carefully!
 				</p>
 			</div> <!-- ExChange The World -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Little Worlds</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Physics</div>
@@ -678,7 +676,7 @@ main {
 					orbits and pilfered moons.
 				</p>
 			</div> <!-- Little Worlds -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>I Dig It</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Multiplayer</div>
@@ -714,7 +712,7 @@ main {
 					* Controllers are required to play this game.
 				</p>
 			</div> <!-- I Dig It -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Wizards vs. Robots</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Action</div>
@@ -748,7 +746,7 @@ main {
 					robots in the way of victory.
 				</p>
 			</div> <!-- Wizards vs. Robots -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Joe</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Comedy</div>
@@ -782,7 +780,7 @@ main {
 					average joe. Grab a coffee and have some fun!
 				</p>
 			</div> <!-- Joe -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Take A Breather</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Comedy</div>
@@ -810,7 +808,7 @@ main {
 					A QWOP-style slapstick game about a shark out of water. Seek out hydration and stop to Take a Breather.
 				</p>
 			</div> <!-- Take A Breather -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Murder Bee Wrote</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Platformer</div>
@@ -845,7 +843,7 @@ main {
 					them with the stingers of the fallen!
 				</p>
 			</div> <!-- Murder Bee Wrote -->
-			<div class="tall-showcase">
+			<div class="medium-showcase">
 				<h2>Crab-Dab Revolution</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Parody</div>
@@ -873,7 +871,7 @@ main {
 		</div>
 		<h1 id="GameMods">Game Mods</h1>
 		<div class="showcase-group">
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mob Pouches</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -908,7 +906,7 @@ main {
 					Pouches to pick up and carry mobs like bucketed fish. Generally compatibile with most base-game and modded mobs.
 				</p>
 			</div> <!-- Mob Pouches -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Zombie Villager Variants</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -955,7 +953,7 @@ main {
 					Extra Zombie Villager variants to match the Drowned, Husk, and some modded zombie types.
 				</p>
 			</div> <!-- Minecraft Zombie Villager Variants -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Entity Item Tooltips</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -984,7 +982,7 @@ main {
 					A client-side mod that adds extra tooltip information for entity-creating items like spawn eggs and buckets.
 				</p>
 			</div> <!-- Minecraft Entity Item Tooltips -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Cluckshrooms</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1010,7 +1008,7 @@ main {
 					Implements the Cluckshroom from Minecraft Earth, creating a mob that balances the best of chickens and mooshrooms.
 				</p>
 			</div> <!-- Minecraft Cluckshrooms -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Chiseled Bookshelf Enchanting</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1036,7 +1034,7 @@ main {
 					A configuration mod that allows chiseled bookshelves to be used for enchanting.
 				</p>
 			</div> <!-- Minecraft Chiseled Bookshelf Enchanting -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Sunken Skeletons</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1065,7 +1063,7 @@ main {
 					Implements the Sunken Skeleton from Minecraft Dungeons, adding a new underwater threat with multiple variants.
 				</p>
 			</div> <!-- Minecraft Sunken Skeletons -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Barter With Babies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1103,7 +1101,7 @@ main {
 					A configuration mod that lets baby piglins barter like adults with a balanced new loot table.
 				</p>
 			</div> <!-- Minecraft Barter With Babies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Muddy Pigs</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1138,7 +1136,7 @@ main {
 					Inspired by Muddy Pigs from Minecraft Earth, extends pigs with new mechanics for bathing in mud and making a mess.
 				</p>
 			</div> <!-- Minecraft Muddy Pigs -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Honey Slimes</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1164,7 +1162,7 @@ main {
 					Adds a new neutral Honey Slime mob and honey block set to expand on flowering biomes.
 				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Bouldering Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1190,7 +1188,7 @@ main {
 					Implements the Bouldering Zombie from Minecraft Earth, adding a new undead climbing threat to rival spiders.
 				</p>
 			</div> <!-- Minecraft Bouldering Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Frozen Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1219,7 +1217,7 @@ main {
 					Implements the Frozen Zombie monster from Minecraft Dungeons, initiating deadly snowball fights in the night.
 				</p>
 			</div> <!-- Minecraft Frozen Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Jungle Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1245,7 +1243,7 @@ main {
 					Implements the Jungle Zombie from Minecraft Dungeons, adding a toxic threat to jungles and a source of vines.
 				</p>
 			</div> <!-- Minecraft Jungle Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Lobber Zombies</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1271,7 +1269,7 @@ main {
 					Implements the Lobber Zombie from Minecraft Earth, introducing a zombie that doesn't need to be close to be dangerous.
 				</p>
 			</div> <!-- Minecraft Lobber Zombies -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Lightning Rod Copper Armor</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1297,7 +1295,7 @@ main {
 					A silly mod making copper armor a whole lot riskier to wear in a thunderstorm.
 				</p>
 			</div> <!-- Minecraft Lightning Rod Copper Armor -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mossy Llamas</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1323,7 +1321,7 @@ main {
 					A mod enabling tamed llamas to equip and wear moss and pale moss carpets in addition to wool carpets.
 				</p>
 			</div> <!-- Minecraft Mossy Llamas -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Reusable Smithing</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1359,7 +1357,7 @@ main {
 					as part of the recipe.
 				</p>
 			</div> <!-- Minecraft Reusable Smithing -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Commands: Ignite & Extinguish</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1382,7 +1380,7 @@ main {
 					/ignite and /extinguish console commands to ignite entities and put them out.
 				</p>
 			</div> <!-- Minecraft Command: Ignite -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Command: Chorus</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1405,7 +1403,7 @@ main {
 					A whimsical new /chorus console command to randomly teleport entities a short distance.
 				</p>
 			</div> <!-- Minecraft Command: Chorus -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Data Driven Locator Bar Hiding</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1431,7 +1429,7 @@ main {
 					A utility mod for data packs to configure the items that hide players from the locator bar.
 				</p>
 			</div> <!-- Minecraft Data Driven Locator Bar Hiding -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Saplings to Dead Bushes</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1457,7 +1455,7 @@ main {
 					A recipe data pack for smelting Saplings into Dead Bushes.
 				</p>
 			</div> <!-- Minecraft Data Pack: Saplings to Dead Bushes -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Bone Block Shortcut</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1483,7 +1481,7 @@ main {
 					A shortcut recipe data pack for crafting bone blocks directly from bones, skipping the bone meal step.
 				</p>
 			</div> <!-- Minecraft Data Pack: Bone Block Shortcut -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2>Mob Pouches: Pouchable Villagers</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
@@ -1506,7 +1504,7 @@ main {
 					An example data pack for the Mob Pouches mod letting Villagers be pouched.
 				</p>
 			</div> <!-- Minecraft Data Pack: Mob Pouches - Pouchable Villagers -->
-			<div class="tall-showcase minecraft-font minecraft-background">
+			<div class="medium-showcase minecraft-font minecraft-background">
 				<h2 style="font-size:14px">Data Driven Locator Bar Hiding: Show Carved Pumpkins</h2>
 				<div class="showcase-tags">
 					<div class="showcase-tag">Minecraft</div>
