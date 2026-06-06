@@ -87,7 +87,7 @@ main {
 		<div class="showcase-group">
 			<div class="tall-showcase">
 				<h2>Now We're Talking!</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Now We're Talking! game" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
@@ -126,7 +126,7 @@ main {
 			</div> <!-- Now We're Talking! -->
 			<div class="tall-showcase">
 				<h2 style="font-size:18px">Keeping Up With The Smiths</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Keeping Up With The Smiths game" class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
@@ -141,7 +141,7 @@ main {
 			</div> <!-- Keeping Up With The Smiths -->
 			<div class="tall-showcase">
 				<h2>Loki's Marauders</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Loki's Marauders game" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
@@ -224,7 +224,7 @@ main {
 			</div> <!-- TimeQuake Escape! -->
 			<div class="tall-showcase">
 				<h2 style="font-size:16px">Workplace Violence Scenarios</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the workplace violence scenarios game" class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
@@ -239,7 +239,7 @@ main {
 			</div> <!-- Workplace Violence Scenarios -->
 			<div class="tall-showcase">
 				<h2>Interview Simulation Exercise</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
@@ -254,7 +254,7 @@ main {
 			</div> <!-- Interview Simulation Exercise -->
 			<div class="tall-showcase">
 				<h2>Agile Tactics</h2>
-				<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
+				<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Agile Tactics game" class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
@@ -350,10 +350,7 @@ main {
 				<div class="showcase-description-section">
 					<h2>Quilt Generation for<br>Computer Science Education</h2>
 					<p class="showcase-description">
-						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
-					</p>
-					<p class="showcase-description">
-						Two quilt design programs designed for computer science education for crafters unfamiliar with programming.
+						Two quilt design programs for computer science education for crafters unfamiliar with programming.
 					</p>
 					<p class="showcase-description">
 						The first is an evolution-based generator using Java and
@@ -364,6 +361,9 @@ main {
 						The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
 						code-like interface, this prototype encourages users to edit and define patterns with text in the editor.
 						Fabric colors are used analogously to computer variables in a way that may be easier to understand.
+					</p>
+					<p class="showcase-description showcase-little-text">
+						As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
 					</p>
 				</div>
 			</div> <!-- Quilt Generation for Computer Science Education -->
