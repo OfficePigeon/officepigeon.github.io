@@ -126,7 +126,7 @@ main {
 			</div> <!-- Now We're Talking! -->
 			<div class="tall-showcase">
 				<h2 style="font-size:18px">Keeping Up With The Smiths</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Keeping Up With The Smiths game" class="slide" src="@/assets/img/portfolio/KeepingUpWithTheSmiths.png">
@@ -135,13 +135,13 @@ main {
 				</div>
 				<p class="showcase-description">
 					An experimental game analyzing tax reporting accuracy with a file-free system. In the life-simulation game,
-					the player makes financial choices over several in-game years with the goal of having the best home on their
-					street. Each year, players have varying choices between typical or file-free options for their taxes.
+					the player makes financial choices over several in-game years in order to have the best home on their street.
+					Each year, players handle their taxes regularly or file-free.
 				</p>
 			</div> <!-- Keeping Up With The Smiths -->
 			<div class="tall-showcase">
 				<h2>Loki's Marauders</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the Loki's Marauders game" class="slide" src="@/assets/img/portfolio/NWT/LokisMarauders_1.png">
@@ -239,7 +239,7 @@ main {
 			</div> <!-- Workplace Violence Scenarios -->
 			<div class="tall-showcase">
 				<h2>Interview Simulation Exercise</h2>
-				<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+				<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
 					<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 						<swiper-slide>
 							<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">

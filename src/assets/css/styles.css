@@ -110,7 +110,7 @@ h2 {
 }
 .bubbleLinks {
 	text-align: center;
-	min-width: 300px;
+	min-width: 280px;
 	width: max-content;
 	flex-direction: column;
 }
@@ -188,7 +188,7 @@ h2 {
 .tooltip .tooltipText {
 	visibility: hidden;
 	width: max-content;
-	max-width:300px;
+	max-width:280px;
 	background-color: var(--background-color-input);
 	border: 1px solid var(--gray);
 	text-align: center;
@@ -245,7 +245,7 @@ h2 {
 	flex-wrap: wrap;
 }
 .wide-showcase, .short-showcase, .tall-showcase {
-	width: 300px;
+	width: 280px;
 	margin: 4px;
 	padding: 16px;
 	border: 8px solid;
@@ -275,12 +275,12 @@ h2 {
 }
 .showcase-gallery {
 	flex: 1;
-	width: 300px;
-	min-width: 300px;
-	max-width: 300px;
-	height: 300px;
-	min-height: 300px;
-	max-height: 300px;
+	width: 280px;
+	min-width: 280px;
+	max-width: 280px;
+	height: 280px;
+	min-height: 280px;
+	max-height: 280px;
 	float: left;
 	margin: 8px 0;
 }
@@ -312,8 +312,8 @@ h2 {
 	top: 0;
 }
 .wide-showcase .carousel-inner model-viewer {
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 }
 .showcase-tags {
 	display: flex;
