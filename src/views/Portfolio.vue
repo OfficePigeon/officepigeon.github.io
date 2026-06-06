@@ -1759,10 +1759,10 @@ main {
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
-														alt="A minecraft skin of a girl with purple hair in a torn dark cloak"
-														src="/3d/minecraft_skin/model_xstraycat.gltf"
-														poster="/3d/minecraft_skin/render_xstraycat.gif"
-														camera-controls touch-action="pan-y"/>
+							              alt="A minecraft skin of a boy in a long blue and gold coat"
+							              src="/3d/minecraft_skin/model_sapphirenoble.gltf"
+							              poster="/3d/minecraft_skin/render_sapphirenoble.gif"
+							              camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
@@ -1770,6 +1770,13 @@ main {
 														src="/3d/minecraft_skin/model_tyranomaximum.gltf"
 														poster="/3d/minecraft_skin/render_tyranomaximum.gif"
 														camera-controls touch-action="pan-y"/>
+						</swiper-slide>
+						<swiper-slide>
+							<model-viewer class="slide"
+							              alt="A minecraft skin of a girl with purple hair in a torn dark cloak"
+							              src="/3d/minecraft_skin/model_xstraycat.gltf"
+							              poster="/3d/minecraft_skin/render_xstraycat.gif"
+							              camera-controls touch-action="pan-y"/>
 						</swiper-slide>
 						<swiper-slide>
 							<model-viewer class="slide"
@@ -1911,14 +1918,21 @@ main {
 							<picture>
 								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.webp">
 								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.gif">
-								<img alt="A helltaker dancing animation of the DahliaStarbright vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.png">
+								<img alt="A lethal company dancing animation of the DahliaStarbright vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_dahliastarbright.png">
 							</picture>
 						</swiper-slide>
 						<swiper-slide>
 							<picture>
 								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.webp">
 								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.gif">
-								<img alt="A helltaker dancing animation of the QrissyBugg vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.png">
+								<img alt="A lethal company dancing animation of the QrissyBugg vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompany_qrissybugg.png">
+							</picture>
+						</swiper-slide>
+						<swiper-slide>
+							<picture>
+								<source type="image/webp" srcset="@/assets/img/art/lethalcompany/lethalcompanY_atlasaureus.webp">
+								<source type="image/gif" srcset="@/assets/img/art/lethalcompany/lethalcompanY_atlasaureus.gif">
+								<img alt="A lethal company dancing animation of the Atlas Aureus vtuber character" class="slide no-save-img" src="@/assets/img/art/lethalcompany/lethalcompanY_atlasaureus.png">
 							</picture>
 						</swiper-slide>
 					</swiper>
