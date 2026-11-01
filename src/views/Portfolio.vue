@@ -90,7 +90,7 @@ main {
 			</a>
 			<a href="tel:+14018718494" target="_blank" title="Phone">+1(401)871-8494 </a>
 		</div>
-		<Tabs value="artwork-tab">
+		<Tabs value="serious-games-tab">
 			<TabList>
 				<Tab value="serious-games-tab">Serious Games</Tab>
 				<Tab value="entertainment-games-tab">Entertainment Games</Tab>

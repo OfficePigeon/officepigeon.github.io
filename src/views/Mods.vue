@@ -45,13 +45,7 @@ export default {
 					<Tabs value="minecraft-mods-tab" style="margin:0 -24px">
 						<TabList>
 							<Tab class="minecraft-font minecraft-background" value="minecraft-mods-tab">Mods</Tab>
-							<Tab class="minecraft-font minecraft-background tooltip" value="minecraft-datapacks-tab">
-								Data Packs
-								<span class="tooltipText" style="bottom:48px;position:absolute">
-												Packages that modify Minecraft&nbsp;<br>
-												without any changes to the code
-											</span>
-							</Tab>
+							<Tab class="minecraft-font minecraft-background" value="minecraft-datapacks-tab">Data Packs</Tab>
 						</TabList>
 						<TabPanels>
 							<TabPanel value="minecraft-mods-tab">
