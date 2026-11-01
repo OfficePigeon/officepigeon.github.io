@@ -1,0 +1,20 @@
+@import '@/assets/font/pokemon/pokemon.css';
+
+html[data-theme='light'] {
+	--pokemon-font-color: #101820;
+	--pokemon-text-shadow: 1px 1px 0 #A0A0A0;
+}
+html[data-theme='dark'] {
+	--pokemon-font-color: #EFE7DF;
+	--pokemon-text-shadow: 1px 1px 0 #5F5F5F;
+}
+
+/* Colors */
+.pokemon-black {
+	color: #101820;
+	text-shadow: 1px 1px 0 #A0A0A0;
+}
+.pokemon-white {
+	color: #EFE7DF;
+	text-shadow: 1px 1px 0 #5F5F5F;
+}

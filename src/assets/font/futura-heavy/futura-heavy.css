@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'FuturaHeavy';
+	src:
+			local("Futura Heavy"),
+			url('@/assets/font/futura-heavy/Futura-Heavy.otf')
+}
+
+.futura-heavy-font {
+	font-family: FuturaHeavy, sans-serif;
+}

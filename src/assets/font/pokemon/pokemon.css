@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'Pokemon';
+	src:
+			local("Pokemon"),
+			url('@/assets/font/pokemon/pokemon.ttf')
+}
+
+.pokemon-font, .pokemon-font * {
+	font-family: Pokemon, sans-serif;
+}

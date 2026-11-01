@@ -13,7 +13,7 @@ import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 </script>
 <template>
 	<div id="site-footer">
-		<div class="footerIcons" id="site-footer-icons">
+		<div id="site-footer-icons">
 			<RouterLink to="/twitch" title="Twitch" class="tooltip"><TwitchLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitch</span></RouterLink>
 			<RouterLink to="/youtube" title="YouTube" class="tooltip"><YouTubeLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">YouTube</span></RouterLink>
 			<RouterLink to="/twitter" title="Twitter" class="tooltip"><TwitterLogoIcon class="social-icon hover-filtered"/><span class="tooltipText">Twitter</span></RouterLink>
@@ -30,7 +30,7 @@ import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 	</div>
 </template>
 <style scoped>
-.footerIcons {
+#site-footer-icons {
 	display: flex;
 	margin: auto;
 	flex-wrap: wrap;
@@ -38,12 +38,5 @@ import ModrinthLogoIcon from "@/components/icons/logos/ModrinthLogoIcon.vue";
 }
 .tooltip .tooltipText {
 	bottom: 48px;
-}
-.social-icon {
-	text-decoration: none;
-	cursor: pointer;
-	margin: 0 5px;
-	height: 36px;
-	width: 36px;
 }
 </style>

@@ -1,78 +1,85 @@
-@font-face {
-	font-family:'Minecraft';
-	src:
-		local("Minecraft"),
-		url('@/assets/font/minecraft/minecraft.woff')
+@import '@/assets/font/minecraft/minecraft.css';
+
+html[data-theme='light'] {
+	--minecraft-bg: url('@/assets/img/backgrounds/minecraft/bg_light.png');
+	--minecraft-bg-gray: url('@/assets/img/backgrounds/minecraft/bg_gray_light.png');
+}
+html[data-theme='dark'] {
+	--minecraft-bg:url('@/assets/img/backgrounds/minecraft/bg_dark.png');
+	--minecraft-bg-gray: url('@/assets/img/backgrounds/minecraft/bg_gray_dark.png');
 }
 
+/* Colors */
 .minecraft-black {
 	color: #000000;
 	text-shadow: 1px 1px 0 #000000;
 }
 .minecraft-dark-blue {
-	color: #0000aa;
-	text-shadow: 1px 1px 0 #00002a;
+	color: #0000AA;
+	text-shadow: 1px 1px 0 #00002A;
 }
 .minecraft-dark-green {
-	color: #00aa00;
-	text-shadow: 1px 1px 0 #002a00;
+	color: #00AA00;
+	text-shadow: 1px 1px 0 #002A00;
 }
 .minecraft-dark-aqua {
-	color: #00aaaa;
-	text-shadow: 1px 1px 0 #002a2a;
+	color: #00AAAA;
+	text-shadow: 1px 1px 0 #002A2A;
 }
 .minecraft-dark-red {
-	color: #aa0000;
-	text-shadow: 1px 1px 0 #2a0000;
+	color: #AA0000;
+	text-shadow: 1px 1px 0 #2A0000;
 }
 .minecraft-dark-purple {
-	color: #aa00aa;
-	text-shadow: 1px 1px 0 #2a002a;
+	color: #AA00aa;
+	text-shadow: 1px 1px 0 #2A002A;
 }
 .minecraft-gold {
-	color: #ffaa00;
-	text-shadow: 1px 1px 0 #2a2a00;
+	color: #FFAA00;
+	text-shadow: 1px 1px 0 #2A2A00;
 }
 .minecraft-gray {
-	color: #aaaaaa;
-	text-shadow: 1px 1px 0 #2a2a2a;
+	color: #AAAAAA;
+	text-shadow: 1px 1px 0 #2A2A2A;
 }
 .minecraft-dark-gray {
 	color: #555555;
 	text-shadow: 1px 1px 0 #151515;
 }
 .minecraft-blue {
-	color: #5555ff;
-	text-shadow: 1px 1px 0 #15153f;
+	color: #5555FF;
+	text-shadow: 1px 1px 0 #15153F;
 }
 .minecraft-green {
-	color: #55ff55;
-	text-shadow: 1px 1px 0 #153f15;
+	color: #55AA55;
+	text-shadow: 1px 1px 0 #153F15;
 }
 .minecraft-aqua {
-	color: #55ffff;
-	text-shadow: 1px 1px 0 #153f3f;
+	color: #55FFFF;
+	text-shadow: 1px 1px 0 #153F3F;
 }
 .minecraft-red {
-	color: #ff5555;
-	text-shadow: 1px 1px 0 #3f1515;
+	color: #FF5555;
+	text-shadow: 1px 1px 0 #3F1515;
 }
 .minecraft-light-purple {
-	color: #ff55ff;
-	text-shadow: 1px 1px 0 #3f153f;
+	color: #FF55FF;
+	text-shadow: 1px 1px 0 #3F153F;
 }
 .minecraft-yellow {
-	color: #ffff55;
-	text-shadow: 1px 1px 0 #3f3f15;
+	color: #FFFF55;
+	text-shadow: 1px 1px 0 #3F3F15;
 }
 .minecraft-white {
-	color: #ffffff;
-	text-shadow: 1px 1px 0 #3f3f3f;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 0 #3F3F3F;
 }
+/* Special Colors */
 .minecraft-minecoin-gold {
-	color: #ddd605;
+	color: #DDD605;
 	text-shadow: 1px 1px 0 #373501;
 }
+/* Armor Trim Colors */
 .minecraft-material-quartz {
 	color: #E3D4D1;
 	text-shadow: 1px 1px 0 #383534;
@@ -114,16 +121,16 @@
 	text-shadow: 1px 1px 0 #261731;
 }
 
-html[data-theme='light'] {
-	--minecraft-bg: url('@/assets/img/minecraft/bg_light.png');
-}
-html[data-theme='dark'] {
-	--minecraft-bg:url('@/assets/img/minecraft/bg_dark.png');
+.minecraft-background {
+	background-image:var(--minecraft-bg);
+	background-size:64px;
+	image-rendering:pixelated;
 }
 
+/* Skin Viewer */
 .minecraft-skin-container {
-	width:300px;
-}
+	 width:300px;
+ }
 .minecraft-thumbnail {
 	image-rendering: pixelated;
 	margin:10px 18px;
@@ -146,11 +153,18 @@ html[data-theme='dark'] {
 	width:50%;
 	margin:10px 0;
 }
-.minecraft-font,.minecraft-font * {
-	font-family: Minecraft, sans-serif;
+
+/* Special Overrides */
+Tab.minecraft-font {
+	font-size:20px;
 }
-.minecraft-background {
+.p-tab.minecraft-background {
 	background-image:var(--minecraft-bg);
+}
+.p-tab-active.minecraft-background {
+	background-image:var(--minecraft-bg-gray);
+}
+.p-tab.minecraft-background, #app .p-tab-active.minecraft-background {
 	background-size:64px;
 	image-rendering:pixelated;
 }

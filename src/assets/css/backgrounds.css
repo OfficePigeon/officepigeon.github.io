@@ -1,0 +1,111 @@
+/*noinspection DuplicatedCode*/
+html[data-theme='light'] {
+	--check-grid-bg:url('@/assets/img/backgrounds/checkgrid/bg_light.png');
+	--check-grid-bg-gray: url('@/assets/img/backgrounds/checkgrid/bg_gray_light.png');
+	--check-stripe-bg:url('@/assets/img/backgrounds/checkstripe/bg_light.png');
+	--check-stripe-gray: url('@/assets/img/backgrounds/checkstripe/bg_gray_light.png');
+	--chain-bg:url('@/assets/img/backgrounds/chain/bg_light.png');
+	--chain-bg-gray: url('@/assets/img/backgrounds/chain/bg_gray_light.png');
+	--circles-bg:url('@/assets/img/backgrounds/circles/bg_light.png');
+	--circles-bg-gray: url('@/assets/img/backgrounds/circles/bg_gray_light.png');
+	--dot-grid-bg: url('@/assets/img/backgrounds/pokemon/bg_light.png');
+	--dot-grid-bg-gray: url('@/assets/img/backgrounds/pokemon/bg_gray_light.png');
+	--dots-bg:url('@/assets/img/backgrounds/dots/bg_light.png');
+	--dots-bg-gray: url('@/assets/img/backgrounds/dots/bg_gray_light.png');
+	--mesh-bg: url('@/assets/img/backgrounds/mesh/bg_light.png');
+	--mesh-bg-gray: url('@/assets/img/backgrounds/mesh/bg_gray_light.png');
+	--mosaic-bg: url('@/assets/img/backgrounds/mosaic/bg_light.png');
+	--mosaic-bg-gray: url('@/assets/img/backgrounds/mosaic/bg_gray_light.png');
+	--ridge-bg: url('@/assets/img/backgrounds/ridge/bg_light.png');
+	--ridge-bg-gray: url('@/assets/img/backgrounds/ridge/bg_gray_light.png');
+	--stripes-bg: url('@/assets/img/backgrounds/stripes/bg_light.png');
+	--stripes-bg-gray: url('@/assets/img/backgrounds/stripes/bg_gray_light.png');
+	--wave-bg: url('@/assets/img/backgrounds/wave/bg_light.png');
+	--wave-bg-gray: url('@/assets/img/backgrounds/wave/bg_gray_light.png');
+}
+/*noinspection DuplicatedCode*/
+html[data-theme='dark'] {
+	--check-grid-bg:url('@/assets/img/backgrounds/checkgrid/bg_dark.png');
+	--check-grid-bg-gray: url('@/assets/img/backgrounds/checkgrid/bg_gray_dark.png');
+	--check-stripe-bg:url('@/assets/img/backgrounds/checkstripe/bg_dark.png');
+	--check-stripe-gray: url('@/assets/img/backgrounds/checkstripe/bg_gray_dark.png');
+	--chain-bg:url('@/assets/img/backgrounds/chain/bg_dark.png');
+	--chain-bg-gray: url('@/assets/img/backgrounds/chain/bg_gray_dark.png');
+	--circles-bg:url('@/assets/img/backgrounds/circles/bg_dark.png');
+	--circles-bg-gray: url('@/assets/img/backgrounds/circles/bg_gray_dark.png');
+	--dot-grid-bg: url('@/assets/img/backgrounds/pokemon/bg_dark.png');
+	--dot-grid-bg-gray: url('@/assets/img/backgrounds/pokemon/bg_gray_dark.png');
+	--dots-bg:url('@/assets/img/backgrounds/dots/bg_dark.png');
+	--dots-bg-gray: url('@/assets/img/backgrounds/dots/bg_gray_dark.png');
+	--mesh-bg:url('@/assets/img/backgrounds/mesh/bg_dark.png');
+	--mesh-bg-gray: url('@/assets/img/backgrounds/mesh/bg_gray_dark.png');
+	--mosaic-bg:url('@/assets/img/backgrounds/mosaic/bg_dark.png');
+	--mosaic-bg-gray: url('@/assets/img/backgrounds/mosaic/bg_gray_dark.png');
+	--ridge-bg: url('@/assets/img/backgrounds/ridge/bg_dark.png');
+	--ridge-bg-gray: url('@/assets/img/backgrounds/ridge/bg_gray_dark.png');
+	--stripes-bg: url('@/assets/img/backgrounds/stripes/bg_dark.png');
+	--stripes-bg-gray: url('@/assets/img/backgrounds/stripes/bg_gray_dark.png');
+	--wave-bg: url('@/assets/img/backgrounds/wave/bg_dark.png');
+	--wave-bg-gray: url('@/assets/img/backgrounds/wave/bg_gray_dark.png');
+}
+
+.check-grid-background {
+	background-image:var(--check-grid-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.check-stripe-background {
+	background-image:var(--check-stripe-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.chain-background {
+	background-image:var(--chain-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.circles-background {
+	background-image:var(--circles-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.dot-grid-background {
+	background-image:var(--dot-grid-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.dots-background {
+	background-image:var(--dots-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.mesh-background {
+	background-image:var(--mesh-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.minecraft-background {
+	background-image:var(--minecraft-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.mosaic-background {
+	background-image:var(--mosaic-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.ridge-background {
+	background-image:var(--ridge-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.stripes-background {
+	background-image:var(--stripes-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
+.wave-background {
+	background-image:var(--wave-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}

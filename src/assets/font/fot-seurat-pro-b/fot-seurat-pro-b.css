@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'FOTSeuratProB';
+	src:
+			local("FOT-Seurat Pro B"),
+			url('@/assets/font/fot-seurat-pro-b/FOT-Seurat-Pro-B.otf')
+}
+
+.fot-seurat-pro-b-font {
+	font-family: FOTSeuratProB, sans-serif;
+}

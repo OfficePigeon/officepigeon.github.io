@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'Minecraft';
+	src:
+			local("Minecraft"),
+			url('@/assets/font/minecraft/minecraft.woff')
+}
+
+.minecraft-font, .minecraft-font * {
+	font-family: Minecraft, sans-serif;
+}

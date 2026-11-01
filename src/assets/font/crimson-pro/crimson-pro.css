@@ -1,0 +1,10 @@
+@font-face{
+	font-family:'CrimsonPro';
+	src:
+		local('Crimson Pro Regular'),
+		url('@/assets/font/crimson-pro/CrimsonProRegular.ttf');
+}
+
+.crimson-pro-font {
+	font-family: CrimsonPro, serif;
+}

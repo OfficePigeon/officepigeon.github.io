@@ -1,8 +1,0 @@
-@font-face{
-	font-family:cascadia code;
-	font-style:normal;
-	font-weight:400;
-	src:
-		local('Cascadia Code'),
-		url('@/assets/font/cascadiacode/CascadiaCode.woff');
-}

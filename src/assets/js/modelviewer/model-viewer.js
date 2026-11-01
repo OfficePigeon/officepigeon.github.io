@@ -8716,7 +8716,7 @@ class Color {
 
 			} else if ( size === 6 ) {
 
-				// #ff0000
+				// #FF0000
 				return this.setHex( parseInt( hex, 16 ), colorSpace );
 
 			} else {

@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'FOTRodinBokutohProEB';
+	src:
+			local("FOT-RodinBokutoh Pro EB"),
+			url('@/assets/font/fot-rodinbokutoh-pro-eb/FOT-RodinBokutoh-Pro-EB.otf')
+}
+
+.fot-rodinbokutoh-pro-eb-font {
+	font-family: FOTRodinBokutohProEB, sans-serif;
+}

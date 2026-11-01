@@ -4,8 +4,11 @@ import { createApp } from 'vue'
 import App from './App.vue';
 
 import './assets/js/common.js';
-
+//Vue Router
 import { createRouter, createWebHistory } from 'vue-router';
+//OpenVue
+import OpenVue from 'openvue/config'
+//Site Pages
 import Home from '@/views/Home.vue';
 import DiscordTimestamps from '@/views/DiscordTimestamps.vue';
 import NotFound from '@/views/NotFound.vue';
@@ -52,6 +55,10 @@ router.beforeEach((to, from) => {
 	if(nearestWithTitle) document.title = nearestWithTitle.meta.title;
 })
 
-createApp(App)
-	.use(router)
-	.mount('#app');
+const app = createApp(App);
+//Vue Router
+app.use(router);
+//OpenVue
+app.use(OpenVue);
+//Mount
+app.mount('#app');

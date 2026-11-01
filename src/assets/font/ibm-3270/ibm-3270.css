@@ -1,0 +1,10 @@
+@font-face {
+	font-family:'IBM3270';
+	src:
+			local("IBM 3270"),
+			url('@/assets/font/ibm-3270/3270.woff')
+}
+
+.ibm-3270-font {
+	font-family: IBM3270, sans-serif;
+}
