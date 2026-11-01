@@ -304,9 +304,9 @@ h2 {
 	display: flex;
 }
 .wide-showcase-content .showcase-gallery {
-	height:270px;
-	min-height:270px;
-	max-height:270px;
+	height:250px;
+	min-height:250px;
+	max-height:250px;
 }
 .wide-showcase-content .showcase-description {
 	padding-left: 20px;

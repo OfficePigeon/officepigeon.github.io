@@ -103,7 +103,13 @@ main {
 					<div class="showcase-group">
 						<div class="tall-showcase">
 							<h2>Now We're Talking!</h2>
-							<div class="showcase-gallery" style="height:220px;min-height:220px;max-height:220px">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+								<div class="showcase-tag">Mobile</div>
+							</div>
+							<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<img alt="A screenshot of the Now We're Talking! game" class="slide" src="@/assets/img/portfolio/NWT/NowWereTalking_0.png">
@@ -139,9 +145,15 @@ main {
 						</span>
 								by <a href="https://www.mitre.org/" target="_blank">The MITRE Corporation</a>
 							</p>
-						</div> <!-- Now We're Talking! -->
+						</div> <!-- Now We're Talking! --> <!-- Co-Authors: Beth Elson, Peter Leveille, Tony Andarian, Amanda Andrei -->
 						<div class="tall-showcase">
 							<h2 style="font-size:18px">Keeping Up With The Smiths</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Experiment</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+								<div class="showcase-tag">Desktop</div>
+							</div>
 							<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
@@ -154,9 +166,14 @@ main {
 								the player makes financial choices over several in-game years in order to have the best home on their street.
 								Each year, players handle their taxes regularly or file-free.
 							</p>
-						</div> <!-- Keeping Up With The Smiths -->
+						</div> <!-- Keeping Up With The Smiths --> <!-- Co-Authors: Peter Leveille, Stephen Cunha -->
 						<div class="tall-showcase">
 							<h2>Loki's Marauders</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+							</div>
 							<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
@@ -196,9 +213,14 @@ main {
 							</a>
 						</span>
 							</p>
-						</div> <!-- Loki's Marauders -->
+						</div> <!-- Loki's Marauders --> <!-- Co-Authors: Josh LeFevre, Peter Leveille -->
 						<div class="tall-showcase">
 							<h2>TimeQuake Escape!</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Experiment</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+							</div>
 							<div class="showcase-gallery" style="height:170px;min-height:170px;max-height:170px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
@@ -237,10 +259,16 @@ main {
 								and part of research submitted for publication in the
 								<a href="https://ijpor.oxfordjournals.org/" target="_blank">International Journal of Public Opinion Research</a>
 							</p>
-						</div> <!-- TimeQuake Escape! -->
+						</div> <!-- TimeQuake Escape! --> <!-- Co-Authors: Peter Leveille, Zue Lopez Diaz, Alison Dingwall, Adam Edwards, Laila Handoo -->
 						<div class="tall-showcase">
 							<h2>Scenarios for Workplace Violence Recognition</h2>
-							<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Experiment</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+								<div class="showcase-tag">Desktop</div>
+							</div>
+							<div class="showcase-gallery" style="height:180px;min-height:180px;max-height:180px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<img alt="A screenshot of the workplace violence scenarios game" class="slide" src="@/assets/img/portfolio/NWT/WorkplaceViolence.png">
@@ -252,10 +280,15 @@ main {
 								of potential workplace violence incidents in an experimental environment that aims to measure the user's
 								responses and reactivity to different scenarios and behaviors.
 							</p>
-						</div> <!-- Workplace Violence Scenarios -->
+						</div> <!-- Workplace Violence Scenarios --> <!-- Co-Authors: Peter Leveille -->
 						<div class="tall-showcase">
 							<h2>Hiring Interview Simulation Exercise</h2>
-							<div class="showcase-gallery" style="height:220px;min-height:220px;max-height:220px">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+							</div>
+							<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<img alt="A screenshot of the interview simulation exercise" class="slide" src="@/assets/img/portfolio/NWT/InterviewSimulationExercise.png">
@@ -267,10 +300,15 @@ main {
 								candidates in a guided dialogue with their colleagues. The player must identify inappropriate questions and
 								educate their colleagues on proper interviewing procedures.
 							</p>
-						</div> <!-- Interview Simulation Exercise -->
+						</div> <!-- Interview Simulation Exercise --> <!-- Co-Authors: Peter Leveille -->
 						<div class="tall-showcase">
 							<h2>Agile Tactics</h2>
-							<div class="showcase-gallery" style="height:200px;min-height:200px;max-height:200px">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">WebGL</div>
+							</div>
+							<div class="showcase-gallery" style="height:190px;min-height:190px;max-height:190px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<img alt="A screenshot of the Agile Tactics game" class="slide" src="@/assets/img/portfolio/NWT/AgileTactics.png">
@@ -283,10 +321,15 @@ main {
 								which they must choose the correct responses in order to win their team's trust and deliver the project on
 								time.
 							</p>
-						</div> <!-- Agile Tactics -->
+						</div> <!-- Agile Tactics --> <!-- Co-Authors: Peter Leveille -->
 						<div class="tall-showcase">
 							<h2>Dollar Domination</h2>
-							<div class="showcase-gallery" style="height:270px;min-height:270px;max-height:270px">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Asymmetric</div>
+								<div class="showcase-tag">Board Game</div>
+								<div class="showcase-tag">3-6 Players</div>
+							</div>
+							<div class="showcase-gallery" style="height:240px;min-height:240px;max-height:240px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<img alt="The cover design for the Dollar Domination game" class="slide" src="@/assets/img/portfolio/dollardomination/cover.png">
@@ -316,13 +359,18 @@ main {
 						</span>
 								by <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
 							</p>
-						</div> <!-- Dollar Domination -->
+						</div> <!-- Dollar Domination --> <!-- Co-Authors: Kate Olguin, Shiyi Liu -->
 						<div class="tall-showcase">
 							<h2>Robo Race</h2>
-							<div class="showcase-gallery">
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">Board Game</div>
+								<div class="showcase-tag">2-4 Players</div>
+							</div>
+							<div class="showcase-gallery" style="height:270px;min-height:270px;max-height:270px">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
-										<img alt="The cover design for the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/cover.png">
+										<img alt="The cover design for the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/shorterCover.png">
 									</swiper-slide>
 									<swiper-slide>
 										<img alt="A photo of the components for the Robo Race game" class="slide" src="@/assets/img/portfolio/roborace/componentsSpread.png">
@@ -378,7 +426,7 @@ main {
 							<p class="showcase-description">
 								An abstract puzzle game where the player carefully navigates a ball to the goal while avoiding an encroaching darkness.
 							</p>
-						</div> <!-- Umbra -->
+						</div> <!-- Umbra --> <!-- Co-Authors: William Hartman -->
 						<div class="medium-showcase">
 							<h2>Contrast Bounce</h2>
 							<div class="showcase-tags">
@@ -411,7 +459,73 @@ main {
 							<p class="showcase-description">
 								An abstract puzzle game where the player inverts the colors of the map to bounce a ball into the goal.
 							</p>
-						</div> <!-- Contrast Bounce -->
+						</div> <!-- Contrast Bounce --> <!-- Co-Authors: William Hartman -->
+						<div class="medium-showcase">
+							<h2>House Party</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Cooperative</div>
+								<div class="showcase-tag">Board Game</div>
+								<div class="showcase-tag">3-6 Players</div>
+								<a href="https://www.thegamecrafter.com/games/house-party2" target="_blank"
+								   title="Available on The Game Crafter" style="text-decoration:none;margin-left:4px">$</a>
+							</div>
+							<div class="showcase-gallery">
+								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+									<swiper-slide>
+										<img alt="The cover of House Party. Several people are standing around a house while one of them spills a drink" class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="The game bord of House Party with a timeline and a map of the house" class="slide" src="@/assets/img/portfolio/houseparty/board.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
+									</swiper-slide>
+								</swiper>
+							</div>
+							<div class="showcase-description-section">
+								<p class="showcase-description">
+									Keep your house party safe by escorting guests, sobering them up, and getting the rowdy ones home before anyone gets hurt.
+								</p>
+								<p class="showcase-description showcase-little-text" style="margin-top:4px">
+									* This game depicts consumption of alcoholic beneverages.
+								</p>
+							</div>
+						</div> <!-- House Party --> <!-- Co-Authors: Kate Briggs, William Suriner, Jarod Thompson  -->
+						<div class="medium-showcase">
+							<h2>ExChange The World</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Physics</div>
+								<div class="showcase-tag">Puzzle</div>
+								<div class="showcase-tag">C#</div>
+								<div class="showcase-tag">Unity</div>
+							</div>
+							<div class="showcase-gallery">
+								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+									<swiper-slide>
+										<img alt="The cover graphic for ExChange The World by Aidan Buffum and Kyle Trottier" class="slide" src="@/assets/img/portfolio/exchangetheworld/cover.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot of a soccer [football] ball highlighted while swinging in a tire swing" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot of miscellaneous objects floating in a pool" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot of a highlighted dog teleported into a tree by the player" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot of a highlighted squirrel in a tree with a picnic table precariously stuck on another branch" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
+									</swiper-slide>
+								</swiper>
+							</div>
+							<p class="showcase-description">
+								Solve a variety of everyday problems with a special swap gun. Not every pair of objects swaps but every swap
+								matters. ExChange The World carefully!
+							</p>
+						</div> <!-- ExChange The World --> <!-- Co-Authors: Kyle Trottier -->
 						<div class="medium-showcase">
 							<h2>Batastrophe</h2>
 							<div class="showcase-tags">
@@ -459,73 +573,29 @@ main {
 									at <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>
 								</p>
 							</div>
-						</div> <!-- Batastrophe -->
+						</div> <!-- Batastrophe --> <!-- Co-Authors: Isaac Donkoh-Halm, Matthew Figueroa, Marc McFatter, Gavin Taylor -->
 						<div class="medium-showcase">
-							<h2>House Party</h2>
+							<h2>Solve Your Escape</h2>
 							<div class="showcase-tags">
-								<div class="showcase-tag">Cooperative</div>
-								<div class="showcase-tag">Board Game</div>
-								<div class="showcase-tag">3-6 Players</div>
-								<a href="https://www.thegamecrafter.com/games/house-party2" target="_blank"
-								   title="Available on The Game Crafter" style="text-decoration:none;margin-left:4px">$</a>
-							</div>
-							<div class="showcase-gallery">
-								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-									<swiper-slide>
-										<img alt="The cover of House Party. Several people are standing around a house while one of them spills a drink" class="slide" src="@/assets/img/portfolio/houseparty/cover.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="The game bord of House Party with a timeline and a map of the house" class="slide" src="@/assets/img/portfolio/houseparty/board.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="Several people playing the House Party board game" class="slide" src="@/assets/img/portfolio/houseparty/playSession2.png">
-									</swiper-slide>
-								</swiper>
-							</div>
-							<div class="showcase-description-section">
-								<p class="showcase-description">
-									Keep your house party safe by escorting guests, sobering them up, and getting the rowdy ones home before anyone gets hurt.
-								</p>
-								<p class="showcase-description showcase-little-text" style="margin-top:4px">
-									* This game depicts consumption of alcoholic beneverages.
-								</p>
-							</div>
-						</div> <!-- House Party -->
-						<div class="medium-showcase">
-							<h2>ExChange The World</h2>
-							<div class="showcase-tags">
-								<div class="showcase-tag">Physics</div>
+								<div class="showcase-tag">Mystery</div>
 								<div class="showcase-tag">Puzzle</div>
-								<div class="showcase-tag">C#</div>
-								<div class="showcase-tag">Unity</div>
+								<div class="showcase-tag">C++</div>
+								<div class="showcase-tag">Unreal Engine</div>
 							</div>
 							<div class="showcase-gallery">
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
-										<img alt="The cover graphic for ExChange The World by Aidan Buffum and Kyle Trottier" class="slide" src="@/assets/img/portfolio/exchangetheworld/cover.png">
+										<img alt="An abstract icon of a purple figure exiting through a door" class="slide" src="@/assets/img/portfolio/solveyourescape/cover.png">
 									</swiper-slide>
 									<swiper-slide>
-										<img alt="A gameplay screenshot of a soccer [football] ball highlighted while swinging in a tire swing" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_1.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="A gameplay screenshot of miscellaneous objects floating in a pool" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_2.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="A gameplay screenshot of a highlighted dog teleported into a tree by the player" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_3.png">
-									</swiper-slide>
-									<swiper-slide>
-										<img alt="A gameplay screenshot of a highlighted squirrel in a tree with a picnic table precariously stuck on another branch" class="slide" src="@/assets/img/portfolio/exchangetheworld/screenshot_4.png">
+										<img alt="A gameplay screenshot from Solve Your Escape" class="slide" src="@/assets/img/portfolio/solveyourescape/SolveYourEscape.png">
 									</swiper-slide>
 								</swiper>
 							</div>
 							<p class="showcase-description">
-								Solve a variety of everyday problems with a special swap gun. Not every pair of objects swaps but every swap
-								matters. ExChange The World carefully!
+								Be Smart, or be trapped. Solve Your Escape is a short point-and-click escape room puzzle game.
 							</p>
-						</div> <!-- ExChange The World -->
+						</div> <!-- Solve Y our Escape --> <!-- Co-Authors: Hung Hong, Regina Reynolds -->
 						<div class="medium-showcase">
 							<h2>Little Worlds</h2>
 							<div class="showcase-tags">
@@ -599,6 +669,7 @@ main {
 							<div class="showcase-tags">
 								<div class="showcase-tag">Action</div>
 								<div class="showcase-tag">Platformer</div>
+								<div class="showcase-tag">GML</div>
 								<div class="showcase-tag">GameMaker</div>
 								<a href="https://aidanbuffum.itch.io/wizards-vs-robots" target="_blank" title="itch.io">
 									<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
@@ -627,12 +698,13 @@ main {
 								It's a wizard's job to destroy robots! Follow a branching path and switch between spells to fight the evil
 								robots in the way of victory.
 							</p>
-						</div> <!-- Wizards vs. Robots -->
+						</div> <!-- Wizards vs. Robots --> <!-- Co-Authors: Matthew Kaminski, William Lucca -->
 						<div class="medium-showcase">
 							<h2>Joe</h2>
 							<div class="showcase-tags">
 								<div class="showcase-tag">Comedy</div>
 								<div class="showcase-tag">RPG</div>
+								<div class="showcase-tag">GML</div>
 								<div class="showcase-tag">GameMaker</div>
 								<a href="https://aidanbuffum.itch.io/joe" target="_blank" title="itch.io">
 									<ItchIOLogoIcon class="hover-filtered showcase-text-icon"/>
@@ -647,7 +719,7 @@ main {
 										<img alt="A gameplay screenshot of a character standing on grass" class="slide" src="@/assets/img/portfolio/joe/screenshot_1.png">
 									</swiper-slide>
 									<swiper-slide>
-										<img alt="An awkward dialogue screen with only the letter K." class="slide" src="@/assets/img/portfolio/joe/screenshot_2.png">
+										<img alt="An awkward dialogue screen with only the letter K" class="slide" src="@/assets/img/portfolio/joe/screenshot_2.png">
 									</swiper-slide>
 									<swiper-slide>
 										<img alt="A pithy dialogue screen about coffee preferences" class="slide" src="@/assets/img/portfolio/joe/screenshot_3.png">
@@ -724,12 +796,13 @@ main {
 								A murderer has switched places with a bumblebee but their bloodlust cannot be sated. Punch bees and impale
 								them with the stingers of the fallen!
 							</p>
-						</div> <!-- Murder Bee Wrote -->
+						</div> <!-- Murder Bee Wrote --> <!-- Co-Authors: Erik Cerini, Kate Olguin -->
 						<div class="medium-showcase">
 							<h2>Crab-Dab Revolution</h2>
 							<div class="showcase-tags">
 								<div class="showcase-tag">Parody</div>
 								<div class="showcase-tag">Rhythm</div>
+								<div class="showcase-tag">GML</div>
 								<div class="showcase-tag">GameMaker</div>
 							</div>
 							<div class="showcase-gallery">
@@ -749,7 +822,33 @@ main {
 								Crabs dabbing to absurd beats with hand-animated dance moves, a fearsome lobster boss, and loving calibration
 								for an almost-completable game.
 							</p>
-						</div> <!-- Crab-Dab Revolution -->
+						</div> <!-- Crab-Dab Revolution --> <!-- Co-Authors: Jordan Cattelona, Kate Olguin -->
+						<div class="medium-showcase">
+							<h2>Beneath the Surface</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Runner</div>
+								<div class="showcase-tag">Shooter</div>
+								<div class="showcase-tag">GML</div>
+								<div class="showcase-tag">GameMaker</div>
+							</div>
+							<div class="showcase-gallery">
+								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+									<swiper-slide>
+										<img alt="A title screen with a submarine the text Beneath the Surface" class="slide" src="@/assets/img/portfolio/beneaththesurface/coverSquare.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot from Beneath the Surface" class="slide" src="@/assets/img/portfolio/beneaththesurface/screenshot1.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A gameplay screenshot from Beneath the Surface" class="slide" src="@/assets/img/portfolio/beneaththesurface/screenshot2.png">
+									</swiper-slide>
+								</swiper>
+							</div>
+							<p class="showcase-description">
+								A simple runner-shooter game about a submarine blasting others out of the water as it moves even deeper
+								beneath the surface.
+							</p>
+						</div> <!-- Beneath The Surface -->
 					</div>
 				</TabPanel>
 				<TabPanel value="game-mods-tab">
@@ -1436,17 +1535,23 @@ main {
 					<div class="showcase-group">
 						<div class="wide-showcase" style="width:868px">
 							<h2>Quilt Generation for Computer Science Education</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">Java</div>
+								<div class="showcase-tag">JavaScript</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
 							<div class="wide-showcase-content">
 								<div class="showcase-gallery">
 									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+										<swiper-slide>
+											<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
+										</swiper-slide>
 										<swiper-slide>
 											<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
 										</swiper-slide>
 										<swiper-slide>
 											<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
 										</swiper-slide>
 										<swiper-slide>
 											<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
@@ -1463,8 +1568,8 @@ main {
 										based on user parameters over several generations before presenting results.
 									</p>
 									<p class="showcase-description">
-										The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>. With a more
-										code-like interface, this prototype encourages users to edit and define patterns with text in the editor.
+										The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>.
+										With a more code-like interface, the prototype encourages users to edit &amp; define patterns with text.
 										Fabric colors are used analogously to computer variables in a way that may be easier to understand.
 									</p>
 									<p class="showcase-description showcase-little-text">
@@ -1472,9 +1577,19 @@ main {
 									</p>
 								</div>
 							</div>
-						</div> <!-- Quilt Generation for Computer Science Education -->
+						</div> <!-- Quilt Generation for Computer Science Education --> <!-- Co-Authors: Anne Sullivan, Gillian Smith, Trusting Inekwe, Fareya Ikram -->
 						<div class="wide-showcase" style="width:868px">
 							<h2>Data Generation for Computer Vision Segmentation</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Computer Vision</div>
+								<div class="showcase-tag">Machine Learning</div>
+								<div class="showcase-tag">C++</div>
+								<div class="showcase-tag">ROS</div>
+								<div class="showcase-tag">Python</div>
+								<div class="showcase-tag">AirSim</div>
+								<div class="showcase-tag">Unreal Engine</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
 							<div class="wide-showcase-content">
 								<div class="showcase-gallery">
 									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -1498,6 +1613,12 @@ main {
 						</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
 						<div class="wide-showcase" style="width:560px">
 							<h2>Mario Level and Quilt Generator</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Game Analysis</div>
+								<div class="showcase-tag">Java</div>
+								<div class="showcase-tag">Grammatical Generation</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
 							<div class="wide-showcase-content">
 								<div class="showcase-gallery">
 									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -1529,20 +1650,36 @@ main {
 									</p>
 								</div>
 							</div>
-						</div> <!-- Mario Level and Quilt Generator -->
+						</div> <!-- Mario Level and Quilt Generator --> <!-- Co-Authors: Hung Hong, Remy Kaldawy -->
 						<div class="wide-showcase" style="width:300px">
-							<h2 style="font-size:23px">Digital Twins for<br>Collision Avoidance</h2>
+							<h2 style="font-size:20px">Digital Twins for Collision Avoidance</h2>
+							<div class="showcase-tags" style="height:40px">
+								<div class="showcase-tag">Machine Learning</div>
+								<div class="showcase-tag">C++</div>
+								<div class="showcase-tag">ROS</div>
+								<div class="showcase-tag">Python</div>
+								<div class="showcase-tag">AirSim</div>
+								<div class="showcase-tag">Webots</div>
+								<div class="showcase-tag">Unreal Engine</div>
+							</div>
 							<div class="showcase-description-section">
 								<p class="showcase-description">
-									A digital twin architecture built on top of the
-									<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> tool for simulating large sets of
-									small UAS in real time alongside physical platforms to facilitate training and efficacy evaluation of
-									autonomous collision avoidance systems.
+									A digital twin architecture built on top of
+									<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> and
+									<a href="https://github.com/cyberbotics/webots" target="_blank">Webots</a> simulations for operating
+									large swarms of virtual UAS platforms in real time alongside physical systems to facilitate training
+									and efficacy evaluation of autonomous collision avoidance systems.
 								</p>
 							</div>
 						</div> <!-- Digital Twins for Collision Avoidance -->
 						<div class="wide-showcase" style="width:868px">
-							<h2 style="font-size:23px">Reprogrammable Puzzle Box for Escape Rooms</h2>
+							<h2>Reprogrammable Puzzle Box for Escape Rooms</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Puzzle</div>
+								<div class="showcase-tag">Arduino</div>
+								<div class="showcase-tag">Embedded Programming</div>
+								<div class="showcase-tag">Electrical Engineering</div>
+							</div>
 							<div class="wide-showcase-content">
 								<div class="showcase-gallery">
 									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
@@ -1563,17 +1700,16 @@ main {
 								<div class="showcase-description-section">
 									<p class="showcase-description">
 										A prototype tool for <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>'s
-										annual escape rooms, the reprogrammable puzzle box is built to be solved after receiving a combination of
-										keypad inputs and dial turns. Puzzles on the box are designed in multiple stages, the progress of which are
-										displayed on lights embedded in the box. Programmers can define the number of puzzle stages required by the
-										box before unlocking with over 19,000 possible input combinations, including support for randomized
+										annual escape rooms, the puzzle box can be solved after a pre-programmed combination of keypad inputs
+										and dial turns is received. Puzzles on the box are designed in multiple stages, with indications of
+										progress displayed on lights on the front panel. Programmers can define the number of puzzle stages
+										for the box with over 19,000 possible input combinations, including support for randomized
 										combinations for each stage at runtime. The box can be manually locked and unlocked remotely and cheat
-										protection is built into the box such that resetting the box will reset progress but will not unlock the
-										box.
+										protection is built into the box such that resetting the box will reset progress but will not unlock it.
 									</p>
 								</div>
 							</div>
-						</div> <!-- Reprogrammable Escape Room Puzzle Box -->
+						</div> <!-- Reprogrammable Escape Room Puzzle Box --> <!-- Co-Authors: Sky Alsever -->
 					</div>
 				</TabPanel>
 				<TabPanel value="artwork-tab">
@@ -1815,6 +1951,13 @@ main {
 										              poster="/3d/minecraft_skin/render_ryft_smp_eldora.gif"
 										              camera-controls touch-action="pan-y"/>
 									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              alt="A minecraft skin of the Coven Amaris vtuber character"
+										              src="/3d/minecraft_skin/model_covenamaris.gltf"
+										              poster="/3d/minecraft_skin/render_covenamaris.gif"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
 								</swiper>
 							</div>
 						</div> <!-- Minecraft Skins -->
@@ -1878,6 +2021,9 @@ main {
 										<img alt="A pixel art rendition of an energetic character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sapphirenoble.png">
 									</swiper-slide>
 									<swiper-slide>
+										<img alt="A pixel art rendition of a character in a futuristic outfit with four arms in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_kajitu.png">
+									</swiper-slide>
+									<swiper-slide>
 										<img alt="A pixel art rendition of a character in a nurse uniform in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_hazelch98.png">
 									</swiper-slide>
 									<swiper-slide>
@@ -1885,6 +2031,9 @@ main {
 									</swiper-slide>
 									<swiper-slide>
 										<img alt="A pixel art rendition of the SintheticSkull vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_sintheticskull.png">
+									</swiper-slide>
+									<swiper-slide>
+										<img alt="A pixel art rendition of the Coven Amaris vtuber character in the pokemon style" class="slide no-save-img" src="@/assets/img/art/pokemon/pokemon_covenamaris.png">
 									</swiper-slide>
 								</swiper>
 							</div>
@@ -2069,6 +2218,13 @@ main {
 											<img alt="A cartoon drawing of the Beanie_Birrd vtuber character hugging a duck" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_Beanie_Birrd.png">
 										</picture>
 									</swiper-slide>
+									<swiper-slide>
+										<picture>
+											<source type="image/webp" srcset="@/assets/img/art/huggin/huggin_CovenAmaris.webp">
+											<source type="image/gif" srcset="@/assets/img/art/huggin/huggin_CovenAmaris.gif">
+											<img alt="A cartoon drawing of the Coven Amaris vtuber character hugging a fox soul" class="slide no-save-img" src="@/assets/img/art/huggin/huggin_CovenAmaris.png">
+										</picture>
+									</swiper-slide>
 								</swiper>
 							</div>
 						</div> <!-- Huggin' Reactives -->
@@ -2129,6 +2285,81 @@ main {
 								</swiper>
 							</div>
 						</div> <!-- Floofy Reactives -->
+						<div class="art-showcase minecraft-background">
+							<h2 class="minecraft-font" style="font-size:18px">Minecraft-Inspired<br>Legend of Zelda Koroks</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">3D Modeling</div>
+								<div class="showcase-tag">Pixel Art</div>
+								<div class="showcase-tag">Media-Inspired</div>
+							</div>
+							<div class="showcase-gallery">
+								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok1.gltf"
+										              poster="/3d/minecraft_model/render_korok1.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok2.gltf"
+										              poster="/3d/minecraft_model/render_korok2.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok3.gltf"
+										              poster="/3d/minecraft_model/render_korok3.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok4.gltf"
+										              poster="/3d/minecraft_model/render_korok4.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok5.gltf"
+										              poster="/3d/minecraft_model/render_korok5.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok6.gltf"
+										              poster="/3d/minecraft_model/render_korok6.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok7.gltf"
+										              poster="/3d/minecraft_model/render_korok7.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok8.gltf"
+										              poster="/3d/minecraft_model/render_korok8.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
+										              src="/3d/minecraft_model/model_korok9.gltf"
+										              poster="/3d/minecraft_model/render_korok9.png"
+										              alt="A 3D model of a Korok from the Legend of Zelda series in the Minecraft style"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+								</swiper>
+							</div>
+						</div> <!-- Minecraft-Inspired Legend of Zelda -->
 					</div>
 				</TabPanel>
 			</TabPanels>
