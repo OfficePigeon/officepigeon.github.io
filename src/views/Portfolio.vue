@@ -94,8 +94,8 @@ main {
 			<TabList>
 				<Tab value="serious-games-tab">Serious Games</Tab>
 				<Tab value="entertainment-games-tab">Entertainment Games</Tab>
+				<Tab value="technical-work-tab">Technical Work</Tab>
 				<Tab value="game-mods-tab">Game Mods</Tab>
-				<Tab value="other-technical-work-tab">Other Technical Work</Tab>
 				<Tab value="artwork-tab">Artwork</Tab>
 			</TabList>
 			<TabPanels>
@@ -595,7 +595,7 @@ main {
 							<p class="showcase-description">
 								Be Smart, or be trapped. Solve Your Escape is a short point-and-click escape room puzzle game.
 							</p>
-						</div> <!-- Solve Y our Escape --> <!-- Co-Authors: Hung Hong, Regina Reynolds -->
+						</div> <!-- Solve Your Escape --> <!-- Co-Authors: Hung Hong, Regina Reynolds -->
 						<div class="medium-showcase">
 							<h2>Little Worlds</h2>
 							<div class="showcase-tags">
@@ -849,6 +849,187 @@ main {
 								beneath the surface.
 							</p>
 						</div> <!-- Beneath The Surface -->
+					</div>
+				</TabPanel>
+				<TabPanel value="technical-work-tab">
+					<div class="showcase-group">
+						<div class="wide-showcase" style="width:868px">
+							<h2>Quilt Generation for Computer Science Education</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Educational</div>
+								<div class="showcase-tag">Java</div>
+								<div class="showcase-tag">JavaScript</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
+							<div class="wide-showcase-content">
+								<div class="showcase-gallery">
+									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+										<swiper-slide>
+											<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
+										</swiper-slide>
+									</swiper>
+								</div>
+								<div class="showcase-description-section">
+									<p class="showcase-description">
+										Two quilt design programs for computer science education for crafters unfamiliar with programming.
+									</p>
+									<p class="showcase-description">
+										The first is an evolution-based generator using Java and
+										<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates quilts
+										based on user parameters over several generations before presenting results.
+									</p>
+									<p class="showcase-description">
+										The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>.
+										With a more code-like interface, the prototype encourages users to edit &amp; define patterns with text.
+										Fabric colors are used analogously to computer variables in a way that may be easier to understand.
+									</p>
+									<p class="showcase-description showcase-little-text">
+										As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
+									</p>
+								</div>
+							</div>
+						</div> <!-- Quilt Generation for Computer Science Education --> <!-- Co-Authors: Anne Sullivan, Gillian Smith, Trusting Inekwe, Fareya Ikram -->
+						<div class="wide-showcase" style="width:868px">
+							<h2>Data Generation for Computer Vision Segmentation</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Computer Vision</div>
+								<div class="showcase-tag">Machine Learning</div>
+								<div class="showcase-tag">C++</div>
+								<div class="showcase-tag">ROS</div>
+								<div class="showcase-tag">Python</div>
+								<div class="showcase-tag">AirSim</div>
+								<div class="showcase-tag">Unreal Engine</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
+							<div class="wide-showcase-content">
+								<div class="showcase-gallery">
+									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+										<swiper-slide>
+											<img alt="A split-image comparison between a sparse virtual forest and a colored segmentation map classifying the parts of the forest with different colors" class="slide" src="@/assets/img/portfolio/synthdataforcars/cover.png">
+										</swiper-slide>
+									</swiper>
+								</div>
+								<div class="showcase-description-section">
+									<p class="showcase-description">
+										A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
+										tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
+										Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
+										conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
+										annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
+										labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
+										ground navigation.
+									</p>
+								</div>
+							</div>
+						</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
+						<div class="wide-showcase" style="width:560px">
+							<h2>Mario Level and Quilt Generator</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Game Analysis</div>
+								<div class="showcase-tag">Java</div>
+								<div class="showcase-tag">Grammatical Generation</div>
+								<div class="showcase-tag">Procedural Generation</div>
+							</div>
+							<div class="wide-showcase-content">
+								<div class="showcase-gallery">
+									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+										<swiper-slide>
+											<img alt="A complex quilt pattern based on a mario level" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A mario level segmented by each tile with a bright grid" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/17.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/13.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/07.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/06.png">
+										</swiper-slide>
+									</swiper>
+								</div>
+								<div class="showcase-description-section">
+									<p class="showcase-description">
+										A system for generating playable Mario levels, evaluating their playability and platforming challenge,
+										and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
+										pattern.
+									</p>
+								</div>
+							</div>
+						</div> <!-- Mario Level and Quilt Generator --> <!-- Co-Authors: Hung Hong, Remy Kaldawy -->
+						<div class="wide-showcase" style="width:300px">
+							<h2 style="font-size:20px">Digital Twins for Collision Avoidance</h2>
+							<div class="showcase-tags" style="height:40px">
+								<div class="showcase-tag">Machine Learning</div>
+								<div class="showcase-tag">C++</div>
+								<div class="showcase-tag">ROS</div>
+								<div class="showcase-tag">Python</div>
+								<div class="showcase-tag">AirSim</div>
+								<div class="showcase-tag">Webots</div>
+								<div class="showcase-tag">Unreal Engine</div>
+							</div>
+							<div class="showcase-description-section">
+								<p class="showcase-description">
+									A digital twin architecture built on top of
+									<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> and
+									<a href="https://github.com/cyberbotics/webots" target="_blank">Webots</a> simulations for operating
+									large swarms of virtual UAS platforms in real time alongside physical systems to facilitate training
+									and efficacy evaluation of autonomous collision avoidance systems.
+								</p>
+							</div>
+						</div> <!-- Digital Twins for Collision Avoidance -->
+						<div class="wide-showcase" style="width:868px">
+							<h2>Reprogrammable Puzzle Box for Escape Rooms</h2>
+							<div class="showcase-tags">
+								<div class="showcase-tag">Puzzle</div>
+								<div class="showcase-tag">Arduino</div>
+								<div class="showcase-tag">Embedded Programming</div>
+								<div class="showcase-tag">Electrical Engineering</div>
+							</div>
+							<div class="wide-showcase-content">
+								<div class="showcase-gallery">
+									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
+										<swiper-slide>
+											<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="../assets/img/portfolio/puzzlebox/cover.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_0.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_1.png">
+										</swiper-slide>
+										<swiper-slide>
+											<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_2.png">
+										</swiper-slide>
+									</swiper>
+								</div>
+								<div class="showcase-description-section">
+									<p class="showcase-description">
+										A prototype tool for <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>'s
+										annual escape rooms, the puzzle box can be solved after a pre-programmed combination of keypad inputs
+										and dial turns is received. Puzzles on the box are designed in multiple stages, with indications of
+										progress displayed on lights on the front panel. Programmers can define the number of puzzle stages
+										for the box with over 19,000 possible input combinations, including support for randomized
+										combinations for each stage at runtime. The box can be manually locked and unlocked remotely and cheat
+										protection is built into the box such that resetting the box will reset progress but will not unlock it.
+									</p>
+								</div>
+							</div>
+						</div> <!-- Reprogrammable Escape Room Puzzle Box --> <!-- Co-Authors: Sky Alsever -->
 					</div>
 				</TabPanel>
 				<TabPanel value="game-mods-tab">
@@ -1530,187 +1711,6 @@ main {
 							</TabPanel>
 						</TabPanels>
 					</Tabs>
-				</TabPanel>
-				<TabPanel value="other-technical-work-tab">
-					<div class="showcase-group">
-						<div class="wide-showcase" style="width:868px">
-							<h2>Quilt Generation for Computer Science Education</h2>
-							<div class="showcase-tags">
-								<div class="showcase-tag">Educational</div>
-								<div class="showcase-tag">Java</div>
-								<div class="showcase-tag">JavaScript</div>
-								<div class="showcase-tag">Procedural Generation</div>
-							</div>
-							<div class="wide-showcase-content">
-								<div class="showcase-gallery">
-									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-										<swiper-slide>
-											<img alt="A generated quilt with bright cool colors" class="slide" src="@/assets/img/portfolio/quiltgen/Cool10.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A screenshot of a quilt editor interface with a vibrant pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javascriptEditorInterface.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A screenshot of a quilt generator with a colorful random pattern on screen" class="slide" src="@/assets/img/portfolio/quiltgen/javaEvolutionInterface.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A generated quilt with bright warm colors" class="slide" src="@/assets/img/portfolio/quiltgen/Warm1000.png">
-										</swiper-slide>
-									</swiper>
-								</div>
-								<div class="showcase-description-section">
-									<p class="showcase-description">
-										Two quilt design programs for computer science education for crafters unfamiliar with programming.
-									</p>
-									<p class="showcase-description">
-										The first is an evolution-based generator using Java and
-										<a href="https://processing.org/" target="_blank">Processing</a>. This prototype generates quilts
-										based on user parameters over several generations before presenting results.
-									</p>
-									<p class="showcase-description">
-										The second is a web-based editor using JavaScript and <a href="https://p5js.org/" target="_blank">p5.js</a>.
-										With a more code-like interface, the prototype encourages users to edit &amp; define patterns with text.
-										Fabric colors are used analogously to computer variables in a way that may be easier to understand.
-									</p>
-									<p class="showcase-description showcase-little-text">
-										As part of the <a href="https://www.code-crafters.org/" target="_blank">Code Crafters</a> project
-									</p>
-								</div>
-							</div>
-						</div> <!-- Quilt Generation for Computer Science Education --> <!-- Co-Authors: Anne Sullivan, Gillian Smith, Trusting Inekwe, Fareya Ikram -->
-						<div class="wide-showcase" style="width:868px">
-							<h2>Data Generation for Computer Vision Segmentation</h2>
-							<div class="showcase-tags">
-								<div class="showcase-tag">Computer Vision</div>
-								<div class="showcase-tag">Machine Learning</div>
-								<div class="showcase-tag">C++</div>
-								<div class="showcase-tag">ROS</div>
-								<div class="showcase-tag">Python</div>
-								<div class="showcase-tag">AirSim</div>
-								<div class="showcase-tag">Unreal Engine</div>
-								<div class="showcase-tag">Procedural Generation</div>
-							</div>
-							<div class="wide-showcase-content">
-								<div class="showcase-gallery">
-									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-										<swiper-slide>
-											<img alt="A split-image comparison between a sparse virtual forest and a colored segmentation map classifying the parts of the forest with different colors" class="slide" src="@/assets/img/portfolio/synthdataforcars/cover.png">
-										</swiper-slide>
-									</swiper>
-								</div>
-								<div class="showcase-description-section">
-									<p class="showcase-description">
-										A framework built on top of the <a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a>
-										tool for generating broad sets of variable synthetic data for the training of autonomous vehicle systems.
-										Data is generated with real-world visual fidelity with automatic variation in environmental weather, camera
-										conditions, and uncertain environments in a perfect-information simulation space. All data is automatically
-										annotated with temperature, distance, and semantic segmentation information to ease the burden of manual
-										labeling and expedite the training of systems relying on camera, radar, and lidar systems for autonomous
-										ground navigation.
-									</p>
-								</div>
-							</div>
-						</div> <!-- Synthetic Data Generation for Autonomous Vehicles -->
-						<div class="wide-showcase" style="width:560px">
-							<h2>Mario Level and Quilt Generator</h2>
-							<div class="showcase-tags">
-								<div class="showcase-tag">Game Analysis</div>
-								<div class="showcase-tag">Java</div>
-								<div class="showcase-tag">Grammatical Generation</div>
-								<div class="showcase-tag">Procedural Generation</div>
-							</div>
-							<div class="wide-showcase-content">
-								<div class="showcase-gallery">
-									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-										<swiper-slide>
-											<img alt="A complex quilt pattern based on a mario level" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_output.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A mario level segmented by each tile with a bright grid" class="slide" src="@/assets/img/portfolio/marioquilts/standard_quilt_reference.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/17.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/13.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/07.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A top and bottom comparison between a generated quilt pattern and a reference mario level" class="slide" src="@/assets/img/portfolio/marioquilts/06.png">
-										</swiper-slide>
-									</swiper>
-								</div>
-								<div class="showcase-description-section">
-									<p class="showcase-description">
-										A system for generating playable Mario levels, evaluating their playability and platforming challenge,
-										and rendering levels in the standard graphics of Super Mario world and as a semi-optimized quilting
-										pattern.
-									</p>
-								</div>
-							</div>
-						</div> <!-- Mario Level and Quilt Generator --> <!-- Co-Authors: Hung Hong, Remy Kaldawy -->
-						<div class="wide-showcase" style="width:300px">
-							<h2 style="font-size:20px">Digital Twins for Collision Avoidance</h2>
-							<div class="showcase-tags" style="height:40px">
-								<div class="showcase-tag">Machine Learning</div>
-								<div class="showcase-tag">C++</div>
-								<div class="showcase-tag">ROS</div>
-								<div class="showcase-tag">Python</div>
-								<div class="showcase-tag">AirSim</div>
-								<div class="showcase-tag">Webots</div>
-								<div class="showcase-tag">Unreal Engine</div>
-							</div>
-							<div class="showcase-description-section">
-								<p class="showcase-description">
-									A digital twin architecture built on top of
-									<a href="https://microsoft.github.io/AirSim/" target="_blank">AirSim</a> and
-									<a href="https://github.com/cyberbotics/webots" target="_blank">Webots</a> simulations for operating
-									large swarms of virtual UAS platforms in real time alongside physical systems to facilitate training
-									and efficacy evaluation of autonomous collision avoidance systems.
-								</p>
-							</div>
-						</div> <!-- Digital Twins for Collision Avoidance -->
-						<div class="wide-showcase" style="width:868px">
-							<h2>Reprogrammable Puzzle Box for Escape Rooms</h2>
-							<div class="showcase-tags">
-								<div class="showcase-tag">Puzzle</div>
-								<div class="showcase-tag">Arduino</div>
-								<div class="showcase-tag">Embedded Programming</div>
-								<div class="showcase-tag">Electrical Engineering</div>
-							</div>
-							<div class="wide-showcase-content">
-								<div class="showcase-gallery">
-									<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
-										<swiper-slide>
-											<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="../assets/img/portfolio/puzzlebox/cover.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A photo of a puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_0.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_1.png">
-										</swiper-slide>
-										<swiper-slide>
-											<img alt="A photo of an open puzzle box with a keypad, control dials, status lights, and a switch" class="slide" src="@/assets/img/portfolio/puzzlebox/photo_2.png">
-										</swiper-slide>
-									</swiper>
-								</div>
-								<div class="showcase-description-section">
-									<p class="showcase-description">
-										A prototype tool for <a href="https://www.wpi.edu/" target="_blank">Worcester Polytechnic Institute</a>'s
-										annual escape rooms, the puzzle box can be solved after a pre-programmed combination of keypad inputs
-										and dial turns is received. Puzzles on the box are designed in multiple stages, with indications of
-										progress displayed on lights on the front panel. Programmers can define the number of puzzle stages
-										for the box with over 19,000 possible input combinations, including support for randomized
-										combinations for each stage at runtime. The box can be manually locked and unlocked remotely and cheat
-										protection is built into the box such that resetting the box will reset progress but will not unlock it.
-									</p>
-								</div>
-							</div>
-						</div> <!-- Reprogrammable Escape Room Puzzle Box --> <!-- Co-Authors: Sky Alsever -->
-					</div>
 				</TabPanel>
 				<TabPanel value="artwork-tab">
 					<div class="showcase-group">
