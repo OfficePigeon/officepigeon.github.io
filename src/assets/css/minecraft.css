@@ -155,16 +155,16 @@ html[data-theme='dark'] {
 }
 
 /* Special Overrides */
-Tab.minecraft-font {
+#app .p-tab.minecraft-font {
 	font-size:20px;
 }
-.p-tab.minecraft-background {
+#app .p-tab.minecraft-background, #app .p-tab.minecraft-background:hover {
 	background-image:var(--minecraft-bg);
 }
-.p-tab-active.minecraft-background {
+#app .p-tab-active.minecraft-background, #app .p-tab-active.minecraft-background:hover {
 	background-image:var(--minecraft-bg-gray);
 }
-.p-tab.minecraft-background, #app .p-tab-active.minecraft-background {
+#app .p-tab.minecraft-background, #app .p-tab-active.minecraft-background, #app .p-tab-active.minecraft-background:hover {
 	background-size:64px;
 	image-rendering:pixelated;
 }

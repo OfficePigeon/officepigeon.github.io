@@ -754,7 +754,7 @@ main {
 				</TabPanel>
 				<TabPanel value="game-mods-tab">
 					<Tabs value="minecraft-mods-tab" style="margin:0 -24px">
-						<TabList>
+						<TabList style="margin-left:16px">
 							<Tab class="minecraft-font minecraft-background" value="minecraft-mods-tab">Minecraft Mods</Tab>
 							<Tab class="minecraft-font minecraft-background tooltip" value="minecraft-datapacks-tab">
 								Minecraft Data Packs

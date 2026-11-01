@@ -43,7 +43,7 @@ export default {
 			<TabPanels>
 				<TabPanel value="minecraft-mods-tabpanel">
 					<Tabs value="minecraft-mods-tab" style="margin:0 -24px">
-						<TabList>
+						<TabList style="margin-left:16px">
 							<Tab class="minecraft-font minecraft-background" value="minecraft-mods-tab">Mods</Tab>
 							<Tab class="minecraft-font minecraft-background" value="minecraft-datapacks-tab">Data Packs</Tab>
 						</TabList>
