@@ -1,5 +1,7 @@
 /*noinspection DuplicatedCode*/
 html[data-theme='light'] {
+	--boards-bg: url('@/assets/img/backgrounds/boards/bg_light.png');
+	--boards-bg-gray: url('@/assets/img/backgrounds/boards/bg_gray_light.png');
 	--check-grid-bg:url('@/assets/img/backgrounds/checkgrid/bg_light.png');
 	--check-grid-bg-gray: url('@/assets/img/backgrounds/checkgrid/bg_gray_light.png');
 	--check-stripe-bg:url('@/assets/img/backgrounds/checkstripe/bg_light.png');
@@ -25,6 +27,8 @@ html[data-theme='light'] {
 }
 /*noinspection DuplicatedCode*/
 html[data-theme='dark'] {
+	--boards-bg: url('@/assets/img/backgrounds/boards/bg_dark.png');
+	--boards-bg-gray: url('@/assets/img/backgrounds/boards/bg_gray_dark.png');
 	--check-grid-bg:url('@/assets/img/backgrounds/checkgrid/bg_dark.png');
 	--check-grid-bg-gray: url('@/assets/img/backgrounds/checkgrid/bg_gray_dark.png');
 	--check-stripe-bg:url('@/assets/img/backgrounds/checkstripe/bg_dark.png');
@@ -49,6 +53,11 @@ html[data-theme='dark'] {
 	--wave-bg-gray: url('@/assets/img/backgrounds/wave/bg_gray_dark.png');
 }
 
+.boards-background {
+	background-image:var(--boards-bg);
+	background-size:64px;
+	image-rendering:pixelated;
+}
 .check-grid-background {
 	background-image:var(--check-grid-bg);
 	background-size:64px;

@@ -2118,7 +2118,7 @@ main {
 							</div>
 						</div> <!-- Helltaker-Inspired Dancing Sprites -->
 						<div class="art-showcase check-grid-background">
-							<h2 class="futura-heavy-font">Katamari-Inspired<br>Character Model</h2>
+							<h2 class="futura-heavy-font">Katamari-Inspired<br>Character Models</h2>
 							<div class="showcase-tags">
 								<div class="showcase-tag">3D Modeling</div>
 								<div class="showcase-tag">Media-Inspired</div>
@@ -2127,8 +2127,15 @@ main {
 								<swiper :cssMode="true" :loop="true" :navigation="true" :pagination="pagination" :modules="modules" class="mySwiper">
 									<swiper-slide>
 										<model-viewer class="slide"
+										              src="/3d/misc_model/model_katamari_dovewich.gltf"
+										              poster="/3d/misc_model/render_katamari_dovewich.png"
+										              alt="A 3D model of the a cousin character from the Katamari series designed to look like the dovewich vtuber character"
+										              camera-controls touch-action="pan-y"/>
+									</swiper-slide>
+									<swiper-slide>
+										<model-viewer class="slide"
 										              src="/3d/misc_model/model_prince.gltf"
-										              poster="/3d/misc_model/model_prince.png"
+										              poster="/3d/misc_model/render_prince.png"
 										              alt="A 3D model of the Prince character from the Katamari series"
 										              camera-controls touch-action="pan-y"/>
 									</swiper-slide>
