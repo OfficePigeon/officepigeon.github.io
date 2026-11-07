@@ -144,8 +144,8 @@ h2 {
 	padding: 6px 18px 6px 6px;
 }
 .bubbleHeader {
-	height: 46px;
-	line-height: 46px;
+	height: 60px;
+	line-height: 60px;
 }
 .bubbleLink {
 	border: 2px solid;
@@ -155,9 +155,10 @@ h2 {
 	display: flex;
 	text-decoration: none;
 	cursor: pointer;
-	height: 42px;
-	line-height: 42px;
+	height: 60px;
+	line-height: 60px;
 	font-size: 18px;
+	align-items: center;
 }
 .bubbleLinkIcon {
 	margin: 0 6px 0 0;
